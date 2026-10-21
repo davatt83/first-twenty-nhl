@@ -1,0 +1,20 @@
+import {createServer} from 'node:http';
+import {mkdtempSync,cpSync,readFileSync,writeFileSync,rmSync} from 'node:fs';
+import {tmpdir} from 'node:os';
+import path from 'node:path';
+import {spawn} from 'node:child_process';
+import assert from 'node:assert/strict';
+const root=path.resolve('.');
+const dir=mkdtempSync(path.join(tmpdir(),'first-twenty-'));
+cpSync(root,dir,{recursive:true,filter:p=>!p.includes('node_modules')});
+writeFileSync(path.join(dir,'data/games-20262027.json'),JSON.stringify({season:'20262027',games:[],meta:{complete:false}}));
+const goal=(period,team)=>({periodDescriptor:{number:period},teamAbbrev:team});
+const game=(id,away,home,as,hs,goals)=>({id,gameState:'OFF',gameType:2,homeTeam:{id:10,abbrev:home,score:hs},awayTeam:{id:20,abbrev:away,score:as},goals});
+const games=[game(2026020001,'DET','MTL',1,2,[goal(1,'MTL'),goal(1,'DET'),goal(3,'MTL')]),game(2026020002,'BOS','TOR',0,1,[goal(3,'TOR')])];
+const landing=id=>({summary:{scoring:[{periodDescriptor:{number:1},goals:id==='2026020001'?[goal(1,'MTL'),goal(1,'DET')]:[]}]}});
+const server=createServer((req,res)=>{res.setHeader('content-type','application/json');if(req.url.includes('/score/2026-09-29'))res.end(JSON.stringify({games}));else if(req.url.includes('/gamecenter/'))res.end(JSON.stringify(landing(req.url.includes('0001')?'2026020001':'2026020002')));else{res.statusCode=404;res.end('{}')}});
+await new Promise(r=>server.listen(0,'127.0.0.1',r));
+const port=server.address().port;
+const child=spawn(process.execPath,['scripts/update.mjs'],{cwd:dir,env:{...process.env,FIRST_TWENTY_API:`http://127.0.0.1:${port}/v1`,FIRST_TWENTY_START:'2026-09-29',FIRST_TWENTY_THROUGH:'2026-09-29'}});
+let out='',err='';child.stdout.on('data',c=>out+=c);child.stderr.on('data',c=>err+=c);const exit=await new Promise(r=>child.on('exit',r));server.close();
+try{assert.equal(exit,0,err);const rows=JSON.parse(readFileSync(path.join(dir,'data/games-20262027.json')));assert.equal(rows.meta.complete,true);assert.equal(rows.games.length,2);assert.equal(rows.games.find(x=>x.home==='MTL').ap1,1);assert.equal(rows.games.find(x=>x.home==='MTL').hp1,1);assert.equal(rows.games.find(x=>x.home==='TOR').ap1,0);assert.equal(rows.games.find(x=>x.home==='TOR').hp1,0);console.log('PASS: official feed fixture ingests 2 regular-season games, including 0–0 first period, and marks coverage complete');}finally{rmSync(dir,{recursive:true,force:true})}
