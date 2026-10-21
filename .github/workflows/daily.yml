@@ -65,7 +65,7 @@ jobs:
         timeout-minutes: 35
         continue-on-error: true
         env:
-          FIRST_TWENTY_HISTORY_BATCH: 167
+          FIRST_TWENTY_HISTORY_BATCH: 60
         run: node scripts/backfill-2025.mjs
       - name: Persist verified historical game days independently
         if: steps.clock.outputs.run == 'true'
@@ -79,23 +79,22 @@ jobs:
             git commit -m "Backfill verified 2025-26 first periods"
             git push
           fi
-      - name: Embed the full historical season only after every game is reconciled
-        if: steps.clock.outputs.run == 'true' && (github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.publish_only))
+      - name: Analyze first-period goal distribution and team tendencies
+        if: steps.clock.outputs.run == 'true'
+        run: node scripts/research-2025.mjs
+      - name: Preserve completed reproducible research report
+        if: steps.clock.outputs.run == 'true'
         run: |
-          if node -e "const d=require('./data/games-20252026.json');process.exit(d.meta?.complete ? 0 : 1)"; then
-            node scripts/build.mjs
-            node scripts/test.mjs
-            node scripts/test-v2.mjs
-            node scripts/test-backfill.mjs
-            git add index.html
+          if [ -f RESEARCH_2025_26.md ] && [ -f data/research-2025.json ]; then
+            git add RESEARCH_2025_26.md data/research-2025.json
             if git diff --cached --quiet; then
-              echo 'Full historical season already embedded.'
+              echo 'Research results unchanged.'
             else
-              git commit -m "Publish full verified 2025-26 NHL first-period history"
+              git commit -m "Publish research on 2025-26 first-period scoring"
               git push
             fi
           else
-            echo 'History still incomplete: preserve model until 1312 games reconcile.'
+            echo 'Research deferred until the verified season is complete.'
           fi
       - name: Validate embedded snapshot before publishing
         if: steps.clock.outputs.run == 'true' && (github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.publish_only))
