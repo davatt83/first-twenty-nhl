@@ -10,6 +10,8 @@ const dbfile=path.join(root,'data/games-20262027.json');
 const reportFile=path.join(root,'data/coverage.json');
 const dateStart=process.env.FIRST_TWENTY_START||'2026-09-29';
 const NHL=process.env.FIRST_TWENTY_API||'https://api-web.nhle.com/v1';
+const ESPN=process.env.FIRST_TWENTY_ESPN_API||'https://site.api.espn.com/apis/site/v2/sports/hockey/nhl';
+const espnDaily=new Map();
 const REGULAR=/^202602\d{4}$/;
 const ABBRS=new Set(['ANA','BOS','BUF','CAR','CBJ','CGY','CHI','COL','DAL','DET','EDM','FLA','LAK','MIN','MTL','NJD','NSH','NYI','NYR','OTT','PHI','PIT','SEA','SJS','STL','TBL','TOR','UTA','VAN','VGK','WPG','WSH']);
 const code=v=>typeof v==='string'?v:(v?.default||'');
@@ -36,15 +38,36 @@ function parsePlayByPlay(payload,home,away){if(!Array.isArray(payload.plays)||pa
  for(const ev of payload.plays){if(ev.typeDescKey!=='goal'||firstPeriod(ev)!==1)continue;const owner=Number(ev.details?.eventOwnerTeamId);const team=code(ev.details?.teamAbbrev||ev.teamAbbrev);
  if(owner===hId||team===home)hp1++;else if(owner===aId||team===away)ap1++;else return null;}
  return{hp1,ap1};}
+// Secondary period-score fallback, used only when official scoring endpoints cannot
+// verify a completed game. NHL daily schedule remains the coverage authority.
+async function espnPeriodScore(date,home,away){
+ let request=espnDaily.get(date);
+ if(!request){request=getJSON(`${ESPN}/scoreboard?dates=${date.replaceAll('-','')}&limit=100`);espnDaily.set(date,request)}
+ const payload=await request;
+ const matches=(payload.events||[]).filter(e=>{
+   const teams=e.competitions?.[0]?.competitors||[];
+   return teams.some(t=>t.homeAway==='home'&&code(t.team?.abbreviation)===home)&&teams.some(t=>t.homeAway==='away'&&code(t.team?.abbreviation)===away);
+ });
+ if(matches.length!==1)return null;
+ const event=matches[0];
+ if(event.status?.type?.completed!==true)return null;
+ if(event.season?.type!=null&&Number(event.season.type)!==2)return null;
+ const teams=event.competitions[0].competitors;
+ function p1(side){const t=teams.find(t=>t.homeAway===side);const score=t?.linescores?.[0]?.value;return score===null||score===undefined?NaN:Number(score)}
+ const hp1=p1('home'),ap1=p1('away');
+ if(!Number.isInteger(hp1)||!Number.isInteger(ap1)||hp1<0||ap1<0)return null;
+ return {hp1,ap1};
+}
 const key=(date,away,home)=>`${date}_${away}_${home}`;
 function validRow(g){return g&&/^2026-\d\d-\d\d$/.test(g.date)&&ABBRS.has(g.home)&&ABBRS.has(g.away)&&g.home!==g.away&&Number.isInteger(g.hp1)&&Number.isInteger(g.ap1)&&g.hp1>=0&&g.ap1>=0&&g.hp1<21&&g.ap1<21&&g.id===key(g.date,g.away,g.home)}
 async function verifiedGame(g,date){const {home,away}=identify(g);const id=String(g.id);const scores=[];
  const score=parseDailyGoals(g,date);if(score)scores.push(['score',score]);
  try{const landing=await getJSON(`${NHL}/gamecenter/${id}/landing`);const result=parseLanding(landing,home,away);if(result)scores.push(['gamecenter',result]);}catch(e){if(!score)console.log(`  ${id} landing retry via play-by-play: ${e.message}`)}
- if(!scores.length){const pbp=await getJSON(`${NHL}/gamecenter/${id}/play-by-play`);const got=parsePlayByPlay(pbp,home,away);if(got)scores.push(['play-by-play',got]);}
+ if(!scores.length){try{const pbp=await getJSON(`${NHL}/gamecenter/${id}/play-by-play`);const got=parsePlayByPlay(pbp,home,away);if(got)scores.push(['play-by-play',got]);}catch(e){console.log('  '+id+' official play-by-play unavailable: '+e.message)}}
+ if(!scores.length){try{const x=await espnPeriodScore(date,home,away);if(x)scores.push(['espn-period-boxscore',x]);}catch(e){console.log('  '+id+' secondary boxscore unavailable: '+e.message)}}
  if(!scores.length)throw Error('Period-one scoring not verifiable for '+id);
  const match=scores[0][1];for(const [source,x] of scores.slice(1))if(x.hp1!==match.hp1||x.ap1!==match.ap1)throw Error(`Conflicting NHL first-period results ${id}: ${JSON.stringify(scores)}`);
- const row={id:key(date,away,home),gameId:id,date,away,home,hp1:match.hp1,ap1:match.ap1,source:'nhl-official',sourceMethods:scores.map(([s])=>s)};
+ const row={id:key(date,away,home),gameId:id,date,away,home,hp1:match.hp1,ap1:match.ap1,source:scores[0][0]==='espn-period-boxscore'?'espn-period-boxscore':'nhl-official',sourceMethods:scores.map(([s])=>s)};
  if(!validRow(row))throw Error('Invalid parsed game '+id);
  const finalTotal=Number(g.homeTeam.score)+Number(g.awayTeam.score);if(row.hp1+row.ap1>finalTotal)throw Error('First-period score exceeds final score '+id);
  return row;
@@ -69,7 +92,7 @@ async function checkDate(date){const payload=await getJSON(`${NHL}/score/${date}
  for(const g of finals){
    const {home,away}=identify(g);
    const old=existing.get(key(date,away,home));
-   if(old&&old.gameId===String(g.id)&&old.source==='nhl-official'&&date<recheckFrom){
+   if(old&&(!old.gameId||old.gameId===String(g.id))&&date<recheckFrom){
      const finalTotal=Number(g.homeTeam.score)+Number(g.awayTeam.score);
      if(old.hp1+old.ap1>finalTotal)throw Error('Cached score now exceeds final score '+g.id);
      rows.push(old);
@@ -79,7 +102,7 @@ async function checkDate(date){const payload=await getJSON(`${NHL}/score/${date}
 // Concurrency limited to avoid burdening NHL servers and receiving throttling.
 const queue=[...days];const count=Number(process.env.FIRST_TWENTY_WORKERS||3);
 await Promise.all(Array.from({length:count},async()=>{while(queue.length){const date=queue.shift();try{const result=await checkDate(date);checks.push({date,scheduled:result.scheduled,final:result.finals.length,verified:result.rows.length,pending:result.pending});finalCount+=result.finals.length;
- for(const row of result.rows){const old=existing.get(row.id);if(old&&(old.hp1!==row.hp1||old.ap1!==row.ap1))throw Error(`Record conflict ${row.id}: ${old.ap1}-${old.hp1} vs ${row.ap1}-${row.hp1}`);if(!old||old.source!=='nhl-official')updated++;existing.set(row.id,row);seen.add(row.id)}
+ for(const row of result.rows){const old=existing.get(row.id);if(old&&(old.hp1!==row.hp1||old.ap1!==row.ap1))throw Error(`Record conflict ${row.id}: ${old.ap1}-${old.hp1} vs ${row.ap1}-${row.hp1}`);if(!old)updated++;existing.set(row.id,row);seen.add(row.id)}
  if(result.pending)errors.push(`${date}: ${result.pending} scheduled game(s) not final`);console.log(`${date}: ${result.rows.length}/${result.finals.length} final games verified`);
  }catch(e){errors.push(`${date}: ${e.message}`);console.error(`${date}: ERROR ${e.message}`)}}}));
 const vanished=originalRows.filter(g=>g.date<=cutoff&&!seen.has(g.id));
