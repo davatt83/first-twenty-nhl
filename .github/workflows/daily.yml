@@ -60,6 +60,25 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Backfill historical 2025–26 first-period results
+        if: steps.clock.outputs.run == 'true'
+        timeout-minutes: 35
+        continue-on-error: true
+        env:
+          FIRST_TWENTY_HISTORY_BATCH: 60
+        run: node scripts/backfill-2025.mjs
+      - name: Persist verified historical game days independently
+        if: steps.clock.outputs.run == 'true'
+        run: |
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add data/games-20252026.json
+          if git diff --cached --quiet; then
+            echo 'Historical data unchanged.'
+          else
+            git commit -m "Backfill verified 2025-26 first periods"
+            git push
+          fi
       - name: Validate embedded snapshot before publishing
         if: steps.clock.outputs.run == 'true' && (github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.publish_only))
         run: |
@@ -70,13 +89,6 @@ jobs:
       - name: Retrieve and verify all completed first periods
         if: steps.clock.outputs.run == 'true' && !(github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.publish_only))
         run: node scripts/update.mjs
-      - name: Backfill verified 2025–26 game logs incrementally
-        if: steps.clock.outputs.run == 'true' && !(github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.publish_only))
-        continue-on-error: true
-        timeout-minutes: 12
-        env:
-          FIRST_TWENTY_HISTORY_BATCH: 16
-        run: node scripts/backfill-2025.mjs
       - name: Build and validate embedded browser model
         if: steps.clock.outputs.run == 'true' && !(github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.publish_only))
         run: |
