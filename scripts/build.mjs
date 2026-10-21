@@ -2,6 +2,9 @@
 import fs from 'node:fs';
 const db=JSON.parse(fs.readFileSync('data/games-20262027.json','utf8'));
 const games=db.games||[];
+const historyFile='data/games-20252026.json';
+const oldDb=fs.existsSync(historyFile)?JSON.parse(fs.readFileSync(historyFile,'utf8')):{games:[]};
+const history=oldDb.meta?.complete&&oldDb.games?.length===1312?oldDb.games:[];
 const m=db.meta||{};
 const complete=Boolean(m.complete);
 const meta={complete,checkedThrough:m.checkedThrough||null,lastGameDate:m.lastGameDate||null,verifiedGames:games.length,officialFinalCount:m.officialFinalCount??null,expectedCompletedThrough:m.expectedCompletedThrough||null,expectedCompletedGames:m.expectedCompletedGames??null,checkedAt:m.checkedAt||null};
@@ -10,6 +13,11 @@ const escaped=JSON.stringify(games).replaceAll('<','\\u003c');
 const injection=`const SEED=${escaped}; // Generated from game-level verified NHL first-period results\nconst EMBED_META=${JSON.stringify(meta)};`;
 if(!/const SEED=\[[^\n]*; \/\//.test(html))throw Error('Seed marker missing from template');
 html=html.replace(/const SEED=\[[^\n]*; \/\/[^\n]*/,injection);
+const engine=fs.readFileSync('scripts/engine.js','utf8');
+if(!html.includes('/*__FIRST_TWENTY_ENGINE__*/'))throw Error('Engine marker missing');
+html=html.replace('/*__FIRST_TWENTY_ENGINE__*/',engine);
+html=html.replace('const TEAM_CODES=Object.keys(TEAMS).sort();', `const HISTORY_SEED=${JSON.stringify(history).replaceAll('<','\\u003c')};\nconst TEAM_CODES=Object.keys(TEAMS).sort();`);
+html=html.replace('let games=new Map(SEED.map(g=>[g.id,g])), historical=new Map()', 'let games=new Map(SEED.map(g=>[g.id,g])), historical=new Map(HISTORY_SEED.map(g=>[g.id,g]))');
 // Embedded verified records always take precedence over older locally cached browser records.
 html=html.replace('if(valid(g))games.set(g.id,g)','if(valid(g)&&!games.has(g.id))games.set(g.id,g)');
 const cover=complete?

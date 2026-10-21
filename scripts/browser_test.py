@@ -20,7 +20,9 @@ with sync_playwright() as p:
  # Current-only must say insufficient, not invent probability if no matchup-specific data.
  assert pg.locator('#prob').inner_text() in ('—',) or '%' in pg.locator('#prob').inner_text()
  pg.click('.tab[data-tab="data"]')
- assert pg.locator('#currentlogs').inner_text()=='140'
+ import json
+ expected=len(json.loads((html.parent/'data/games-20262027.json').read_text())['games'])
+ assert pg.locator('#currentlogs').inner_text()==str(expected)
  assert not errors,errors
  b.close()
  print('PASS: All 32 dropdown options, season isolation, partial sample protection, and embedded count visible.')

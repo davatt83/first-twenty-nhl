@@ -53,3 +53,9 @@ Double-click `index.html` to open the existing offline snapshot (complete throug
 ## Source and betting caveat
 
 NHL endpoint: `https://api-web.nhle.com/v1/score/YYYY-MM-DD` and `/gamecenter/GAMEID/landing` / `play-by-play`. These are publicly accessible APIs, but their shape and availability could change. The updater fails closed if it cannot verify games. Predicted Over 1.5 probabilities still use a simplistic Poisson goal-count model; a complete historical database does not itself prove the betting model predicts profitable odds.
+
+## First Twenty v2 research upgrade
+
+The current website now displays **three** numbers on the matchup page: the original benchmark probability, a venue-specific offensive/defensive rate-ratio matchup probability, and a **balanced hybrid** which adds a conservatively shrunken correction from observed Over 1.5 games. The main probability blends 70% of the original benchmark with 30% of the experimental estimate. The **Validation** tab includes chronological, same-day-leakage-free predictions and Brier/log-loss comparisons. Team rankings separate home and away observed hit rates, including hit counts. Please see [MODEL_METHODS.md](MODEL_METHODS.md) for formulas and limitations.
+
+The daily workflow also attempts up to 16 verified 2025–26 game days of historical backfill. Until **all 1,312** game results are obtained and reconciled with per-venue scoring totals, that partial archive is not used as observed hit-rate history. The initial 2026–27 game snapshot still ends October 19, 2026 unless a later scheduled refresh succeeds.

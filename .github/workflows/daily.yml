@@ -6,6 +6,9 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/daily.yml'
+      - 'index.html'
+      - 'scripts/engine.js'
+      - 'model.template.html'
   schedule:
     # GitHub schedules use UTC; separate runs cover EDT and EST.
     # GitHub may delay scheduled jobs, so 4:00 a.m. is a target, not a guarantee.
@@ -62,21 +65,32 @@ jobs:
         run: |
           node scripts/test.mjs
           node scripts/fixture-test.mjs
+          node scripts/test-v2.mjs
+          node scripts/test-backfill.mjs
       - name: Retrieve and verify all completed first periods
         if: steps.clock.outputs.run == 'true' && !(github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.publish_only))
         run: node scripts/update.mjs
+      - name: Backfill verified 2025–26 game logs incrementally
+        if: steps.clock.outputs.run == 'true' && !(github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.publish_only))
+        continue-on-error: true
+        timeout-minutes: 12
+        env:
+          FIRST_TWENTY_HISTORY_BATCH: 16
+        run: node scripts/backfill-2025.mjs
       - name: Build and validate embedded browser model
         if: steps.clock.outputs.run == 'true' && !(github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.publish_only))
         run: |
           node scripts/build.mjs
           node scripts/test.mjs
           node scripts/fixture-test.mjs
+          node scripts/test-v2.mjs
+          node scripts/test-backfill.mjs
       - name: Preserve verified database and calculator in git
         if: steps.clock.outputs.run == 'true' && !(github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.publish_only))
         run: |
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
-          git add index.html data/games-20262027.json data/coverage.json
+          git add index.html data/games-20262027.json data/coverage.json data/games-20252026.json
           if git diff --cached --quiet; then
             echo 'Verified data unchanged.'
           else
