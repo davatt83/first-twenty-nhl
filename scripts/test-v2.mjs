@@ -16,11 +16,11 @@ for(const mode of ['last','current','combined']){
  const z=eng.predict({home:'DET',away:'MTL',mode,teams,current:rows});assert(z.p>0&&z.p<1,`Invalid ${mode} result`);
  if(mode==='last')assert(Math.abs(z.p-z.baselineP)<.05,'Previous-only should remain close to original baseline');
 }
-const cv=eng.walkForward({teams,current:rows});assert.equal(cv.count,140);
+const cv=eng.walkForward({teams,current:rows});assert.equal(cv.count,rows.length);
 assert(cv.metrics.hybrid.brier>=0&&cv.metrics.hybrid.brier<=1);
 assert(cv.outcomes.every(x=>x.baseline>=0&&x.hybrid<=1));
-assert.equal(cv.distribution.observed.reduce((a,b)=>a+b,0),140);
-assert(Math.abs(cv.distribution.expected.reduce((a,b)=>a+b,0)-140)<1e-8);
+assert.equal(cv.distribution.observed.reduce((a,b)=>a+b,0),rows.length);
+assert(Math.abs(cv.distribution.expected.reduce((a,b)=>a+b,0)-rows.length)<1e-8);
 // Future and same-day leakage are prohibited: another October 8 match must not affect Oct 8 predictions.
 const example=rows.find(g=>g.date==='2026-10-08');assert(example);
 const before=eng.walkForward({teams,current:rows}).outcomes.find(g=>g.date===example.date&&g.home===example.home&&g.away===example.away);
@@ -31,5 +31,5 @@ assert(s.includes('data-tab="validate"')&&s.includes('id="modelComparison"'));
 const prev=JSON.parse(fs.readFileSync('data/games-20252026.json','utf8'));
 if(prev.meta?.complete){assert.equal(prev.games.length,1312);assert(s.includes('HISTORY_SEED=[{'));}
 else assert(s.includes('HISTORY_SEED=[];'),'Previous-season history must not be invented');
-console.log('PASS: prediction variants, sample isolation, 140 chronological forecasts, no same-day leakage.');
+console.log('PASS: prediction variants, sample isolation, '+rows.length+' chronological forecasts, no same-day leakage.');
 console.log('Brier: original',cv.metrics.baseline.brier.toFixed(4),'balanced',cv.metrics.hybrid.brier.toFixed(4));
