@@ -12,6 +12,11 @@ on:
     - cron: '0 8 * * *'
     - cron: '0 9 * * *'
   workflow_dispatch:
+    inputs:
+      publish_only:
+        description: "Publish the last verified embedded snapshot without contacting NHL servers"
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -37,7 +42,7 @@ jobs:
         run: |
           offset=$(TZ=America/Toronto date +%z)
           echo "Toronto UTC offset: $offset"
-          if [ "$EVENT" = 'workflow_dispatch' ] || { [ "$SCHEDULE" = '0 8 * * *' ] && [ "$offset" = '-0400' ]; } || { [ "$SCHEDULE" = '0 9 * * *' ] && [ "$offset" = '-0500' ]; }; then
+          if [ "$EVENT" = 'push' ] || [ "$EVENT" = 'workflow_dispatch' ] || { [ "$SCHEDULE" = '0 8 * * *' ] && [ "$offset" = '-0400' ]; } || { [ "$SCHEDULE" = '0 9 * * *' ] && [ "$offset" = '-0500' ]; }; then
             echo 'run=true' >> "$GITHUB_OUTPUT"
           else
             echo 'run=false' >> "$GITHUB_OUTPUT"
@@ -52,17 +57,22 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Validate embedded snapshot before publishing
+        if: steps.clock.outputs.run == 'true' && (github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.publish_only))
+        run: |
+          node scripts/test.mjs
+          node scripts/fixture-test.mjs
       - name: Retrieve and verify all completed first periods
-        if: steps.clock.outputs.run == 'true'
+        if: steps.clock.outputs.run == 'true' && !(github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.publish_only))
         run: node scripts/update.mjs
       - name: Build and validate embedded browser model
-        if: steps.clock.outputs.run == 'true'
+        if: steps.clock.outputs.run == 'true' && !(github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.publish_only))
         run: |
           node scripts/build.mjs
           node scripts/test.mjs
           node scripts/fixture-test.mjs
       - name: Preserve verified database and calculator in git
-        if: steps.clock.outputs.run == 'true'
+        if: steps.clock.outputs.run == 'true' && !(github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.publish_only))
         run: |
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
