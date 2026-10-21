@@ -1,0 +1,93 @@
+name: Update and publish First Twenty NHL
+
+on:
+  # After installing all other files, commit this workflow LAST to initiate setup.
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/daily.yml'
+  schedule:
+    # GitHub schedules use UTC; separate runs cover EDT and EST.
+    # GitHub may delay scheduled jobs, so 4:00 a.m. is a target, not a guarantee.
+    - cron: '0 8 * * *'
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: first-twenty-publish
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Run only at the appropriate Toronto 4 a.m. slot
+        id: clock
+        env:
+          EVENT: ${{ github.event_name }}
+          SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          offset=$(TZ=America/Toronto date +%z)
+          echo "Toronto UTC offset: $offset"
+          if [ "$EVENT" = 'workflow_dispatch' ] || { [ "$SCHEDULE" = '0 8 * * *' ] && [ "$offset" = '-0400' ]; } || { [ "$SCHEDULE" = '0 9 * * *' ] && [ "$offset" = '-0500' ]; }; then
+            echo 'run=true' >> "$GITHUB_OUTPUT"
+          else
+            echo 'run=false' >> "$GITHUB_OUTPUT"
+          fi
+      - name: Check out the latest data and model
+        if: steps.clock.outputs.run == 'true'
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Install Node.js
+        if: steps.clock.outputs.run == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Retrieve and verify all completed first periods
+        if: steps.clock.outputs.run == 'true'
+        run: node scripts/update.mjs
+      - name: Build and validate embedded browser model
+        if: steps.clock.outputs.run == 'true'
+        run: |
+          node scripts/build.mjs
+          node scripts/test.mjs
+          node scripts/fixture-test.mjs
+      - name: Preserve verified database and calculator in git
+        if: steps.clock.outputs.run == 'true'
+        run: |
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add index.html data/games-20262027.json data/coverage.json
+          if git diff --cached --quiet; then
+            echo 'Verified data unchanged.'
+          else
+            git commit -m "Update verified NHL first-period data"
+            git push
+          fi
+      - name: Prepare HTML for GitHub Pages
+        if: steps.clock.outputs.run == 'true'
+        run: |
+          mkdir -p _site
+          cp index.html _site/index.html
+          touch _site/.nojekyll
+      - name: Configure GitHub Pages
+        if: steps.clock.outputs.run == 'true'
+        uses: actions/configure-pages@v5
+      - name: Upload Pages artifact
+        if: steps.clock.outputs.run == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: Deploy this exact validated version
+        if: steps.clock.outputs.run == 'true'
+        id: deployment
+        uses: actions/deploy-pages@v4
