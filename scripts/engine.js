@@ -57,15 +57,16 @@ const FirstTwentyEngine = (() => {
     const aggressiveP=clip(matchupP+adjustment);
     // Conservative evidence blend: retain 70% of the original benchmark until
     // an independent holdout supports a stronger departure.
-    const p=clip(.70*baselineP+HYBRID_BLEND*aggressiveP);
-    return{p,lambda,lambdaBase,goalHome,goalAway,baselineP,strengthP,matchupP,aggressiveP,adjustment:HYBRID_BLEND*adjustment,homeEvidence,awayEvidence,historyIncluded:hist.length===1312,hCurrentN:h.curN,aCurrentN:a.curN,h,a};
+    const hybridP=clip(.70*baselineP+HYBRID_BLEND*aggressiveP);
+    const p=baselineP; // Previous-season study does not justify promoting the experimental hybrid.
+    return{p,hybridP,lambda:lambdaBase,lambdaMatchup:lambda,lambdaBase,goalHome,goalAway,baselineP,strengthP,matchupP,aggressiveP,adjustment:HYBRID_BLEND*adjustment,homeEvidence,awayEvidence,historyIncluded:hist.length===1312,hCurrentN:h.curN,aCurrentN:a.curN,h,a};
   }
   function walkForward({teams,current,history=[]}){
     const ordered=[...current].sort((a,b)=>a.date.localeCompare(b.date)||a.id.localeCompare(b.id));
     const outcomes=[];let done=[],oldDate='';
     for(const g of ordered){if(g.date!==oldDate){done=ordered.filter(x=>x.date<g.date);oldDate=g.date;}
       const x=predict({home:g.home,away:g.away,mode:'combined',teams,current:done,history});
-      outcomes.push({date:g.date,home:g.home,away:g.away,y:Number(g.hp1+g.ap1>=2),baseline:x.baselineP,matchup:x.matchupP,hybrid:x.p,goals:g.hp1+g.ap1,lambdaBase:x.lambdaBase});
+      outcomes.push({date:g.date,home:g.home,away:g.away,y:Number(g.hp1+g.ap1>=2),baseline:x.baselineP,matchup:x.matchupP,hybrid:x.hybridP,goals:g.hp1+g.ap1,lambdaBase:x.lambdaBase});
     }
     const metrics={};for(const key of ['baseline','matchup','hybrid']){
       const count=outcomes.length||1;metrics[key]={brier:outcomes.reduce((s,r)=>s+brier(r[key],r.y),0)/count,logLoss:outcomes.reduce((s,r)=>s+logloss(r[key],r.y),0)/count,mean:outcomes.reduce((s,r)=>s+r[key],0)/count,predicted:outcomes.reduce((s,r)=>s+r[key],0)/count};

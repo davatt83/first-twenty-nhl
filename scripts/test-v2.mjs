@@ -8,7 +8,8 @@ const context={};vm.runInNewContext(fs.readFileSync('scripts/engine.js','utf8')+
 const eng=context.FT;
 const test=eng.predict({home:'MTL',away:'NSH',mode:'combined',teams,current:rows,history:[]});
 assert(test.p>0&&test.p<1);assert(test.baselineP>0&&test.baselineP<1);
-assert(Math.abs(test.p-(.7*test.baselineP+.3*test.aggressiveP))<1e-10,'Ensemble formula changed unexpectedly');
+assert(Math.abs(test.hybridP-(.7*test.baselineP+.3*test.aggressiveP))<1e-10,'Ensemble formula changed unexpectedly');
+assert(Math.abs(test.p-test.baselineP)<1e-12,'Primary probability must be the benchmark until stronger holdout evidence exists');
 assert(test.hCurrentN>0&&test.aCurrentN>0);
 for(const mode of ['last','current','combined']){
  const z=eng.predict({home:'DET',away:'MTL',mode,teams,current:rows});assert(z.p>0&&z.p<1,`Invalid ${mode} result`);

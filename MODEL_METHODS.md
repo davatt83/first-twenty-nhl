@@ -4,9 +4,9 @@
 
 ## 1. Data and venue controls
 
-- 2025–26 has verified first-period home/away **team goal totals** (41 games per venue for each team). Detailed 2025–26 game logs are **not yet verified**; no previous-season observed Over 1.5 frequencies are invented.
+- 2025–26 has **1,312 reconciled individual first-period game records** (41 games per venue for each team), cross-checked against all venue goals-for and goals-against totals. Actual historical Over 1.5 rates are calculated from those games.
 - 2026–27 initially embeds 140 completed first periods (September 29–October 19, 2026), and a scheduled 4 a.m. Toronto runner checks official NHL game scores/period totals. See the model's displayed through-date and counts; this number is not live unless the scheduled job succeeds.
-- A second incremental collector attempts 2025–26 individual game logs. **Only 1,312 reconciled games with correct 41/41 venue and goals-for/against totals count as a complete 2025–26 observed-history dataset.** Until then the model keeps using the known season aggregates.
+- The historical collector completed 1,312 reconciled first-period game results; it continues to enforce 41/41 venue and goals-for/against totals for any correction.
 - Venue inputs matter. A home team's **home** GF/GA is compared with the visiting team's **away** GF/GA.
 
 ## 2. Original reference model — explicitly preserved
@@ -44,7 +44,7 @@ final_probability = 0.70 * original_probability
                   + 0.30 * experimental_adjusted_probability
 ```
 
-The blend is deliberately conservative because stronger corrections did not show robust superior walk-forward accuracy. These weights are research assumptions, not established optimal parameters.
+The blend is retained as an experimental comparator, not the headline prediction. With the full 2025–26 observed results included, the exploratory 2026–27 walk-forward test did not establish a predictive improvement over the original Poisson estimate. These weights are research assumptions, not established optimal parameters.
 
 **2026–27 only:** previous-season *team* records are excluded. Its GF/GA rates include an explicit prior of eight neutral (0.85 goals for, 0.85 against) pseudo-games per venue, so a short season never pretends a team's first two matches are conclusive. The neutral prior is an assumption; last-season team-specific results are excluded.
 
@@ -69,11 +69,11 @@ The Validation tab scores every embedded 2026–27 game in chronological game-da
 
 | Forecast | Mean Brier score (lower better) |
 |---|---:|
-| Original arithmetic Poisson | ~0.2471 |
-| Full unblended experimental hybrid | ~0.2478 |
-| Conservative balanced hybrid | ~0.2469 |
+| Original arithmetic Poisson | 0.24706 |
+| Adjusted matchup | 0.24780 |
+| Conservative balanced hybrid, full historical outcomes | 0.24720 |
 
-The improvement of ~0.0002 for the balanced hybrid is tiny. A game-day-resampling bootstrap of the difference yielded an approximate 95% interval that included zero. **These games influenced the research and are not a clean independent final holdout**; no recorded sportsbook closing odds were tested. Calibration and profitability remain unverified. The validation tab recalculates its metrics as actual data is added. It also compares the observed number of 0-goal, 1-goal, and 2-plus-goal periods with the game-by-game Poisson expectations and displays the goal variance-to-mean ratio. These checks are descriptive; the limited sample does not settle the distributional question.
+That earlier ~0.0002 advantage disappeared when the complete 2025–26 observed-hit-rate evidence was added. Under the full history, Brier scores were baseline 0.24706, adjusted matchup 0.24780, balanced hybrid 0.24720 on the 140 current-season games. A day-block bootstrap of hybrid improvement yielded [-0.00121, 0.00105], including zero. **These games influenced the research and are not a clean independent final holdout**; no recorded sportsbook closing odds were tested. Calibration and profitability remain unverified. The validation tab recalculates its metrics as actual data is added. It also compares the observed number of 0-goal, 1-goal, and 2-plus-goal periods with the game-by-game Poisson expectations and displays the goal variance-to-mean ratio. These checks are descriptive; the limited sample does not settle the distributional question.
 
 ## 7. Operational safeguards
 
@@ -81,5 +81,7 @@ The improvement of ~0.0002 for the balanced hybrid is tiny. A game-day-resamplin
 - Historic backfill accepts complete verified game days into a provisional archive and waits until **all** 1,312 games pass reconciliation before using previous-season actual hit rates.
 - Publishing rebuilds the HTML with games embedded and runs code/fixture tests; the previous hosted version is retained on a failed primary refresh.
 - The website is a public GitHub Pages app; a file downloaded to a laptop does **not** update itself.
+
+**Primary pricing rule (as of the 2025–26 backfill):** use the original Poisson reference probability for the main fair-odds calculation until the adjusted alternatives outperform it on a separate, genuinely prospective holdout. The experimental hybrid remains displayed for research. Full 2025–26 historical results and reproducible distribution testing are documented in [RESEARCH_2025_26.md](RESEARCH_2025_26.md).
 
 **Future work:** a true separate-season holdout, scoring-goal distribution checks, scoring-state/penalty effects, baseline book line comparison, and temporal calibration as more games accrue. Adding parameters without those tests risks overfitting.
