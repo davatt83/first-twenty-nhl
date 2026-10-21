@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "complete": true,
+    "checkedThrough": "2026-10-19",
+    "lastGameDate": "2026-10-19",
+    "verifiedGames": 140,
+    "officialFinalCount": 140,
+    "checkedAt": "2026-10-21T00:21:00.988609+00:00",
+    "expectedCompletedThrough": "2026-10-19",
+    "expectedCompletedGames": 140,
+    "daysExpected": 21,
+    "daysComplete": 21,
+    "dataSources": "89 games: official NHL play-by-play archive; 40 additional games: CBS Sports 1P period scoreboards; 11 initial Hockey-Reference game results crosschecked with CBS Sports",
+    "crossCheckedGames": 11,
+    "note": "Validated coverage of all 140 completed NHL regular-season games through Oct 19. Games on Oct 20 are not included because they had not all finished at creation time."
+  },
+  "dates": [
+    {
+      "date": "2026-09-29",
+      "final": 5,
+      "verified": 5,
+      "pending": 0
+    },
+    {
+      "date": "2026-09-30",
+      "final": 3,
+      "verified": 3,
+      "pending": 0
+    },
+    {
+      "date": "2026-10-01",
+      "final": 8,
+      "verified": 8,
+      "pending": 0
+    },
+    {
+      "date": "2026-10-02",
+      "final": 5,
+      "verified": 5,
+      "pending": 0
+    },
+    {
+      "date": "2026-10-03",
+      "final": 13,
+      "verified": 13,
+      "pending": 0
+    },
+    {
+      "date": "2026-10-04",
+      "final": 5,
+      "verified": 5,
+      "pending": 0
+    },
+    {
+      "date": "2026-10-05",
+      "final": 4,
+      "verified": 4,
+      "pending": 0
+    },
+    {
+      "date": "2026-10-06",
+      "final": 9,
+      "verified": 9,
+      "pending": 0
+    },
+    {
+      "date": "2026-10-07",
+      "final": 3,
+      "verified": 3,
+      "pending": 0
+    },
+    {
+      "date": "2026-10-08",
+      "final": 10,
+      "verified": 10,
+      "pending": 0
+    },
+    {
+      "date": "2026-10-09",
+      "final": 4,
+      "verified": 4,
+      "pending": 0
+    },
+    {
+      "date": "2026-10-10",
+      "final": 14,
+      "verified": 14,
+      "pending": 0
+    },
+    {
+      "date": "2026-10-11",
+      "final": 3,
+      "verified": 3,
+      "pending": 0
+    },
+    {
+      "date": "2026-10-12",
+      "final": 3,
+      "verified": 3,
+      "pending": 0
+    },
+    {
+      "date": "2026-10-13",
+      "final": 16,
+      "verified": 16,
+      "pending": 0
+    },
+    {
+      "date": "2026-10-14",
+      "final": 2,
+      "verified": 2,
+      "pending": 0
+    },
+    {
+      "date": "2026-10-15",
+      "final": 11,
+      "verified": 11,
+      "pending": 0
+    },
+    {
+      "date": "2026-10-16",
+      "final": 2,
+      "verified": 2,
+      "pending": 0
+    },
+    {
+      "date": "2026-10-17",
+      "final": 14,
+      "verified": 14,
+      "pending": 0
+    },
+    {
+      "date": "2026-10-18",
+      "final": 2,
+      "verified": 2,
+      "pending": 0
+    },
+    {
+      "date": "2026-10-19",
+      "final": 4,
+      "verified": 4,
+      "pending": 0
+    }
+  ]
+}
