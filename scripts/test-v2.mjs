@@ -17,6 +17,8 @@ for(const mode of ['last','current','combined']){
 const cv=eng.walkForward({teams,current:rows});assert.equal(cv.count,140);
 assert(cv.metrics.hybrid.brier>=0&&cv.metrics.hybrid.brier<=1);
 assert(cv.outcomes.every(x=>x.baseline>=0&&x.hybrid<=1));
+assert.equal(cv.distribution.observed.reduce((a,b)=>a+b,0),140);
+assert(Math.abs(cv.distribution.expected.reduce((a,b)=>a+b,0)-140)<1e-8);
 // Future and same-day leakage are prohibited: another October 8 match must not affect Oct 8 predictions.
 const example=rows.find(g=>g.date==='2026-10-08');assert(example);
 const before=eng.walkForward({teams,current:rows}).outcomes.find(g=>g.date===example.date&&g.home===example.home&&g.away===example.away);

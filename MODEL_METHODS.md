@@ -73,7 +73,7 @@ The Validation tab scores every embedded 2026–27 game in chronological game-da
 | Full unblended experimental hybrid | ~0.2478 |
 | Conservative balanced hybrid | ~0.2469 |
 
-The improvement of ~0.0002 for the balanced hybrid is tiny. A game-day-resampling bootstrap of the difference yielded an approximate 95% interval that included zero. **These games influenced the research and are not a clean independent final holdout**; no recorded sportsbook closing odds were tested. Calibration and profitability remain unverified. The validation tab recalculates its metrics as actual data is added.
+The improvement of ~0.0002 for the balanced hybrid is tiny. A game-day-resampling bootstrap of the difference yielded an approximate 95% interval that included zero. **These games influenced the research and are not a clean independent final holdout**; no recorded sportsbook closing odds were tested. Calibration and profitability remain unverified. The validation tab recalculates its metrics as actual data is added. It also compares the observed number of 0-goal, 1-goal, and 2-plus-goal periods with the game-by-game Poisson expectations and displays the goal variance-to-mean ratio. These checks are descriptive; the limited sample does not settle the distributional question.
 
 ## 7. Operational safeguards
 
