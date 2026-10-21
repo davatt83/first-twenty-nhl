@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import assert from 'node:assert/strict';
 import vm from 'node:vm';
 const s=fs.readFileSync('index.html','utf8');
+// Published HTML must contain the current default pricing engine and the experimental comparison.\nif(fs.readFileSync('scripts/engine.js','utf8').includes('const p=baselineP')){assert(s.includes('const p=baselineP'),'Published HTML still contains an older pricing engine');assert(s.includes('Hybrid experimental:'),'Published HTML missing experimental comparison labels');}
 const teams=JSON.parse(s.match(/const TEAMS=(\{[^\n]+\});/)[1]);
 const rows=JSON.parse(fs.readFileSync('data/games-20262027.json','utf8')).games;
 const context={};vm.runInNewContext(fs.readFileSync('scripts/engine.js','utf8')+'\nthis.FT=FirstTwentyEngine;',context);
