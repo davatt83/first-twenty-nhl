@@ -65,7 +65,7 @@ jobs:
         timeout-minutes: 35
         continue-on-error: true
         env:
-          FIRST_TWENTY_HISTORY_BATCH: 60
+          FIRST_TWENTY_HISTORY_BATCH: 167
         run: node scripts/backfill-2025.mjs
       - name: Persist verified historical game days independently
         if: steps.clock.outputs.run == 'true'
@@ -78,6 +78,24 @@ jobs:
           else
             git commit -m "Backfill verified 2025-26 first periods"
             git push
+          fi
+      - name: Embed the full historical season only after every game is reconciled
+        if: steps.clock.outputs.run == 'true' && (github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.publish_only))
+        run: |
+          if node -e "const d=require('./data/games-20252026.json');process.exit(d.meta?.complete ? 0 : 1)"; then
+            node scripts/build.mjs
+            node scripts/test.mjs
+            node scripts/test-v2.mjs
+            node scripts/test-backfill.mjs
+            git add index.html
+            if git diff --cached --quiet; then
+              echo 'Full historical season already embedded.'
+            else
+              git commit -m "Publish full verified 2025-26 NHL first-period history"
+              git push
+            fi
+          else
+            echo 'History still incomplete: preserve model until 1312 games reconcile.'
           fi
       - name: Validate embedded snapshot before publishing
         if: steps.clock.outputs.run == 'true' && (github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.publish_only))
