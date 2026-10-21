@@ -1,0 +1,1809 @@
+{
+  "season": "20262027",
+  "games": [
+    {
+      "id": "2026-09-29_CHI_VGK",
+      "gameId": "2026020005",
+      "date": "2026-09-29",
+      "away": "CHI",
+      "home": "VGK",
+      "ap1": 0,
+      "hp1": 2,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-09-29_FLA_CAR",
+      "gameId": "2026020001",
+      "date": "2026-09-29",
+      "away": "FLA",
+      "home": "CAR",
+      "ap1": 0,
+      "hp1": 0,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-09-29_MTL_TOR",
+      "gameId": "2026020002",
+      "date": "2026-09-29",
+      "away": "MTL",
+      "home": "TOR",
+      "ap1": 1,
+      "hp1": 1,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-09-29_NYR_BOS",
+      "gameId": "2026020003",
+      "date": "2026-09-29",
+      "away": "NYR",
+      "home": "BOS",
+      "ap1": 0,
+      "hp1": 0,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-09-29_VAN_EDM",
+      "gameId": "2026020004",
+      "date": "2026-09-29",
+      "away": "VAN",
+      "home": "EDM",
+      "ap1": 1,
+      "hp1": 1,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-09-30_LAK_COL",
+      "gameId": "2026020007",
+      "date": "2026-09-30",
+      "away": "LAK",
+      "home": "COL",
+      "ap1": 1,
+      "hp1": 2,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-09-30_NYI_TOR",
+      "gameId": "2026020008",
+      "date": "2026-09-30",
+      "away": "NYI",
+      "home": "TOR",
+      "ap1": 0,
+      "hp1": 2,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-09-30_PIT_PHI",
+      "gameId": "2026020006",
+      "date": "2026-09-30",
+      "away": "PIT",
+      "home": "PHI",
+      "ap1": 2,
+      "hp1": 0,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-01_BUF_CBJ",
+      "gameId": "2026020011",
+      "date": "2026-10-01",
+      "away": "BUF",
+      "home": "CBJ",
+      "ap1": 1,
+      "hp1": 3,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-01_CHI_UTA",
+      "gameId": "2026020013",
+      "date": "2026-10-01",
+      "away": "CHI",
+      "home": "UTA",
+      "ap1": 0,
+      "hp1": 2,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-01_EDM_VAN",
+      "gameId": "2026020015",
+      "date": "2026-10-01",
+      "away": "EDM",
+      "home": "VAN",
+      "ap1": 4,
+      "hp1": 0,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-01_FLA_SJS",
+      "gameId": "2026020016",
+      "date": "2026-10-01",
+      "away": "FLA",
+      "home": "SJS",
+      "ap1": 0,
+      "hp1": 1,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-01_MIN_NSH",
+      "gameId": "2026020012",
+      "date": "2026-10-01",
+      "away": "MIN",
+      "home": "NSH",
+      "ap1": 2,
+      "hp1": 0,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-01_PHI_NJD",
+      "gameId": "2026020009",
+      "date": "2026-10-01",
+      "away": "PHI",
+      "home": "NJD",
+      "ap1": 1,
+      "hp1": 0,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-01_SEA_CGY",
+      "gameId": "2026020014",
+      "date": "2026-10-01",
+      "away": "SEA",
+      "home": "CGY",
+      "ap1": 3,
+      "hp1": 0,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-01_TBL_NYR",
+      "gameId": "2026020010",
+      "date": "2026-10-01",
+      "away": "TBL",
+      "home": "NYR",
+      "ap1": 0,
+      "hp1": 2,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-02_ANA_VGK",
+      "gameId": "2026020021",
+      "date": "2026-10-02",
+      "away": "ANA",
+      "home": "VGK",
+      "ap1": 1,
+      "hp1": 0,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-02_BOS_WPG",
+      "gameId": "2026020019",
+      "date": "2026-10-02",
+      "away": "BOS",
+      "home": "WPG",
+      "ap1": 2,
+      "hp1": 1,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-02_NYR_DET",
+      "gameId": "2026020017",
+      "date": "2026-10-02",
+      "away": "NYR",
+      "home": "DET",
+      "ap1": 1,
+      "hp1": 0,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-02_STL_DAL",
+      "gameId": "2026020020",
+      "date": "2026-10-02",
+      "away": "STL",
+      "home": "DAL",
+      "ap1": 1,
+      "hp1": 0,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-02_WSH_CAR",
+      "gameId": "2026020018",
+      "date": "2026-10-02",
+      "away": "WSH",
+      "home": "CAR",
+      "ap1": 3,
+      "hp1": 0,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-03_BOS_MIN",
+      "gameId": "2026020031",
+      "date": "2026-10-03",
+      "away": "BOS",
+      "home": "MIN",
+      "ap1": 1,
+      "hp1": 0,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-03_CAR_PHI",
+      "gameId": "2026020025",
+      "date": "2026-10-03",
+      "away": "CAR",
+      "home": "PHI",
+      "ap1": 1,
+      "hp1": 1,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-03_CGY_VAN",
+      "gameId": "2026020033",
+      "date": "2026-10-03",
+      "away": "CGY",
+      "home": "VAN",
+      "ap1": 1,
+      "hp1": 0,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-03_CHI_BUF",
+      "gameId": "2026020022",
+      "date": "2026-10-03",
+      "away": "CHI",
+      "home": "BUF",
+      "ap1": 2,
+      "hp1": 1,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-03_DAL_NSH",
+      "gameId": "2026020030",
+      "date": "2026-10-03",
+      "away": "DAL",
+      "home": "NSH",
+      "ap1": 1,
+      "hp1": 2,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-03_LAK_SJS",
+      "gameId": "2026020034",
+      "date": "2026-10-03",
+      "away": "LAK",
+      "home": "SJS",
+      "ap1": 1,
+      "hp1": 0,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-03_MTL_PIT",
+      "gameId": "2026020026",
+      "date": "2026-10-03",
+      "away": "MTL",
+      "home": "PIT",
+      "ap1": 1,
+      "hp1": 1,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-03_NJD_NYI",
+      "gameId": "2026020029",
+      "date": "2026-10-03",
+      "away": "NJD",
+      "home": "NYI",
+      "ap1": 0,
+      "hp1": 0,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-03_OTT_TOR",
+      "gameId": "2026020023",
+      "date": "2026-10-03",
+      "away": "OTT",
+      "home": "TOR",
+      "ap1": 1,
+      "hp1": 0,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-03_SEA_EDM",
+      "gameId": "2026020028",
+      "date": "2026-10-03",
+      "away": "SEA",
+      "home": "EDM",
+      "ap1": 0,
+      "hp1": 1,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-03_STL_COL",
+      "gameId": "2026020032",
+      "date": "2026-10-03",
+      "away": "STL",
+      "home": "COL",
+      "ap1": 0,
+      "hp1": 2,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-03_UTA_CBJ",
+      "gameId": "2026020027",
+      "date": "2026-10-03",
+      "away": "UTA",
+      "home": "CBJ",
+      "ap1": 2,
+      "hp1": 0,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-03_WSH_TBL",
+      "gameId": "2026020024",
+      "date": "2026-10-03",
+      "away": "WSH",
+      "home": "TBL",
+      "ap1": 0,
+      "hp1": 2,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-04_CGY_SEA",
+      "gameId": "2026020038",
+      "date": "2026-10-04",
+      "away": "CGY",
+      "home": "SEA",
+      "ap1": 0,
+      "hp1": 3,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-04_FLA_ANA",
+      "gameId": "2026020037",
+      "date": "2026-10-04",
+      "away": "FLA",
+      "home": "ANA",
+      "ap1": 1,
+      "hp1": 1,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-04_UTA_NYR",
+      "gameId": "2026020036",
+      "date": "2026-10-04",
+      "away": "UTA",
+      "home": "NYR",
+      "ap1": 0,
+      "hp1": 1,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-04_VGK_VAN",
+      "gameId": "2026020039",
+      "date": "2026-10-04",
+      "away": "VGK",
+      "home": "VAN",
+      "ap1": 0,
+      "hp1": 1,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-04_WPG_DET",
+      "gameId": "2026020035",
+      "date": "2026-10-04",
+      "away": "WPG",
+      "home": "DET",
+      "ap1": 2,
+      "hp1": 0,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-05_OTT_BOS",
+      "gameId": "2026020041",
+      "date": "2026-10-05",
+      "away": "OTT",
+      "home": "BOS",
+      "ap1": 2,
+      "hp1": 0,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-05_PHI_TBL",
+      "gameId": "2026020040",
+      "date": "2026-10-05",
+      "away": "PHI",
+      "home": "TBL",
+      "ap1": 0,
+      "hp1": 1,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-05_SJS_DAL",
+      "gameId": "2026020043",
+      "date": "2026-10-05",
+      "away": "SJS",
+      "home": "DAL",
+      "ap1": 0,
+      "hp1": 1,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-05_WPG_PIT",
+      "gameId": "2026020042",
+      "date": "2026-10-05",
+      "away": "WPG",
+      "home": "PIT",
+      "ap1": 0,
+      "hp1": 0,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-06_CAR_MTL",
+      "gameId": "2026020045",
+      "date": "2026-10-06",
+      "away": "CAR",
+      "home": "MTL",
+      "ap1": 2,
+      "hp1": 3,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-06_FLA_LAK",
+      "gameId": "2026020052",
+      "date": "2026-10-06",
+      "away": "FLA",
+      "home": "LAK",
+      "ap1": 0,
+      "hp1": 1,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-06_MIN_BUF",
+      "gameId": "2026020049",
+      "date": "2026-10-06",
+      "away": "MIN",
+      "home": "BUF",
+      "ap1": 0,
+      "hp1": 0,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-06_NSH_TOR",
+      "gameId": "2026020044",
+      "date": "2026-10-06",
+      "away": "NSH",
+      "home": "TOR",
+      "ap1": 2,
+      "hp1": 0,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-06_NYI_NYR",
+      "gameId": "2026020048",
+      "date": "2026-10-06",
+      "away": "NYI",
+      "home": "NYR",
+      "ap1": 0,
+      "hp1": 1,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-06_OTT_DET",
+      "gameId": "2026020046",
+      "date": "2026-10-06",
+      "away": "OTT",
+      "home": "DET",
+      "ap1": 1,
+      "hp1": 2,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-06_STL_CHI",
+      "gameId": "2026020050",
+      "date": "2026-10-06",
+      "away": "STL",
+      "home": "CHI",
+      "ap1": 1,
+      "hp1": 0,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-06_UTA_NJD",
+      "gameId": "2026020047",
+      "date": "2026-10-06",
+      "away": "UTA",
+      "home": "NJD",
+      "ap1": 1,
+      "hp1": 1,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-06_VGK_SEA",
+      "gameId": "2026020051",
+      "date": "2026-10-06",
+      "away": "VGK",
+      "home": "SEA",
+      "ap1": 2,
+      "hp1": 0,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-07_COL_WPG",
+      "gameId": "2026020054",
+      "date": "2026-10-07",
+      "away": "COL",
+      "home": "WPG",
+      "ap1": 0,
+      "hp1": 0,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-07_EDM_ANA",
+      "gameId": "2026020055",
+      "date": "2026-10-07",
+      "away": "EDM",
+      "home": "ANA",
+      "ap1": 0,
+      "hp1": 2,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-07_PIT_WSH",
+      "gameId": "2026020053",
+      "date": "2026-10-07",
+      "away": "PIT",
+      "home": "WSH",
+      "ap1": 1,
+      "hp1": 2,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-08_CHI_NYI",
+      "gameId": "2026020062",
+      "date": "2026-10-08",
+      "away": "CHI",
+      "home": "NYI",
+      "ap1": 0,
+      "hp1": 1,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-08_COL_CGY",
+      "gameId": "2026020064",
+      "date": "2026-10-08",
+      "away": "COL",
+      "home": "CGY",
+      "ap1": 1,
+      "hp1": 1,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-08_DAL_BUF",
+      "gameId": "2026020057",
+      "date": "2026-10-08",
+      "away": "DAL",
+      "home": "BUF",
+      "ap1": 1,
+      "hp1": 0,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-08_MIN_TBL",
+      "gameId": "2026020060",
+      "date": "2026-10-08",
+      "away": "MIN",
+      "home": "TBL",
+      "ap1": 0,
+      "hp1": 2,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-08_NSH_MTL",
+      "gameId": "2026020058",
+      "date": "2026-10-08",
+      "away": "NSH",
+      "home": "MTL",
+      "ap1": 0,
+      "hp1": 0,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-08_PHI_OTT",
+      "gameId": "2026020059",
+      "date": "2026-10-08",
+      "away": "PHI",
+      "home": "OTT",
+      "ap1": 0,
+      "hp1": 1,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-08_SJS_STL",
+      "gameId": "2026020063",
+      "date": "2026-10-08",
+      "away": "SJS",
+      "home": "STL",
+      "ap1": 0,
+      "hp1": 1,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-08_TOR_VGK",
+      "gameId": "2026020065",
+      "date": "2026-10-08",
+      "away": "TOR",
+      "home": "VGK",
+      "ap1": 3,
+      "hp1": 1,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-08_UTA_BOS",
+      "gameId": "2026020056",
+      "date": "2026-10-08",
+      "away": "UTA",
+      "home": "BOS",
+      "ap1": 0,
+      "hp1": 3,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-08_VAN_CAR",
+      "gameId": "2026020061",
+      "date": "2026-10-08",
+      "away": "VAN",
+      "home": "CAR",
+      "ap1": 0,
+      "hp1": 3,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-09_ANA_WPG",
+      "gameId": "2026020069",
+      "date": "2026-10-09",
+      "away": "ANA",
+      "home": "WPG",
+      "ap1": 1,
+      "hp1": 0,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-09_NYR_WSH",
+      "gameId": "2026020067",
+      "date": "2026-10-09",
+      "away": "NYR",
+      "home": "WSH",
+      "ap1": 1,
+      "hp1": 0,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-09_PIT_CBJ",
+      "gameId": "2026020068",
+      "date": "2026-10-09",
+      "away": "PIT",
+      "home": "CBJ",
+      "ap1": 0,
+      "hp1": 1,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-09_SEA_DET",
+      "gameId": "2026020066",
+      "date": "2026-10-09",
+      "away": "SEA",
+      "home": "DET",
+      "ap1": 1,
+      "hp1": 1,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-10_ANA_CGY",
+      "gameId": "2026020082",
+      "date": "2026-10-10",
+      "away": "ANA",
+      "home": "CGY",
+      "ap1": 2,
+      "hp1": 1,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-10_CAR_CHI",
+      "gameId": "2026020078",
+      "date": "2026-10-10",
+      "away": "CAR",
+      "home": "CHI",
+      "ap1": 1,
+      "hp1": 0,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-10_CBJ_STL",
+      "gameId": "2026020079",
+      "date": "2026-10-10",
+      "away": "CBJ",
+      "home": "STL",
+      "ap1": 2,
+      "hp1": 0,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-10_DAL_PIT",
+      "gameId": "2026020077",
+      "date": "2026-10-10",
+      "away": "DAL",
+      "home": "PIT",
+      "ap1": 0,
+      "hp1": 0,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-10_DET_MTL",
+      "gameId": "2026020075",
+      "date": "2026-10-10",
+      "away": "DET",
+      "home": "MTL",
+      "ap1": 0,
+      "hp1": 0,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-10_EDM_SJS",
+      "gameId": "2026020072",
+      "date": "2026-10-10",
+      "away": "EDM",
+      "home": "SJS",
+      "ap1": 1,
+      "hp1": 0,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-10_LAK_VGK",
+      "gameId": "2026020083",
+      "date": "2026-10-10",
+      "away": "LAK",
+      "home": "VGK",
+      "ap1": 0,
+      "hp1": 0,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-10_MIN_FLA",
+      "gameId": "2026020073",
+      "date": "2026-10-10",
+      "away": "MIN",
+      "home": "FLA",
+      "ap1": 2,
+      "hp1": 0,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-10_NSH_OTT",
+      "gameId": "2026020076",
+      "date": "2026-10-10",
+      "away": "NSH",
+      "home": "OTT",
+      "ap1": 2,
+      "hp1": 0,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-10_PHI_BOS",
+      "gameId": "2026020070",
+      "date": "2026-10-10",
+      "away": "PHI",
+      "home": "BOS",
+      "ap1": 0,
+      "hp1": 1,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-10_TBL_NYI",
+      "gameId": "2026020081",
+      "date": "2026-10-10",
+      "away": "TBL",
+      "home": "NYI",
+      "ap1": 2,
+      "hp1": 0,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-10_TOR_COL",
+      "gameId": "2026020080",
+      "date": "2026-10-10",
+      "away": "TOR",
+      "home": "COL",
+      "ap1": 1,
+      "hp1": 2,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-10_UTA_BUF",
+      "gameId": "2026020074",
+      "date": "2026-10-10",
+      "away": "UTA",
+      "home": "BUF",
+      "ap1": 1,
+      "hp1": 1,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-10_VAN_NJD",
+      "gameId": "2026020071",
+      "date": "2026-10-10",
+      "away": "VAN",
+      "home": "NJD",
+      "ap1": 1,
+      "hp1": 2,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-11_CAR_PHI",
+      "gameId": "2026020086",
+      "date": "2026-10-11",
+      "away": "CAR",
+      "home": "PHI",
+      "ap1": 0,
+      "hp1": 0,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-11_SEA_WSH",
+      "gameId": "2026020084",
+      "date": "2026-10-11",
+      "away": "SEA",
+      "home": "WSH",
+      "ap1": 2,
+      "hp1": 2,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-11_VAN_NYR",
+      "gameId": "2026020085",
+      "date": "2026-10-11",
+      "away": "VAN",
+      "home": "NYR",
+      "ap1": 1,
+      "hp1": 1,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-12_FLA_BUF",
+      "gameId": "2026020087",
+      "date": "2026-10-12",
+      "away": "FLA",
+      "home": "BUF",
+      "ap1": 1,
+      "hp1": 2,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-12_OTT_NJD",
+      "gameId": "2026020088",
+      "date": "2026-10-12",
+      "away": "OTT",
+      "home": "NJD",
+      "ap1": 0,
+      "hp1": 0,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-12_VGK_MIN",
+      "gameId": "2026020089",
+      "date": "2026-10-12",
+      "away": "VGK",
+      "home": "MIN",
+      "ap1": 0,
+      "hp1": 3,
+      "source": "archived-official-nhl-play-by-play",
+      "sourceMethods": [
+        "official-play-by-play-period-end",
+        "goal-event-reconciliation"
+      ]
+    },
+    {
+      "id": "2026-10-13_BOS_SJS",
+      "date": "2026-10-13",
+      "away": "BOS",
+      "home": "SJS",
+      "ap1": 2,
+      "hp1": 1,
+      "source": "cbs-period-boxscore",
+      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261013/"
+    },
+    {
+      "id": "2026-10-13_BUF_MTL",
+      "date": "2026-10-13",
+      "away": "BUF",
+      "home": "MTL",
+      "ap1": 1,
+      "hp1": 1,
+      "source": "cbs-period-boxscore",
+      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261013/"
+    },
+    {
+      "id": "2026-10-13_CGY_ANA",
+      "date": "2026-10-13",
+      "away": "CGY",
+      "home": "ANA",
+      "ap1": 1,
+      "hp1": 2,
+      "source": "cbs-period-boxscore",
+      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261013/"
+    },
+    {
+      "id": "2026-10-13_COL_DAL",
+      "date": "2026-10-13",
+      "away": "COL",
+      "home": "DAL",
+      "ap1": 1,
+      "hp1": 1,
+      "source": "cbs-period-boxscore",
+      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261013/"
+    },
+    {
+      "id": "2026-10-13_EDM_LAK",
+      "date": "2026-10-13",
+      "away": "EDM",
+      "home": "LAK",
+      "ap1": 3,
+      "hp1": 0,
+      "source": "cbs-period-boxscore",
+      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261013/"
+    },
+    {
+      "id": "2026-10-13_FLA_CBJ",
+      "date": "2026-10-13",
+      "away": "FLA",
+      "home": "CBJ",
+      "ap1": 0,
+      "hp1": 1,
+      "source": "cbs-period-boxscore",
+      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261013/"
+    },
+    {
+      "id": "2026-10-13_MIN_WPG",
+      "date": "2026-10-13",
+      "away": "MIN",
+      "home": "WPG",
+      "ap1": 2,
+      "hp1": 2,
+      "source": "cbs-period-boxscore",
+      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261013/"
+    },
+    {
+      "id": "2026-10-13_NJD_DET",
+      "date": "2026-10-13",
+      "away": "NJD",
+      "home": "DET",
+      "ap1": 1,
+      "hp1": 1,
+      "source": "cbs-period-boxscore",
+      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261013/"
+    },
+    {
+      "id": "2026-10-13_PIT_CHI",
+      "date": "2026-10-13",
+      "away": "PIT",
+      "home": "CHI",
+      "ap1": 1,
+      "hp1": 2,
+      "source": "cbs-period-boxscore",
+      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261013/"
+    },
+    {
+      "id": "2026-10-13_SEA_PHI",
+      "date": "2026-10-13",
+      "away": "SEA",
+      "home": "PHI",
+      "ap1": 1,
+      "hp1": 0,
+      "source": "cbs-period-boxscore",
+      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261013/"
+    },
+    {
+      "id": "2026-10-13_STL_OTT",
+      "date": "2026-10-13",
+      "away": "STL",
+      "home": "OTT",
+      "ap1": 1,
+      "hp1": 0,
+      "source": "cbs-period-boxscore",
+      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261013/"
+    },
+    {
+      "id": "2026-10-13_TBL_NYR",
+      "date": "2026-10-13",
+      "away": "TBL",
+      "home": "NYR",
+      "ap1": 1,
+      "hp1": 2,
+      "source": "cbs-period-boxscore",
+      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261013/"
+    },
+    {
+      "id": "2026-10-13_TOR_UTA",
+      "date": "2026-10-13",
+      "away": "TOR",
+      "home": "UTA",
+      "ap1": 0,
+      "hp1": 1,
+      "source": "cbs-period-boxscore",
+      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261013/"
+    },
+    {
+      "id": "2026-10-13_VAN_NYI",
+      "date": "2026-10-13",
+      "away": "VAN",
+      "home": "NYI",
+      "ap1": 0,
+      "hp1": 2,
+      "source": "cbs-period-boxscore",
+      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261013/"
+    },
+    {
+      "id": "2026-10-13_VGK_NSH",
+      "date": "2026-10-13",
+      "away": "VGK",
+      "home": "NSH",
+      "ap1": 2,
+      "hp1": 1,
+      "source": "cbs-period-boxscore",
+      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261013/"
+    },
+    {
+      "id": "2026-10-13_WSH_CAR",
+      "date": "2026-10-13",
+      "away": "WSH",
+      "home": "CAR",
+      "ap1": 1,
+      "hp1": 0,
+      "source": "cbs-period-boxscore",
+      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261013/"
+    },
+    {
+      "id": "2026-10-14_DAL_COL",
+      "date": "2026-10-14",
+      "away": "DAL",
+      "home": "COL",
+      "ap1": 0,
+      "hp1": 0,
+      "source": "cbs-period-boxscore",
+      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261014/"
+    },
+    {
+      "id": "2026-10-14_MTL_WSH",
+      "date": "2026-10-14",
+      "away": "MTL",
+      "home": "WSH",
+      "ap1": 2,
+      "hp1": 2,
+      "source": "cbs-period-boxscore",
+      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261014/"
+    },
+    {
+      "id": "2026-10-15_BUF_TOR",
+      "date": "2026-10-15",
+      "away": "BUF",
+      "home": "TOR",
+      "ap1": 1,
+      "hp1": 2,
+      "source": "cbs-period-boxscore",
+      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261015/"
+    },
+    {
+      "id": "2026-10-15_CGY_VGK",
+      "date": "2026-10-15",
+      "away": "CGY",
+      "home": "VGK",
+      "ap1": 0,
+      "hp1": 2,
+      "source": "cbs-period-boxscore",
+      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261015/"
+    },
+    {
+      "id": "2026-10-15_NYI_OTT",
+      "date": "2026-10-15",
+      "away": "NYI",
+      "home": "OTT",
+      "ap1": 1,
+      "hp1": 0,
+      "source": "cbs-period-boxscore",
+      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261015/"
+    },
+    {
+      "id": "2026-10-15_NYR_NJD",
+      "date": "2026-10-15",
+      "away": "NYR",
+      "home": "NJD",
+      "ap1": 0,
+      "hp1": 1,
+      "source": "cbs-period-boxscore",
+      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261015/"
+    },
+    {
+      "id": "2026-10-15_PHI_DET",
+      "date": "2026-10-15",
+      "away": "PHI",
+      "home": "DET",
+      "ap1": 1,
+      "hp1": 0,
+      "source": "cbs-period-boxscore",
+      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261015/"
+    },
+    {
+      "id": "2026-10-15_SEA_TBL",
+      "date": "2026-10-15",
+      "away": "SEA",
+      "home": "TBL",
+      "ap1": 1,
+      "hp1": 1,
+      "source": "cbs-period-boxscore",
+      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261015/"
+    },
+    {
+      "id": "2026-10-15_SJS_NSH",
+      "date": "2026-10-15",
+      "away": "SJS",
+      "home": "NSH",
+      "ap1": 1,
+      "hp1": 0,
+      "source": "cbs-period-boxscore",
+      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261015/"
+    },
+    {
+      "id": "2026-10-15_STL_MIN",
+      "date": "2026-10-15",
+      "away": "STL",
+      "home": "MIN",
+      "ap1": 1,
+      "hp1": 2,
+      "source": "cbs-period-boxscore",
+      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261015/"
+    },
+    {
+      "id": "2026-10-15_UTA_EDM",
+      "date": "2026-10-15",
+      "away": "UTA",
+      "home": "EDM",
+      "ap1": 1,
+      "hp1": 0,
+      "source": "cbs-period-boxscore",
+      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261015/"
+    },
+    {
+      "id": "2026-10-15_VAN_FLA",
+      "date": "2026-10-15",
+      "away": "VAN",
+      "home": "FLA",
+      "ap1": 2,
+      "hp1": 0,
+      "source": "cbs-period-boxscore",
+      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261015/"
+    },
+    {
+      "id": "2026-10-15_WPG_CHI",
+      "date": "2026-10-15",
+      "away": "WPG",
+      "home": "CHI",
+      "ap1": 1,
+      "hp1": 3,
+      "source": "cbs-period-boxscore",
+      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261015/"
+    },
+    {
+      "id": "2026-10-16_BOS_ANA",
+      "date": "2026-10-16",
+      "away": "BOS",
+      "home": "ANA",
+      "ap1": 0,
+      "hp1": 2,
+      "source": "cbs-period-boxscore",
+      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261016/"
+    },
+    {
+      "id": "2026-10-16_PIT_COL",
+      "date": "2026-10-16",
+      "away": "PIT",
+      "home": "COL",
+      "ap1": 2,
+      "hp1": 1,
+      "source": "cbs-period-boxscore",
+      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261016/"
+    },
+    {
+      "id": "2026-10-17_BOS_LAK",
+      "date": "2026-10-17",
+      "away": "BOS",
+      "home": "LAK",
+      "ap1": 0,
+      "hp1": 1,
+      "source": "cbs-period-boxscore",
+      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261017/"
+    },
+    {
+      "id": "2026-10-17_BUF_MTL",
+      "date": "2026-10-17",
+      "away": "BUF",
+      "home": "MTL",
+      "ap1": 1,
+      "hp1": 2,
+      "source": "cbs-period-boxscore",
+      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261017/"
+    },
+    {
+      "id": "2026-10-17_CAR_WPG",
+      "date": "2026-10-17",
+      "away": "CAR",
+      "home": "WPG",
+      "ap1": 0,
+      "hp1": 0,
+      "source": "cbs-period-boxscore",
+      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261017/"
+    },
+    {
+      "id": "2026-10-17_DAL_CHI",
+      "date": "2026-10-17",
+      "away": "DAL",
+      "home": "CHI",
+      "ap1": 0,
+      "hp1": 0,
+      "source": "hockey-reference-boxscore",
+      "sourceUrl": "https://www.hockey-reference.com/boxscores/202610170CHI.html",
+      "crossCheckSources": [
+        "https://www.cbssports.com/nhl/scoreboard/20261017/"
+      ]
+    },
+    {
+      "id": "2026-10-17_EDM_UTA",
+      "date": "2026-10-17",
+      "away": "EDM",
+      "home": "UTA",
+      "ap1": 3,
+      "hp1": 0,
+      "source": "cbs-period-boxscore",
+      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261017/"
+    },
+    {
+      "id": "2026-10-17_NJD_WSH",
+      "date": "2026-10-17",
+      "away": "NJD",
+      "home": "WSH",
+      "ap1": 1,
+      "hp1": 1,
+      "source": "cbs-period-boxscore",
+      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261017/"
+    },
+    {
+      "id": "2026-10-17_NYI_TOR",
+      "date": "2026-10-17",
+      "away": "NYI",
+      "home": "TOR",
+      "ap1": 1,
+      "hp1": 0,
+      "source": "cbs-period-boxscore",
+      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261017/"
+    },
+    {
+      "id": "2026-10-17_NYR_CBJ",
+      "date": "2026-10-17",
+      "away": "NYR",
+      "home": "CBJ",
+      "ap1": 0,
+      "hp1": 0,
+      "source": "hockey-reference-boxscore",
+      "sourceUrl": "https://www.hockey-reference.com/boxscores/202610170CBJ.html",
+      "crossCheckSources": [
+        "https://www.cbssports.com/nhl/scoreboard/20261017/"
+      ]
+    },
+    {
+      "id": "2026-10-17_OTT_PHI",
+      "date": "2026-10-17",
+      "away": "OTT",
+      "home": "PHI",
+      "ap1": 0,
+      "hp1": 0,
+      "source": "hockey-reference-boxscore",
+      "sourceUrl": "https://www.hockey-reference.com/boxscores/202610170PHI.html",
+      "crossCheckSources": [
+        "https://www.cbssports.com/nhl/scoreboard/20261017/"
+      ]
+    },
+    {
+      "id": "2026-10-17_PIT_VGK",
+      "date": "2026-10-17",
+      "away": "PIT",
+      "home": "VGK",
+      "ap1": 0,
+      "hp1": 3,
+      "source": "cbs-period-boxscore",
+      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261017/"
+    },
+    {
+      "id": "2026-10-17_SEA_FLA",
+      "date": "2026-10-17",
+      "away": "SEA",
+      "home": "FLA",
+      "ap1": 1,
+      "hp1": 3,
+      "source": "hockey-reference-boxscore",
+      "sourceUrl": "https://www.hockey-reference.com/boxscores/202610170FLA.html",
+      "crossCheckSources": [
+        "https://www.cbssports.com/nhl/scoreboard/20261017/"
+      ]
+    },
+    {
+      "id": "2026-10-17_SJS_DET",
+      "date": "2026-10-17",
+      "away": "SJS",
+      "home": "DET",
+      "ap1": 1,
+      "hp1": 1,
+      "source": "hockey-reference-boxscore",
+      "sourceUrl": "https://www.hockey-reference.com/boxscores/202610170DET.html",
+      "crossCheckSources": [
+        "https://www.cbssports.com/nhl/scoreboard/20261017/"
+      ]
+    },
+    {
+      "id": "2026-10-17_STL_NSH",
+      "date": "2026-10-17",
+      "away": "STL",
+      "home": "NSH",
+      "ap1": 1,
+      "hp1": 2,
+      "source": "cbs-period-boxscore",
+      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261017/"
+    },
+    {
+      "id": "2026-10-17_VAN_TBL",
+      "date": "2026-10-17",
+      "away": "VAN",
+      "home": "TBL",
+      "ap1": 1,
+      "hp1": 0,
+      "source": "cbs-period-boxscore",
+      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261017/"
+    },
+    {
+      "id": "2026-10-18_CAR_CGY",
+      "date": "2026-10-18",
+      "away": "CAR",
+      "home": "CGY",
+      "ap1": 0,
+      "hp1": 0,
+      "source": "hockey-reference-boxscore",
+      "sourceUrl": "https://www.hockey-reference.com/boxscores/202610180CGY.html",
+      "crossCheckSources": [
+        "https://www.cbssports.com/nhl/scoreboard/20261018/"
+      ]
+    },
+    {
+      "id": "2026-10-18_CBJ_MIN",
+      "date": "2026-10-18",
+      "away": "CBJ",
+      "home": "MIN",
+      "ap1": 1,
+      "hp1": 1,
+      "source": "hockey-reference-boxscore",
+      "sourceUrl": "https://www.hockey-reference.com/boxscores/202610180MIN.html",
+      "crossCheckSources": [
+        "https://www.cbssports.com/nhl/scoreboard/20261018/"
+      ]
+    },
+    {
+      "id": "2026-10-19_ANA_NYR",
+      "date": "2026-10-19",
+      "away": "ANA",
+      "home": "NYR",
+      "ap1": 0,
+      "hp1": 1,
+      "source": "hockey-reference-boxscore",
+      "sourceUrl": "https://www.hockey-reference.com/boxscores/202610190NYR.html",
+      "crossCheckSources": [
+        "https://www.cbssports.com/nhl/scoreboard/20261019/"
+      ]
+    },
+    {
+      "id": "2026-10-19_COL_PHI",
+      "date": "2026-10-19",
+      "away": "COL",
+      "home": "PHI",
+      "ap1": 0,
+      "hp1": 1,
+      "source": "hockey-reference-boxscore",
+      "sourceUrl": "https://www.hockey-reference.com/boxscores/202610190PHI.html",
+      "crossCheckSources": [
+        "https://www.cbssports.com/nhl/scoreboard/20261019/"
+      ]
+    },
+    {
+      "id": "2026-10-19_PIT_UTA",
+      "date": "2026-10-19",
+      "away": "PIT",
+      "home": "UTA",
+      "ap1": 1,
+      "hp1": 2,
+      "source": "hockey-reference-boxscore",
+      "sourceUrl": "https://www.hockey-reference.com/boxscores/202610190UTA.html",
+      "crossCheckSources": [
+        "https://www.cbssports.com/nhl/scoreboard/20261019/"
+      ]
+    },
+    {
+      "id": "2026-10-19_SJS_TOR",
+      "date": "2026-10-19",
+      "away": "SJS",
+      "home": "TOR",
+      "ap1": 1,
+      "hp1": 0,
+      "source": "hockey-reference-boxscore",
+      "sourceUrl": "https://www.hockey-reference.com/boxscores/202610190TOR.html",
+      "crossCheckSources": [
+        "https://www.cbssports.com/nhl/scoreboard/20261019/"
+      ]
+    }
+  ],
+  "meta": {
+    "complete": true,
+    "checkedThrough": "2026-10-19",
+    "lastGameDate": "2026-10-19",
+    "verifiedGames": 140,
+    "officialFinalCount": 140,
+    "checkedAt": "2026-10-21T00:21:00.988609+00:00",
+    "expectedCompletedThrough": "2026-10-19",
+    "expectedCompletedGames": 140,
+    "daysExpected": 21,
+    "daysComplete": 21,
+    "dataSources": "89 games: official NHL play-by-play archive; 40 additional games: CBS Sports 1P period scoreboards; 11 initial Hockey-Reference game results crosschecked with CBS Sports",
+    "crossCheckedGames": 11,
+    "note": "Validated coverage of all 140 completed NHL regular-season games through Oct 19. Games on Oct 20 are not included because they had not all finished at creation time."
+  }
+}
