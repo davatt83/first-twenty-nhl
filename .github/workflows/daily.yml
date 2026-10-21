@@ -1,25 +1,27 @@
 name: Update and publish First Twenty NHL
 
 on:
-  # After installing all other files, commit this workflow LAST to initiate setup.
   push:
     branches: [main]
     paths:
       - '.github/workflows/daily.yml'
-      - 'index.html'
-      - 'scripts/engine.js'
       - 'model.template.html'
+      - 'index.html'
+      - 'scripts/**'
+      - 'data/**'
   schedule:
-    # GitHub schedules use UTC; separate runs cover EDT and EST.
-    # GitHub may delay scheduled jobs, so 4:00 a.m. is a target, not a guarantee.
+    # 04:00 Toronto, with a 07:00 retry in case NHL sources are late.
+    # GitHub schedules can run later than their cron times.
     - cron: '0 8 * * *'
     - cron: '0 9 * * *'
+    - cron: '0 11 * * *'
+    - cron: '0 12 * * *'
   workflow_dispatch:
     inputs:
       publish_only:
-        description: "Publish the last verified embedded snapshot without contacting NHL servers"
+        description: 'Only rebuild/deploy the already verified records (do not poll NHL)'
         type: boolean
-        default: true
+        default: false
 
 permissions:
   contents: write
@@ -37,7 +39,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Run only at the appropriate Toronto 4 a.m. slot
+      - name: Enforce 4am / 7am America-Toronto schedule
         id: clock
         env:
           EVENT: ${{ github.event_name }}
@@ -45,103 +47,52 @@ jobs:
         run: |
           offset=$(TZ=America/Toronto date +%z)
           echo "Toronto UTC offset: $offset"
-          if [ "$EVENT" = 'push' ] || [ "$EVENT" = 'workflow_dispatch' ] || { [ "$SCHEDULE" = '0 8 * * *' ] && [ "$offset" = '-0400' ]; } || { [ "$SCHEDULE" = '0 9 * * *' ] && [ "$offset" = '-0500' ]; }; then
+          if [ "$EVENT" = 'push' ] || [ "$EVENT" = 'workflow_dispatch' ] || { [ "$SCHEDULE" = '0 8 * * *' ] && [ "$offset" = '-0400' ]; } || { [ "$SCHEDULE" = '0 9 * * *' ] && [ "$offset" = '-0500' ]; } || { [ "$SCHEDULE" = '0 11 * * *' ] && [ "$offset" = '-0400' ]; } || { [ "$SCHEDULE" = '0 12 * * *' ] && [ "$offset" = '-0500' ]; }; then
             echo 'run=true' >> "$GITHUB_OUTPUT"
           else
             echo 'run=false' >> "$GITHUB_OUTPUT"
           fi
-      - name: Check out the latest data and model
+      - name: Check out model and most recent verified records
         if: steps.clock.outputs.run == 'true'
         uses: actions/checkout@v4
-        with:
-          persist-credentials: true
-      - name: Install Node.js
+      - name: Install Node.js 22
         if: steps.clock.outputs.run == 'true'
         uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Backfill historical 2025–26 first-period results
+      - name: Validate updater syntax
         if: steps.clock.outputs.run == 'true'
-        timeout-minutes: 35
-        continue-on-error: true
+        run: node --check scripts/update.mjs
+      - name: Retrieve official final games and verify first periods
+        if: steps.clock.outputs.run == 'true' && github.event_name != 'push' && !inputs.publish_only
+        timeout-minutes: 30
         env:
-          FIRST_TWENTY_HISTORY_BATCH: 60
-        run: node scripts/backfill-2025.mjs
-      - name: Persist verified historical game days independently
-        if: steps.clock.outputs.run == 'true'
-        run: |
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config user.name "github-actions[bot]"
-          git add data/games-20252026.json
-          if git diff --cached --quiet; then
-            echo 'Historical data unchanged.'
-          else
-            git commit -m "Backfill verified 2025-26 first periods"
-            git push
-          fi
-      - name: Analyze first-period goal distribution and team tendencies
-        if: steps.clock.outputs.run == 'true'
-        run: node scripts/research-2025.mjs
-      - name: Preserve completed reproducible research report
-        if: steps.clock.outputs.run == 'true'
-        run: |
-          if [ -f RESEARCH_2025_26.md ] && [ -f data/research-2025.json ]; then
-            git add RESEARCH_2025_26.md data/research-2025.json
-            if git diff --cached --quiet; then
-              echo 'Research results unchanged.'
-            else
-              git commit -m "Publish research on 2025-26 first-period scoring"
-              git push
-            fi
-          else
-            echo 'Research deferred until the verified season is complete.'
-          fi
-      - name: Rebuild exact hosted HTML from current model source
-        if: steps.clock.outputs.run == 'true' && (github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.publish_only))
-        run: |
-          node scripts/build.mjs
-          node scripts/test.mjs
-          node scripts/fixture-test.mjs
-          node scripts/test-v2.mjs
-          node scripts/test-backfill.mjs
-          git add index.html
-          if git diff --cached --quiet; then
-            echo 'Hosted HTML already matches latest validated code and game records.'
-          else
-            git commit -m "Rebuild public NHL calculator from validated sources"
-            git push
-          fi
-      - name: Validate embedded snapshot before publishing
-        if: steps.clock.outputs.run == 'true' && (github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.publish_only))
-        run: |
-          node scripts/test.mjs
-          node scripts/fixture-test.mjs
-          node scripts/test-v2.mjs
-          node scripts/test-backfill.mjs
-      - name: Retrieve and verify all completed first periods
-        if: steps.clock.outputs.run == 'true' && !(github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.publish_only))
+          FIRST_TWENTY_WORKERS: 3
         run: node scripts/update.mjs
-      - name: Build and validate embedded browser model
-        if: steps.clock.outputs.run == 'true' && !(github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.publish_only))
+      - name: Rebuild calculator from validated records
+        if: steps.clock.outputs.run == 'true'
+        run: node scripts/build.mjs
+      - name: Verify data, historical sample, UI features and synthetic boxscores
+        if: steps.clock.outputs.run == 'true'
         run: |
-          node scripts/build.mjs
           node scripts/test.mjs
           node scripts/fixture-test.mjs
           node scripts/test-v2.mjs
           node scripts/test-backfill.mjs
-      - name: Preserve verified database and calculator in git
-        if: steps.clock.outputs.run == 'true' && !(github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.publish_only))
+          node -e "const fs=require('fs');const j=JSON.parse(fs.readFileSync('data/games-20262027.json'));const c=JSON.parse(fs.readFileSync('data/coverage.json'));if(!j.meta.complete||!c.meta.complete||j.games.length!==c.meta.verifiedGames)process.exit(1);if(new Set(j.games.map(x=>x.id)).size!==j.games.length)process.exit(1);console.log('Verified coverage:',j.meta.checkedThrough,j.games.length,'unique games');"
+      - name: Persist verified database and public calculator only after all tests pass
+        if: steps.clock.outputs.run == 'true'
         run: |
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
-          git add index.html data/games-20262027.json data/coverage.json data/games-20252026.json
+          git add data/games-20262027.json data/coverage.json index.html
           if git diff --cached --quiet; then
-            echo 'Verified data unchanged.'
+            echo 'No changes to verified model or coverage. Publishing same validated version.'
           else
-            git commit -m "Update verified NHL first-period data"
+            git commit -m "Refresh verified NHL first periods and rebuild public calculator"
             git push
           fi
-      - name: Prepare HTML for GitHub Pages
+      - name: Prepare exact verified site
         if: steps.clock.outputs.run == 'true'
         run: |
           mkdir -p _site
@@ -150,12 +101,12 @@ jobs:
       - name: Configure GitHub Pages
         if: steps.clock.outputs.run == 'true'
         uses: actions/configure-pages@v5
-      - name: Upload Pages artifact
+      - name: Upload verified Pages artifact
         if: steps.clock.outputs.run == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: _site
-      - name: Deploy this exact validated version
+      - name: Deploy the verified calculator to the stable URL
         if: steps.clock.outputs.run == 'true'
         id: deployment
         uses: actions/deploy-pages@v4
