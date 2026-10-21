@@ -96,6 +96,21 @@ jobs:
           else
             echo 'Research deferred until the verified season is complete.'
           fi
+      - name: Rebuild exact hosted HTML from current model source
+        if: steps.clock.outputs.run == 'true' && (github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.publish_only))
+        run: |
+          node scripts/build.mjs
+          node scripts/test.mjs
+          node scripts/fixture-test.mjs
+          node scripts/test-v2.mjs
+          node scripts/test-backfill.mjs
+          git add index.html
+          if git diff --cached --quiet; then
+            echo 'Hosted HTML already matches latest validated code and game records.'
+          else
+            git commit -m "Rebuild public NHL calculator from validated sources"
+            git push
+          fi
       - name: Validate embedded snapshot before publishing
         if: steps.clock.outputs.run == 'true' && (github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.publish_only))
         run: |
