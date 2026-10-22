@@ -1740,194 +1740,253 @@
     },
     {
       "id": "2026-10-19_ANA_NYR",
+      "gameId": "2026020137",
       "date": "2026-10-19",
       "away": "ANA",
       "home": "NYR",
-      "ap1": 0,
       "hp1": 1,
-      "source": "hockey-reference-boxscore",
-      "sourceUrl": "https://www.hockey-reference.com/boxscores/202610190NYR.html",
-      "crossCheckSources": [
-        "https://www.cbssports.com/nhl/scoreboard/20261019/"
+      "ap1": 0,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
       ]
     },
     {
       "id": "2026-10-19_COL_PHI",
+      "gameId": "2026020138",
       "date": "2026-10-19",
       "away": "COL",
       "home": "PHI",
-      "ap1": 0,
       "hp1": 1,
-      "source": "hockey-reference-boxscore",
-      "sourceUrl": "https://www.hockey-reference.com/boxscores/202610190PHI.html",
-      "crossCheckSources": [
-        "https://www.cbssports.com/nhl/scoreboard/20261019/"
+      "ap1": 0,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
       ]
     },
     {
       "id": "2026-10-19_PIT_UTA",
+      "gameId": "2026020140",
       "date": "2026-10-19",
       "away": "PIT",
       "home": "UTA",
-      "ap1": 1,
       "hp1": 2,
-      "source": "hockey-reference-boxscore",
-      "sourceUrl": "https://www.hockey-reference.com/boxscores/202610190UTA.html",
-      "crossCheckSources": [
-        "https://www.cbssports.com/nhl/scoreboard/20261019/"
+      "ap1": 1,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
       ]
     },
     {
       "id": "2026-10-19_SJS_TOR",
+      "gameId": "2026020139",
       "date": "2026-10-19",
       "away": "SJS",
       "home": "TOR",
-      "ap1": 1,
       "hp1": 0,
-      "source": "hockey-reference-boxscore",
-      "sourceUrl": "https://www.hockey-reference.com/boxscores/202610190TOR.html",
-      "crossCheckSources": [
-        "https://www.cbssports.com/nhl/scoreboard/20261019/"
+      "ap1": 1,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
       ]
     },
     {
       "id": "2026-10-20_ANA_NYI",
+      "gameId": "2026020143",
       "date": "2026-10-20",
       "away": "ANA",
       "home": "NYI",
-      "ap1": 1,
       "hp1": 3,
-      "source": "cbs-period-boxscore",
-      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261020/",
-      "scheduleSourceUrl": "https://www.nhl.com/scores/2026-10-20"
+      "ap1": 1,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
     },
     {
       "id": "2026-10-20_BOS_DAL",
+      "gameId": "2026020147",
       "date": "2026-10-20",
       "away": "BOS",
       "home": "DAL",
-      "ap1": 1,
       "hp1": 0,
-      "source": "cbs-period-boxscore",
-      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261020/",
-      "scheduleSourceUrl": "https://www.nhl.com/scores/2026-10-20"
+      "ap1": 1,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
     },
     {
       "id": "2026-10-20_CAR_VAN",
+      "gameId": "2026020150",
       "date": "2026-10-20",
       "away": "CAR",
       "home": "VAN",
-      "ap1": 2,
       "hp1": 2,
-      "source": "cbs-period-boxscore",
-      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261020/",
-      "scheduleSourceUrl": "https://www.nhl.com/scores/2026-10-20"
+      "ap1": 2,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
     },
     {
       "id": "2026-10-20_COL_NJD",
+      "gameId": "2026020142",
       "date": "2026-10-20",
       "away": "COL",
       "home": "NJD",
-      "ap1": 1,
       "hp1": 1,
-      "source": "cbs-period-boxscore",
-      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261020/",
-      "scheduleSourceUrl": "https://www.nhl.com/scores/2026-10-20"
+      "ap1": 1,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
     },
     {
       "id": "2026-10-20_DET_SEA",
+      "gameId": "2026020149",
       "date": "2026-10-20",
       "away": "DET",
       "home": "SEA",
-      "ap1": 0,
       "hp1": 1,
-      "source": "cbs-period-boxscore",
-      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261020/",
-      "scheduleSourceUrl": "https://www.nhl.com/scores/2026-10-20"
+      "ap1": 0,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "gamecenter"
+      ]
     },
     {
       "id": "2026-10-20_LAK_WSH",
+      "gameId": "2026020144",
       "date": "2026-10-20",
       "away": "LAK",
       "home": "WSH",
-      "ap1": 2,
       "hp1": 2,
-      "source": "cbs-period-boxscore",
-      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261020/",
-      "scheduleSourceUrl": "https://www.nhl.com/scores/2026-10-20"
+      "ap1": 2,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
     },
     {
       "id": "2026-10-20_MIN_EDM",
+      "gameId": "2026020148",
       "date": "2026-10-20",
       "away": "MIN",
       "home": "EDM",
-      "ap1": 1,
       "hp1": 1,
-      "source": "cbs-period-boxscore",
-      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261020/",
-      "scheduleSourceUrl": "https://www.nhl.com/scores/2026-10-20"
+      "ap1": 1,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
     },
     {
       "id": "2026-10-20_SJS_MTL",
+      "gameId": "2026020141",
       "date": "2026-10-20",
       "away": "SJS",
       "home": "MTL",
-      "ap1": 1,
       "hp1": 1,
-      "source": "cbs-period-boxscore",
-      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261020/",
-      "scheduleSourceUrl": "https://www.nhl.com/scores/2026-10-20"
+      "ap1": 1,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
     },
     {
       "id": "2026-10-20_TBL_VGK",
+      "gameId": "2026020151",
       "date": "2026-10-20",
       "away": "TBL",
       "home": "VGK",
-      "ap1": 2,
       "hp1": 2,
-      "source": "cbs-period-boxscore",
-      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261020/",
-      "scheduleSourceUrl": "https://www.nhl.com/scores/2026-10-20"
+      "ap1": 2,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
     },
     {
       "id": "2026-10-20_TOR_CBJ",
+      "gameId": "2026020145",
       "date": "2026-10-20",
       "away": "TOR",
       "home": "CBJ",
-      "ap1": 1,
       "hp1": 1,
-      "source": "cbs-period-boxscore",
-      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261020/",
-      "scheduleSourceUrl": "https://www.nhl.com/scores/2026-10-20"
+      "ap1": 1,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
     },
     {
       "id": "2026-10-20_WPG_STL",
+      "gameId": "2026020146",
       "date": "2026-10-20",
       "away": "WPG",
       "home": "STL",
-      "ap1": 0,
       "hp1": 1,
-      "source": "cbs-period-boxscore",
-      "sourceUrl": "https://www.cbssports.com/nhl/scoreboard/20261020/",
-      "scheduleSourceUrl": "https://www.nhl.com/scores/2026-10-20"
+      "ap1": 0,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-10-21_FLA_OTT",
+      "gameId": "2026020153",
+      "date": "2026-10-21",
+      "away": "FLA",
+      "home": "OTT",
+      "hp1": 1,
+      "ap1": 1,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-10-21_PHI_BUF",
+      "gameId": "2026020152",
+      "date": "2026-10-21",
+      "away": "PHI",
+      "home": "BUF",
+      "hp1": 0,
+      "ap1": 2,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
     }
   ],
   "meta": {
+    "checkedAt": "2026-10-22T08:24:57.827Z",
+    "checkedThrough": "2026-10-21",
+    "lastGameDate": "2026-10-21",
+    "verifiedGames": 153,
+    "officialFinalCount": 153,
+    "datesChecked": 23,
+    "daysExpected": 23,
+    "daysComplete": 23,
+    "newOrVerifiedRecords": 2,
     "complete": true,
-    "checkedThrough": "2026-10-20",
-    "lastGameDate": "2026-10-20",
-    "verifiedGames": 151,
-    "officialFinalCount": 151,
-    "checkedAt": "2026-10-21T07:56:31+00:00",
-    "expectedCompletedThrough": "2026-10-20",
-    "expectedCompletedGames": 151,
-    "daysExpected": 22,
-    "daysComplete": 22,
-    "dataSources": "89 original games from archived NHL play-by-play; 51 from CBS Sports period boxscores; 11 initial Hockey-Reference scores crosschecked with CBS",
-    "crossCheckedGames": 11,
-    "note": "140 validated records preserved; 11 final Oct 20 games added; no postponed games detected.",
-    "newGames": 11,
-    "latestDaySource": "CBS Sports 2026-10-20 final period scoreboard matched with official NHL schedule",
-    "postponedGames": 0
+    "errors": []
   }
 }

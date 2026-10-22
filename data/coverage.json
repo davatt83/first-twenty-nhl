@@ -1,145 +1,161 @@
 {
   "meta": {
+    "checkedAt": "2026-10-22T08:24:57.827Z",
+    "checkedThrough": "2026-10-21",
+    "lastGameDate": "2026-10-21",
+    "verifiedGames": 153,
+    "officialFinalCount": 153,
+    "datesChecked": 23,
+    "daysExpected": 23,
+    "daysComplete": 23,
+    "newOrVerifiedRecords": 2,
     "complete": true,
-    "checkedThrough": "2026-10-20",
-    "lastGameDate": "2026-10-20",
-    "verifiedGames": 151,
-    "officialFinalCount": 151,
-    "checkedAt": "2026-10-21T07:56:31+00:00",
-    "expectedCompletedThrough": "2026-10-20",
-    "expectedCompletedGames": 151,
-    "daysExpected": 22,
-    "daysComplete": 22,
-    "dataSources": "89 original games from archived NHL play-by-play; 51 from CBS Sports period boxscores; 11 initial Hockey-Reference scores crosschecked with CBS",
-    "crossCheckedGames": 11,
-    "note": "140 validated records preserved; 11 final Oct 20 games added; no postponed games detected.",
-    "newGames": 11,
-    "latestDaySource": "CBS Sports 2026-10-20 final period scoreboard matched with official NHL schedule",
-    "postponedGames": 0
+    "errors": []
   },
   "dates": [
     {
       "date": "2026-09-29",
+      "scheduled": 5,
       "final": 5,
       "verified": 5,
       "pending": 0
     },
     {
       "date": "2026-09-30",
+      "scheduled": 3,
       "final": 3,
       "verified": 3,
       "pending": 0
     },
     {
       "date": "2026-10-01",
+      "scheduled": 8,
       "final": 8,
       "verified": 8,
       "pending": 0
     },
     {
       "date": "2026-10-02",
+      "scheduled": 5,
       "final": 5,
       "verified": 5,
       "pending": 0
     },
     {
       "date": "2026-10-03",
+      "scheduled": 13,
       "final": 13,
       "verified": 13,
       "pending": 0
     },
     {
       "date": "2026-10-04",
+      "scheduled": 5,
       "final": 5,
       "verified": 5,
       "pending": 0
     },
     {
       "date": "2026-10-05",
+      "scheduled": 4,
       "final": 4,
       "verified": 4,
       "pending": 0
     },
     {
       "date": "2026-10-06",
+      "scheduled": 9,
       "final": 9,
       "verified": 9,
       "pending": 0
     },
     {
       "date": "2026-10-07",
+      "scheduled": 3,
       "final": 3,
       "verified": 3,
       "pending": 0
     },
     {
       "date": "2026-10-08",
+      "scheduled": 10,
       "final": 10,
       "verified": 10,
       "pending": 0
     },
     {
       "date": "2026-10-09",
+      "scheduled": 4,
       "final": 4,
       "verified": 4,
       "pending": 0
     },
     {
       "date": "2026-10-10",
+      "scheduled": 14,
       "final": 14,
       "verified": 14,
       "pending": 0
     },
     {
       "date": "2026-10-11",
+      "scheduled": 3,
       "final": 3,
       "verified": 3,
       "pending": 0
     },
     {
       "date": "2026-10-12",
+      "scheduled": 3,
       "final": 3,
       "verified": 3,
       "pending": 0
     },
     {
       "date": "2026-10-13",
+      "scheduled": 16,
       "final": 16,
       "verified": 16,
       "pending": 0
     },
     {
       "date": "2026-10-14",
+      "scheduled": 2,
       "final": 2,
       "verified": 2,
       "pending": 0
     },
     {
       "date": "2026-10-15",
+      "scheduled": 11,
       "final": 11,
       "verified": 11,
       "pending": 0
     },
     {
       "date": "2026-10-16",
+      "scheduled": 2,
       "final": 2,
       "verified": 2,
       "pending": 0
     },
     {
       "date": "2026-10-17",
+      "scheduled": 14,
       "final": 14,
       "verified": 14,
       "pending": 0
     },
     {
       "date": "2026-10-18",
+      "scheduled": 2,
       "final": 2,
       "verified": 2,
       "pending": 0
     },
     {
       "date": "2026-10-19",
+      "scheduled": 4,
       "final": 4,
       "verified": 4,
       "pending": 0
@@ -149,8 +165,14 @@
       "scheduled": 11,
       "final": 11,
       "verified": 11,
-      "pending": 0,
-      "postponed": 0
+      "pending": 0
+    },
+    {
+      "date": "2026-10-21",
+      "scheduled": 2,
+      "final": 2,
+      "verified": 2,
+      "pending": 0
     }
   ]
 }
