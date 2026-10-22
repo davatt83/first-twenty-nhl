@@ -1977,7 +1977,7 @@
     }
   ],
   "meta": {
-    "checkedAt": "2026-10-22T08:24:57.827Z",
+    "checkedAt": "2026-10-22T11:24:03.789Z",
     "checkedThrough": "2026-10-21",
     "lastGameDate": "2026-10-21",
     "verifiedGames": 153,
@@ -1985,7 +1985,7 @@
     "datesChecked": 23,
     "daysExpected": 23,
     "daysComplete": 23,
-    "newOrVerifiedRecords": 2,
+    "newOrVerifiedRecords": 0,
     "complete": true,
     "errors": []
   }
