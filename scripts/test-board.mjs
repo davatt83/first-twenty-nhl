@@ -8,7 +8,16 @@ new vm.Script(src[1],{filename:'index.html inline JS'});
 for(const anchor of ['id="v-board"','id="boardRows"','id="boardDate"','id="boardMode"','id="boardSort"','id="boardRefresh"','function boardPredictions(date)','function renderBoard()','function boardLoadDate(force=false)','const SCHEDULE_SEED=']){
  assert(html.includes(anchor),'Missing daily board feature: '+anchor);
 }
-const seed=html.match(/const SCHEDULE_SEED=(\{[^\n]*\});/);
+// The Over 1.5 % heading must be an accessible, clickable sort toggle,
+ // synchronized with the existing sort dropdown.
+ assert(html.includes('id="boardProbHeader" aria-sort="descending"'),'Default probability sort should be descending');
+ assert(html.includes('id="boardProbSort" class="sort-header"'),'Probability heading must have a button');
+ assert(html.includes('id="boardProbDirection"'),'Probability sort direction icon missing');
+ assert(html.includes("$('#boardProbSort').onclick="),'Click handler missing');
+ assert(html.includes("select.value=select.value==='prob'?'probAsc':'prob'"),'Header click must toggle between descending and ascending');
+ assert(html.includes("header.setAttribute('aria-sort'"),'Accessible sort state must track dropdown');
+ assert(html.includes("btn.setAttribute('aria-label'"),'Sort button needs an accessible label');
+ const seed=html.match(/const SCHEDULE_SEED=(\{[^\n]*\});/);
 assert(seed,'Embedded schedule missing');
 const schedule=JSON.parse(seed[1]);
 assert(Array.isArray(schedule.days));
