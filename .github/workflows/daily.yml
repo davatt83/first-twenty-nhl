@@ -60,15 +60,26 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Validate updater syntax
+      - name: Validate updater and schedule importer syntax
         if: steps.clock.outputs.run == 'true'
-        run: node --check scripts/update.mjs
+        run: |
+          node --check scripts/update.mjs
+          node --check scripts/schedule.mjs
+      - name: Test official schedule import against fixtures
+        if: steps.clock.outputs.run == 'true'
+        run: node scripts/schedule-fixture-test.mjs
       - name: Retrieve official final games and verify first periods
         if: steps.clock.outputs.run == 'true' && github.event_name != 'push' && !inputs.publish_only
         timeout-minutes: 30
         env:
           FIRST_TWENTY_WORKERS: 3
         run: node scripts/update.mjs
+      - name: Import official NHL fixtures for today and the following week
+        if: steps.clock.outputs.run == 'true'
+        timeout-minutes: 12
+        env:
+          FIRST_TWENTY_SCHEDULE_DAYS: 8
+        run: node scripts/schedule.mjs
       - name: Rebuild calculator from validated records
         if: steps.clock.outputs.run == 'true'
         run: node scripts/build.mjs
@@ -79,13 +90,14 @@ jobs:
           node scripts/fixture-test.mjs
           node scripts/test-v2.mjs
           node scripts/test-backfill.mjs
+          node scripts/test-board.mjs
           node -e "const fs=require('fs');const j=JSON.parse(fs.readFileSync('data/games-20262027.json'));const c=JSON.parse(fs.readFileSync('data/coverage.json'));if(!j.meta.complete||!c.meta.complete||j.games.length!==c.meta.verifiedGames)process.exit(1);if(new Set(j.games.map(x=>x.id)).size!==j.games.length)process.exit(1);console.log('Verified coverage:',j.meta.checkedThrough,j.games.length,'unique games');"
       - name: Persist verified database and public calculator only after all tests pass
         if: steps.clock.outputs.run == 'true'
         run: |
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
-          git add data/games-20262027.json data/coverage.json index.html
+          git add data/games-20262027.json data/coverage.json data/upcoming.json index.html
           if git diff --cached --quiet; then
             echo 'No changes to verified model or coverage. Publishing same validated version.'
           else
