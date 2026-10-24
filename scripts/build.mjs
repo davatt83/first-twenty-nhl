@@ -2,6 +2,11 @@
 import fs from 'node:fs';
 const db=JSON.parse(fs.readFileSync('data/games-20262027.json','utf8'));
 const games=db.games||[];
+const scheduleFile='data/upcoming.json';
+const schedule=fs.existsSync(scheduleFile)?JSON.parse(fs.readFileSync(scheduleFile,'utf8')):{source:'No scheduled snapshot yet',timezone:'America/Toronto',date:null,fetchedAt:null,days:[]};
+if(!Array.isArray(schedule.days))throw Error('Invalid upcoming schedule file');
+for(const d of schedule.days){if(!/^20\d\d-\d\d-\d\d$/.test(d.date)||!Array.isArray(d.games))throw Error('Invalid upcoming day');}
+
 const historyFile='data/games-20252026.json';
 const oldDb=fs.existsSync(historyFile)?JSON.parse(fs.readFileSync(historyFile,'utf8')):{games:[]};
 const history=oldDb.meta?.complete&&oldDb.games?.length===1312?oldDb.games:[];
@@ -10,7 +15,7 @@ const complete=Boolean(m.complete);
 const meta={complete,checkedThrough:m.checkedThrough||null,lastGameDate:m.lastGameDate||null,verifiedGames:games.length,officialFinalCount:m.officialFinalCount??null,expectedCompletedThrough:m.expectedCompletedThrough||null,expectedCompletedGames:m.expectedCompletedGames??null,checkedAt:m.checkedAt||null};
 let html=fs.readFileSync('model.template.html','utf8');
 const escaped=JSON.stringify(games).replaceAll('<','\\u003c');
-const injection=`const SEED=${escaped}; // Generated from game-level verified NHL first-period results\nconst EMBED_META=${JSON.stringify(meta)};`;
+const injection=`const SEED=${escaped}; // Generated from game-level verified NHL first-period results\nconst EMBED_META=${JSON.stringify(meta)};\nconst SCHEDULE_SEED=${JSON.stringify(schedule).replaceAll('<','\\u003c')};`;
 if(!/const SEED=\[[^\n]*; \/\//.test(html))throw Error('Seed marker missing from template');
 html=html.replace(/const SEED=\[[^\n]*; \/\/[^\n]*/,injection);
 const engine=fs.readFileSync('scripts/engine.js','utf8');
