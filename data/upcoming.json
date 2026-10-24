@@ -1,7 +1,7 @@
 {
   "source": "NHL official daily score endpoint",
   "timezone": "America/Toronto",
-  "fetchedAt": "2026-10-24T20:21:33.611Z",
+  "fetchedAt": "2026-10-24T20:23:17.650Z",
   "date": "2026-10-24",
   "through": "2026-10-31",
   "days": [
@@ -14,7 +14,7 @@
           "away": "ANA",
           "home": "PHI",
           "startUTC": "2026-10-24T17:00:00Z",
-          "status": "FINAL",
+          "status": "OFF",
           "scheduleState": "OK"
         },
         {
