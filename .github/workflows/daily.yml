@@ -92,6 +92,18 @@ jobs:
           node scripts/test-backfill.mjs
           node scripts/test-board.mjs
           node -e "const fs=require('fs');const j=JSON.parse(fs.readFileSync('data/games-20262027.json'));const c=JSON.parse(fs.readFileSync('data/coverage.json'));if(!j.meta.complete||!c.meta.complete||j.games.length!==c.meta.verifiedGames)process.exit(1);if(new Set(j.games.map(x=>x.id)).size!==j.games.length)process.exit(1);console.log('Verified coverage:',j.meta.checkedThrough,j.games.length,'unique games');"
+      - name: Browser smoke test the daily board when Chrome is available
+        if: steps.clock.outputs.run == 'true'
+        run: |
+          CHROME=$(command -v google-chrome || command -v google-chrome-stable || true)
+          if [ -n "$CHROME" ]; then
+            "$CHROME" --headless --disable-gpu --no-sandbox --disable-dev-shm-usage --disable-background-networking --virtual-time-budget=2500 --dump-dom "file://$PWD/index.html" > /tmp/first-twenty-dom.html 2>/tmp/first-twenty-chrome.log
+            grep -Eq 'id="boardCount">[0-9]+<' /tmp/first-twenty-dom.html
+            grep -q 'id="boardRows"' /tmp/first-twenty-dom.html
+            echo "PASS: Chrome rendered the daily board and matchup count."
+          else
+            echo "Chrome not installed on this runner; browser smoke test unavailable. Static inline-script test passed."
+          fi
       - name: Persist verified database and public calculator only after all tests pass
         if: steps.clock.outputs.run == 'true'
         run: |
