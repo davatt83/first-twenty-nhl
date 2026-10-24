@@ -235,14 +235,14 @@ function renderBoard(){
   const tr=document.createElement('tr');const cell=boardCell(tr,'Schedule not loaded for this date.','');cell.colSpan=9;tbody.appendChild(tr);
   return;
  }
- const all=boardPredictions(date),kind=$('#boardSort').value;
- if(kind==='prob')all.sort((a,b)=>b.p-a.p);
- else if(kind==='probAsc')all.sort((a,b)=>a.p-b.p);
- else if(kind==='fair')all.sort((a,b)=>b.p-a.p);
- else if(kind==='ev')all.sort((a,b)=>(b.ev??-Infinity)-(a.ev??-Infinity)||b.p-a.p);
- else all.sort((a,b)=>(a.game.startUTC||'').localeCompare(b.game.startUTC||''));
+ const entries=boardPredictions(date),kind=$('#boardSort').value;
+ if(kind==='prob')entries.sort((a,b)=>b.p-a.p);
+ else if(kind==='probAsc')entries.sort((a,b)=>a.p-b.p);
+ else if(kind==='fair')entries.sort((a,b)=>b.p-a.p);
+ else if(kind==='ev')entries.sort((a,b)=>(b.ev??-Infinity)-(a.ev??-Infinity)||b.p-a.p);
+ else entries.sort((a,b)=>(a.game.startUTC||'').localeCompare(b.game.startUTC||''));
  txt('#boardCount',String(day.games.length));
- txt('#boardTop',all.length?(Math.max(...all.map(x=>x.p))*100).toFixed(1)+'%':'—');
+ txt('#boardTop',entries.length?(Math.max(...entries.map(x=>x.p))*100).toFixed(1)+'%':'—');
  const isToday=date===localDateMontreal();
  const freshness=BOARD_FIXTURES_AT?new Date(BOARD_FIXTURES_AT).toLocaleString('en-CA',{timeZone:'America/Toronto',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}):'on demand';
  const stale=isToday&&SCHEDULE_SEED.date!==date&&!boardBusy;
@@ -251,10 +251,10 @@ function renderBoard(){
  txt('#boardInfo',boardError||(day.games.length+' matchups · '+sourceText+' · snapshot '+(day.fetchedInBrowser?'just checked':freshness)+' ET'+exclusion+'. Predictions use results dated before '+date+'.'));
  label.textContent=boardBusy?'Checking…':stale?'Snapshot stale':'Schedule loaded';
  label.className='pill'+(stale?' bad':' ok');
- if(!all.length){
+ if(!entries.length){
   const tr=document.createElement('tr'),cell=boardCell(tr,'No NHL regular-season matchups scheduled for '+date+'.');cell.colSpan=9;tbody.appendChild(tr);return;
  }
- for(const item of all){
+ for(const item of entries){
   const g=item.game,tr=document.createElement('tr');
   boardCell(tr,boardStart(g.startUTC),'board-time');
   const matchup=boardCell(tr,g.away+' @ '+g.home,'matchname');
