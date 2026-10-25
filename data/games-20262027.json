@@ -2169,18 +2169,186 @@
         "score",
         "gamecenter"
       ]
+    },
+    {
+      "id": "2026-10-24_ANA_PHI",
+      "gameId": "2026020168",
+      "date": "2026-10-24",
+      "away": "ANA",
+      "home": "PHI",
+      "hp1": 2,
+      "ap1": 0,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-10-24_BUF_WSH",
+      "gameId": "2026020173",
+      "date": "2026-10-24",
+      "away": "BUF",
+      "home": "WSH",
+      "hp1": 1,
+      "ap1": 2,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-10-24_CAR_STL",
+      "gameId": "2026020175",
+      "date": "2026-10-24",
+      "away": "CAR",
+      "home": "STL",
+      "hp1": 0,
+      "ap1": 0,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-10-24_DET_CGY",
+      "gameId": "2026020178",
+      "date": "2026-10-24",
+      "away": "DET",
+      "home": "CGY",
+      "hp1": 1,
+      "ap1": 0,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-10-24_LAK_NJD",
+      "gameId": "2026020169",
+      "date": "2026-10-24",
+      "away": "LAK",
+      "home": "NJD",
+      "hp1": 0,
+      "ap1": 0,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-10-24_MIN_SEA",
+      "gameId": "2026020179",
+      "date": "2026-10-24",
+      "away": "MIN",
+      "home": "SEA",
+      "hp1": 1,
+      "ap1": 1,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-10-24_NSH_PIT",
+      "gameId": "2026020172",
+      "date": "2026-10-24",
+      "away": "NSH",
+      "home": "PIT",
+      "hp1": 0,
+      "ap1": 1,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-10-24_NYR_OTT",
+      "gameId": "2026020171",
+      "date": "2026-10-24",
+      "away": "NYR",
+      "home": "OTT",
+      "hp1": 2,
+      "ap1": 0,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-10-24_SJS_BOS",
+      "gameId": "2026020170",
+      "date": "2026-10-24",
+      "away": "SJS",
+      "home": "BOS",
+      "hp1": 1,
+      "ap1": 1,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-10-24_TBL_UTA",
+      "gameId": "2026020177",
+      "date": "2026-10-24",
+      "away": "TBL",
+      "home": "UTA",
+      "hp1": 2,
+      "ap1": 3,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-10-24_TOR_EDM",
+      "gameId": "2026020176",
+      "date": "2026-10-24",
+      "away": "TOR",
+      "home": "EDM",
+      "hp1": 0,
+      "ap1": 1,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-10-24_VGK_CBJ",
+      "gameId": "2026020174",
+      "date": "2026-10-24",
+      "away": "VGK",
+      "home": "CBJ",
+      "hp1": 1,
+      "ap1": 1,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
     }
   ],
   "meta": {
-    "checkedAt": "2026-10-24T11:18:47.831Z",
-    "checkedThrough": "2026-10-23",
-    "lastGameDate": "2026-10-23",
-    "verifiedGames": 167,
-    "officialFinalCount": 167,
-    "datesChecked": 25,
-    "daysExpected": 25,
-    "daysComplete": 25,
-    "newOrVerifiedRecords": 0,
+    "checkedAt": "2026-10-25T08:12:08.491Z",
+    "checkedThrough": "2026-10-24",
+    "lastGameDate": "2026-10-24",
+    "verifiedGames": 179,
+    "officialFinalCount": 179,
+    "datesChecked": 26,
+    "daysExpected": 26,
+    "daysComplete": 26,
+    "newOrVerifiedRecords": 12,
     "complete": true,
     "errors": []
   }
