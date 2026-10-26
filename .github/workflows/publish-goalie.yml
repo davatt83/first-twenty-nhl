@@ -1,8 +1,8 @@
-name: Publish goalie-pull calculator
+name: Publish football and goalie-pull calculators
 on:
   push:
     branches: [main]
-    paths: ['goalie-pull/**', '.github/workflows/publish-goalie.yml']
+    paths: ['goalie-pull/**', 'football-80/**', 'scripts/test-football.cjs', '.github/workflows/publish-goalie.yml']
   workflow_dispatch:
 permissions:
   contents: read
@@ -24,11 +24,14 @@ jobs:
           node-version: '22'
       - name: Check embedded goalie model
         run: node scripts/test-goalie.cjs
-      - name: Stage both calculators
+      - name: Check football controls
+        run: node scripts/test-football.cjs
+      - name: Stage all calculators
         run: |
           mkdir -p _site
           cp index.html _site/index.html
           cp -R goalie-pull _site/goalie-pull
+          if [ -d football-80 ]; then cp -R football-80 _site/football-80; fi
           touch _site/.nojekyll
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

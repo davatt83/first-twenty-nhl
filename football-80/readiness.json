@@ -1,0 +1,76 @@
+{
+  "ready": true,
+  "checkedAt": "2026-10-26T08:09:48.565986+00:00",
+  "checkedThroughToronto": "2026-10-25",
+  "leagues": {
+    "eng.1": {
+      "added": 5,
+      "corrected": 0,
+      "accepted": 1980,
+      "dataThroughUTC": "2026-10-25",
+      "deferred": []
+    },
+    "ger.1": {
+      "added": 2,
+      "corrected": 0,
+      "accepted": 1592,
+      "dataThroughUTC": "2026-10-25",
+      "deferred": []
+    },
+    "esp.1": {
+      "added": 4,
+      "corrected": 0,
+      "accepted": 1992,
+      "dataThroughUTC": "2026-10-25",
+      "deferred": [
+        {
+          "id": 401882849,
+          "status": "STATUS_ABANDONED"
+        }
+      ]
+    },
+    "ita.1": {
+      "added": 5,
+      "corrected": 0,
+      "accepted": 1980,
+      "dataThroughUTC": "2026-10-25",
+      "deferred": []
+    },
+    "usa.1": {
+      "added": 1,
+      "corrected": 0,
+      "accepted": 2897,
+      "dataThroughUTC": "2026-10-26",
+      "deferred": []
+    },
+    "mex.1": {
+      "added": 4,
+      "corrected": 0,
+      "accepted": 1804,
+      "dataThroughUTC": "2026-10-26",
+      "deferred": []
+    },
+    "arg.1": {
+      "added": 5,
+      "corrected": 0,
+      "accepted": 2384,
+      "dataThroughUTC": "2026-10-26",
+      "deferred": []
+    },
+    "fra.1": {
+      "added": 6,
+      "corrected": 0,
+      "accepted": 1747,
+      "dataThroughUTC": "2026-10-25",
+      "deferred": [
+        {
+          "id": 746714,
+          "status": "STATUS_ABANDONED"
+        }
+      ]
+    }
+  },
+  "errors": [],
+  "gamesAdded": 32,
+  "gamesCorrected": 0
+}
