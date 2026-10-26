@@ -121,6 +121,7 @@ jobs:
         run: |
           mkdir -p _site
           cp index.html _site/index.html
+          if [ -d goalie-pull ]; then cp -R goalie-pull _site/goalie-pull; fi
           touch _site/.nojekyll
       - name: Configure GitHub Pages
         if: steps.clock.outputs.run == 'true'

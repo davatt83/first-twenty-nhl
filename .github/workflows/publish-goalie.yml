@@ -1,0 +1,38 @@
+name: Publish goalie-pull calculator
+on:
+  push:
+    branches: [main]
+    paths: ['goalie-pull/**', '.github/workflows/publish-goalie.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: first-twenty-publish
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check embedded goalie model
+        run: node scripts/test-goalie.cjs
+      - name: Stage both calculators
+        run: |
+          mkdir -p _site
+          cp index.html _site/index.html
+          cp -R goalie-pull _site/goalie-pull
+          touch _site/.nojekyll
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - uses: actions/deploy-pages@v4
+        id: deploy
