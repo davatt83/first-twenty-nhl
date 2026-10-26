@@ -2337,18 +2337,88 @@
         "score",
         "gamecenter"
       ]
+    },
+    {
+      "id": "2026-10-25_COL_NSH",
+      "gameId": "2026020183",
+      "date": "2026-10-25",
+      "away": "COL",
+      "home": "NSH",
+      "hp1": 2,
+      "ap1": 0,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-10-25_FLA_CHI",
+      "gameId": "2026020180",
+      "date": "2026-10-25",
+      "away": "FLA",
+      "home": "CHI",
+      "hp1": 1,
+      "ap1": 2,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-10-25_MIN_VAN",
+      "gameId": "2026020184",
+      "date": "2026-10-25",
+      "away": "MIN",
+      "home": "VAN",
+      "hp1": 0,
+      "ap1": 1,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-10-25_MTL_WPG",
+      "gameId": "2026020182",
+      "date": "2026-10-25",
+      "away": "MTL",
+      "home": "WPG",
+      "hp1": 0,
+      "ap1": 0,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-10-25_NYI_DAL",
+      "gameId": "2026020181",
+      "date": "2026-10-25",
+      "away": "NYI",
+      "home": "DAL",
+      "hp1": 2,
+      "ap1": 1,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
     }
   ],
   "meta": {
-    "checkedAt": "2026-10-25T11:18:35.549Z",
-    "checkedThrough": "2026-10-24",
-    "lastGameDate": "2026-10-24",
-    "verifiedGames": 179,
-    "officialFinalCount": 179,
-    "datesChecked": 26,
-    "daysExpected": 26,
-    "daysComplete": 26,
-    "newOrVerifiedRecords": 0,
+    "checkedAt": "2026-10-26T08:30:19.001Z",
+    "checkedThrough": "2026-10-25",
+    "lastGameDate": "2026-10-25",
+    "verifiedGames": 184,
+    "officialFinalCount": 184,
+    "datesChecked": 27,
+    "daysExpected": 27,
+    "daysComplete": 27,
+    "newOrVerifiedRecords": 5,
     "complete": true,
     "errors": []
   }
