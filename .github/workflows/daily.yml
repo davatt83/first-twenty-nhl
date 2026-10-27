@@ -9,6 +9,7 @@ on:
       - 'index.html'
       - 'scripts/**'
       - 'data/**'
+      - 'goalie-pull/**'
   schedule:
     # 04:00 Toronto, with a 07:00 retry in case NHL sources are late.
     # GitHub schedules can run later than their cron times.
