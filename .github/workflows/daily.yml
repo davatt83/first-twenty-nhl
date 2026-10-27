@@ -122,7 +122,7 @@ jobs:
         run: |
           mkdir -p _site
           cp index.html _site/index.html
-          if [ -d goalie-pull ]; then cp -R goalie-pull _site/goalie-pull; fi
+          if [ -d goalie-pull ]; then cp -R goalie-pull _site/goalie-pull; cp data/upcoming.json _site/goalie-pull/upcoming.json; fi
           if [ -d football-80 ]; then cp -R football-80 _site/football-80; fi
           touch _site/.nojekyll
       - name: Configure GitHub Pages
