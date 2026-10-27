@@ -97,3 +97,5 @@ draw();
 const openedDate=dateNow();
 setInterval(()=>{if(dateNow()!==openedDate)el('fixtureStatus').textContent='A new Montreal game day has begun. Reload to load today’s matchups.';},60000);
 })();
+// Load the independent descriptive ranking panel.
+{const rankingScript=document.createElement('script');rankingScript.src='rankings.js';document.body.append(rankingScript);}
