@@ -1,0 +1,20 @@
+{
+  "season": 20262027,
+  "checkedAt": "2026-10-26T21:40:10.691486",
+  "mode": "refresh",
+  "parquetAvailable": [
+    "pbp",
+    "roster",
+    "shifts"
+  ],
+  "completedScheduleGames": 184,
+  "ready": true,
+  "status": "refreshed",
+  "completedGames": 184,
+  "statesThisSeason": 2207,
+  "episodesThisSeason": 126,
+  "coachAssignments": 184,
+  "dataThrough": "2026-10-25",
+  "gamesAdded": 95,
+  "coachAssignmentMethod": "Dated coaching tenures, with five bounded corroborated tenure intervals; not per-game attendance verification."
+}
