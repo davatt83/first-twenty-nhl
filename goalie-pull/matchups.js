@@ -3,6 +3,30 @@
 'use strict';
 const el=id=>document.getElementById(id);
 const data=JSON.parse(el('model-data').textContent);
+
+const modelStatus=document.createElement('section');
+modelStatus.id='modelDataStatus';
+modelStatus.setAttribute('aria-label','Model data freshness');
+modelStatus.style.cssText='display:flex;flex-wrap:wrap;gap:10px 28px;align-items:center;padding:14px 18px;margin-bottom:18px;background:#fff;border:1px solid #dbe5e4;border-radius:12px;color:#183b36;font-size:12px;line-height:1.6';
+function formatModelDate(value){
+ if(!value)return 'Not recorded';
+ if(/^\d{4}-\d{2}-\d{2}$/.test(value)){
+  const dt=new Date(value+'T12:00:00Z');
+  return Number.isNaN(dt.getTime())?'Not recorded':new Intl.DateTimeFormat('en-CA',{timeZone:'UTC',month:'short',day:'numeric',year:'numeric'}).format(dt);
+ }
+ const dt=new Date(value);
+ return Number.isNaN(dt.getTime())?'Not recorded':new Intl.DateTimeFormat('en-CA',{timeZone:'America/Toronto',month:'short',day:'numeric',year:'numeric',hour:'numeric',minute:'2-digit',timeZoneName:'short'}).format(dt);
+}
+for(const [label,value] of [['Games included through',data.dataThrough],['Model last updated',data.updatedAt||data.asOf]]){
+ const item=document.createElement('div'),caption=document.createElement('span'),valueEl=document.createElement('strong');
+ caption.textContent=label+' ';caption.style.color='#60747c';
+ valueEl.textContent=formatModelDate(value);item.append(caption,valueEl);modelStatus.append(item);
+}
+if(!(data.updatedAt)&&/^\d{4}-\d{2}-\d{2}$/.test(data.asOf||'')){
+ const note=document.createElement('span');note.textContent='Update time not recorded';note.style.cssText='font-size:10px;color:#728078';modelStatus.append(note);
+}
+document.querySelector('main').prepend(modelStatus);
+
 const dateNow=()=>new Intl.DateTimeFormat('en-CA',{timeZone:'America/Toronto',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
 const panel=document.createElement('section');
 panel.className='panel';panel.id='dailyMatchups';
