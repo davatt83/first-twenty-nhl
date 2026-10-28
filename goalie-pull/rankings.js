@@ -22,3 +22,5 @@
  ids('rankSeason').addEventListener('change',draw);ids('rankSort').addEventListener('change',draw);draw();
  }catch(e){document.getElementById('rankMeta').textContent='Rankings could not be loaded. Reload to retry. Your live calculator remains available.';}
 })();
+
+{const s=document.createElement("script");s.src="own-net.js";document.body.append(s);}
