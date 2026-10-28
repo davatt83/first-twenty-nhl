@@ -27,6 +27,53 @@ if(!(data.updatedAt)&&/^\d{4}-\d{2}-\d{2}$/.test(data.asOf||'')){
 }
 document.querySelector('main').prepend(modelStatus);
 
+const refreshButton=document.createElement('button');
+refreshButton.type='button';refreshButton.id='refreshPublishedStats';refreshButton.className='secondary';refreshButton.textContent='Update stats';
+refreshButton.title='Load the latest published model, rankings and schedule. This does not run a new NHL data rebuild.';
+const refreshStatus=document.createElement('span');refreshStatus.id='refreshStatsStatus';refreshStatus.setAttribute('role','status');refreshStatus.setAttribute('aria-live','polite');refreshStatus.style.flexBasis='100%';
+refreshStatus.textContent='Loads the latest published files; new game statistics require the daily data rebuild.';
+modelStatus.append(refreshButton,refreshStatus);
+const refreshKey='nhl-published-refresh-v1';
+const liveIds=['trailing','leading','home','deficit','clock','goalie'];
+refreshButton.addEventListener('click',async()=>{
+ refreshButton.disabled=true;refreshButton.textContent='Checking…';
+ refreshStatus.textContent='Checking the published model and both ranking datasets…';
+ try{
+  const page=new URL(location.href);page.hash='';page.searchParams.set('_refresh',Date.now().toString());
+  const urls=[page.href,new URL('empty-net-rankings.json',location.href).href,new URL('own-net-rankings.json',location.href).href];
+  const responses=await Promise.all(urls.map(url=>fetch(url,{cache:'no-store',signal:AbortSignal.timeout(20000)})));
+  if(responses.some(r=>!r.ok))throw Error('One or more published files could not be fetched.');
+  const html=await responses[0].text(),doc=new DOMParser().parseFromString(html,'text/html');
+  const next=JSON.parse(doc.getElementById('model-data')?.textContent||'null');
+  if(!next||!Array.isArray(next.teams)||!next.dataThrough)throw Error('The published model did not pass validation.');
+  for(const response of responses.slice(1)){const j=await response.json();const rows=j.views?.combined?.teams||j.views?.combined;if(!j.dataThrough||!Array.isArray(rows)||rows.length!==32)throw Error('A published ranking dataset did not pass validation.');}
+  const state={token:page.searchParams.get('_refresh'),previousThrough:data.dataThrough,date:el('fixtureDate').value,game:el('fixtureGame').value,side:el('fixtureHome').getAttribute('aria-pressed')==='true'?'home':el('fixtureAway').getAttribute('aria-pressed')==='true'?'away':null,values:Object.fromEntries(liveIds.map(id=>[id,el(id)?.value]))};
+  sessionStorage.setItem(refreshKey,JSON.stringify(state));
+  refreshStatus.textContent='Published files validated. Loading them now…';
+  location.replace(page.href);
+ }catch(error){
+  refreshStatus.textContent='Update failed: '+error.message+' Your current model and inputs are still available. Try again.';
+  refreshButton.disabled=false;refreshButton.textContent='Update stats';
+ }
+});
+function restoreAfterRefresh(){
+ try{
+  const saved=JSON.parse(sessionStorage.getItem(refreshKey)||'null');
+  if(!saved||saved.token!==new URL(location.href).searchParams.get('_refresh'))return;
+  sessionStorage.removeItem(refreshKey);
+  el('fixtureDate').value=saved.date;draw();
+  if(saved.game&&Array.from(el('fixtureGame').options).some(o=>o.value===saved.game)){
+   el('fixtureGame').value=saved.game;selectGame();if(saved.side)chooseSide(saved.side==='home');
+  }
+  for(const [id,value] of Object.entries(saved.values)){const field=el(id);if(field&&value!==undefined&&Array.from(field.options||[]).some(o=>o.value===value))field.value=value;}
+  el('trailing').dispatchEvent(new Event('change'));
+  const checked=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Toronto',hour:'numeric',minute:'2-digit'}).format(new Date());
+  refreshStatus.textContent='Published files reloaded at '+checked+' ET. '+(saved.previousThrough===data.dataThrough?'Model coverage is unchanged: games through ':'Model now includes games through ')+formatModelDate(data.dataThrough)+'. Each ranking shows its own coverage date. Schedule status appears below. This does not trigger a new data rebuild.';
+  const clean=new URL(location.href);clean.searchParams.delete('_refresh');history.replaceState(null,'',clean.href);
+ }catch(error){refreshStatus.textContent='Latest page loaded. Re-select your live game inputs if needed.';}
+}
+
+
 const dateNow=()=>new Intl.DateTimeFormat('en-CA',{timeZone:'America/Toronto',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
 const panel=document.createElement('section');
 panel.className='panel';panel.id='dailyMatchups';
@@ -94,6 +141,7 @@ for(const url of ['https://raw.githubusercontent.com/davatt83/first-twenty-nhl/m
  }catch(e){}
 }
 draw();
+restoreAfterRefresh();
 const openedDate=dateNow();
 setInterval(()=>{if(dateNow()!==openedDate)el('fixtureStatus').textContent='A new Montreal game day has begun. Reload to load today’s matchups.';},60000);
 })();
