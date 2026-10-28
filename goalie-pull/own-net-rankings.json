@@ -1,0 +1,4958 @@
+{
+  "dataThrough": "2026-10-25",
+  "views": {
+    "2025": {
+      "teams": [
+        {
+          "team": "VGK",
+          "index": 127.57908535759819,
+          "attack": 0.03759141668164355,
+          "defence": 0.2381994368943384,
+          "gf": 6,
+          "ga": 8,
+          "episodes": 27,
+          "seconds": 2101,
+          "gfPer2": 0.3426939552594003,
+          "gaPer2": 0.4569252736792004,
+          "rawNetPer2": -0.1142313184198001,
+          "secondsPerGA": 262.625,
+          "gfPerEpisode": 0.2222222222222222,
+          "gaPerEpisode": 0.2962962962962963,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 15,
+              "medianPullSeconds": 104.0,
+              "recovered": 4,
+              "recoveryRate": 0.26666666666666666
+            },
+            {
+              "deficit": 2,
+              "games": 6,
+              "medianPullSeconds": 191.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 2,
+              "medianPullSeconds": 215.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "OTT",
+          "index": 125.98425919479735,
+          "attack": -0.04362843083770968,
+          "defence": 0.3034710227856832,
+          "gf": 4,
+          "ga": 7,
+          "episodes": 29,
+          "seconds": 2250,
+          "gfPer2": 0.21333333333333335,
+          "gaPer2": 0.37333333333333335,
+          "rawNetPer2": -0.16,
+          "secondsPerGA": 321.42857142857144,
+          "gfPerEpisode": 0.13793103448275862,
+          "gaPerEpisode": 0.2413793103448276,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 12,
+              "medianPullSeconds": 119.0,
+              "recovered": 2,
+              "recoveryRate": 0.16666666666666666
+            },
+            {
+              "deficit": 2,
+              "games": 5,
+              "medianPullSeconds": 144.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 4,
+              "medianPullSeconds": 266.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "NYI",
+          "index": 124.06731815045148,
+          "attack": 0.03150257427436226,
+          "defence": 0.20917060723015263,
+          "gf": 10,
+          "ga": 14,
+          "episodes": 35,
+          "seconds": 4182,
+          "gfPer2": 0.28694404591104733,
+          "gaPer2": 0.4017216642754663,
+          "rawNetPer2": -0.11477761836441894,
+          "secondsPerGA": 298.7142857142857,
+          "gfPerEpisode": 0.2857142857142857,
+          "gaPerEpisode": 0.4,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 10,
+              "medianPullSeconds": 137.5,
+              "recovered": 3,
+              "recoveryRate": 0.3
+            },
+            {
+              "deficit": 2,
+              "games": 12,
+              "medianPullSeconds": 245.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 6,
+              "medianPullSeconds": 481.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "EDM",
+          "index": 119.48481415245584,
+          "attack": 0.03683849668778256,
+          "defence": 0.1580096448367758,
+          "gf": 6,
+          "ga": 10,
+          "episodes": 25,
+          "seconds": 2145,
+          "gfPer2": 0.3356643356643357,
+          "gaPer2": 0.5594405594405595,
+          "rawNetPer2": -0.22377622377622378,
+          "secondsPerGA": 214.5,
+          "gfPerEpisode": 0.24,
+          "gaPerEpisode": 0.4,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 15,
+              "medianPullSeconds": 100.0,
+              "recovered": 3,
+              "recoveryRate": 0.2
+            },
+            {
+              "deficit": 2,
+              "games": 4,
+              "medianPullSeconds": 215.0,
+              "recovered": 1,
+              "recoveryRate": 0.25
+            },
+            {
+              "deficit": 3,
+              "games": 3,
+              "medianPullSeconds": 257.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "NJD",
+          "index": 119.31507892782874,
+          "attack": 0.07334972095557271,
+          "defence": 0.11980106832271463,
+          "gf": 7,
+          "ga": 11,
+          "episodes": 28,
+          "seconds": 2140,
+          "gfPer2": 0.3925233644859813,
+          "gaPer2": 0.616822429906542,
+          "rawNetPer2": -0.22429906542056074,
+          "secondsPerGA": 194.54545454545453,
+          "gfPerEpisode": 0.25,
+          "gaPerEpisode": 0.39285714285714285,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 12,
+              "medianPullSeconds": 135.0,
+              "recovered": 3,
+              "recoveryRate": 0.25
+            },
+            {
+              "deficit": 2,
+              "games": 7,
+              "medianPullSeconds": 212.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 2,
+              "medianPullSeconds": 358.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "MTL",
+          "index": 116.7003603692799,
+          "attack": 0.07860635961495493,
+          "defence": 0.08839724407784408,
+          "gf": 7,
+          "ga": 12,
+          "episodes": 33,
+          "seconds": 2067,
+          "gfPer2": 0.40638606676342526,
+          "gaPer2": 0.6966618287373004,
+          "rawNetPer2": -0.29027576197387517,
+          "secondsPerGA": 172.25,
+          "gfPerEpisode": 0.21212121212121213,
+          "gaPerEpisode": 0.36363636363636365,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 15,
+              "medianPullSeconds": 111.0,
+              "recovered": 4,
+              "recoveryRate": 0.26666666666666666
+            },
+            {
+              "deficit": 2,
+              "games": 5,
+              "medianPullSeconds": 214.0,
+              "recovered": 1,
+              "recoveryRate": 0.2
+            },
+            {
+              "deficit": 3,
+              "games": 2,
+              "medianPullSeconds": 292.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "CAR",
+          "index": 112.17433810192273,
+          "attack": 0.10578008655073703,
+          "defence": 0.015963294468490315,
+          "gf": 6,
+          "ga": 11,
+          "episodes": 23,
+          "seconds": 1623,
+          "gfPer2": 0.4436229205175601,
+          "gaPer2": 0.8133086876155268,
+          "rawNetPer2": -0.36968576709796674,
+          "secondsPerGA": 147.54545454545453,
+          "gfPerEpisode": 0.2608695652173913,
+          "gaPerEpisode": 0.4782608695652174,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 6,
+              "medianPullSeconds": 120.5,
+              "recovered": 2,
+              "recoveryRate": 0.3333333333333333
+            },
+            {
+              "deficit": 2,
+              "games": 10,
+              "medianPullSeconds": 162.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 1,
+              "medianPullSeconds": 253.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "ANA",
+          "index": 112.00886415059907,
+          "attack": 0.10491447538520522,
+          "defence": 0.015174166120785398,
+          "gf": 9,
+          "ga": 17,
+          "episodes": 39,
+          "seconds": 2504,
+          "gfPer2": 0.43130990415335463,
+          "gaPer2": 0.8146964856230032,
+          "rawNetPer2": -0.38338658146964855,
+          "secondsPerGA": 147.2941176470588,
+          "gfPerEpisode": 0.23076923076923078,
+          "gaPerEpisode": 0.4358974358974359,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 15,
+              "medianPullSeconds": 120.0,
+              "recovered": 5,
+              "recoveryRate": 0.3333333333333333
+            },
+            {
+              "deficit": 2,
+              "games": 10,
+              "medianPullSeconds": 169.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 3,
+              "medianPullSeconds": 233.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "PIT",
+          "index": 110.99918013111989,
+          "attack": 0.097382545790498,
+          "defence": 0.012609255520700864,
+          "gf": 7,
+          "ga": 12,
+          "episodes": 29,
+          "seconds": 2038,
+          "gfPer2": 0.41216879293424924,
+          "gaPer2": 0.7065750736015701,
+          "rawNetPer2": -0.2944062806673209,
+          "secondsPerGA": 169.83333333333334,
+          "gfPerEpisode": 0.2413793103448276,
+          "gaPerEpisode": 0.41379310344827586,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 13,
+              "medianPullSeconds": 127.0,
+              "recovered": 4,
+              "recoveryRate": 0.3076923076923077
+            },
+            {
+              "deficit": 2,
+              "games": 3,
+              "medianPullSeconds": 148.0,
+              "recovered": 1,
+              "recoveryRate": 0.3333333333333333
+            },
+            {
+              "deficit": 3,
+              "games": 6,
+              "medianPullSeconds": 284.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "DAL",
+          "index": 110.54317823014995,
+          "attack": 0.07182446196389179,
+          "defence": 0.033607320337607736,
+          "gf": 7,
+          "ga": 13,
+          "episodes": 28,
+          "seconds": 2172,
+          "gfPer2": 0.3867403314917127,
+          "gaPer2": 0.7182320441988951,
+          "rawNetPer2": -0.3314917127071823,
+          "secondsPerGA": 167.07692307692307,
+          "gfPerEpisode": 0.25,
+          "gaPerEpisode": 0.4642857142857143,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 8,
+              "medianPullSeconds": 172.0,
+              "recovered": 1,
+              "recoveryRate": 0.125
+            },
+            {
+              "deficit": 2,
+              "games": 6,
+              "medianPullSeconds": 238.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 4,
+              "medianPullSeconds": 276.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "VAN",
+          "index": 106.02659242807137,
+          "attack": -0.02930687877610876,
+          "defence": 0.08957280305682246,
+          "gf": 6,
+          "ga": 18,
+          "episodes": 37,
+          "seconds": 3170,
+          "gfPer2": 0.22712933753943218,
+          "gaPer2": 0.6813880126182965,
+          "rawNetPer2": -0.45425867507886436,
+          "secondsPerGA": 176.11111111111111,
+          "gfPerEpisode": 0.16216216216216217,
+          "gaPerEpisode": 0.4864864864864865,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 8,
+              "medianPullSeconds": 131.0,
+              "recovered": 1,
+              "recoveryRate": 0.125
+            },
+            {
+              "deficit": 2,
+              "games": 12,
+              "medianPullSeconds": 237.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 7,
+              "medianPullSeconds": 222.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "WPG",
+          "index": 105.0975363752373,
+          "attack": -0.037655986059307346,
+          "defence": 0.08863134981168037,
+          "gf": 4,
+          "ga": 13,
+          "episodes": 30,
+          "seconds": 2191,
+          "gfPer2": 0.2190780465540849,
+          "gaPer2": 0.7120036513007759,
+          "rawNetPer2": -0.492925604746691,
+          "secondsPerGA": 168.53846153846155,
+          "gfPerEpisode": 0.13333333333333333,
+          "gaPerEpisode": 0.43333333333333335,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 18,
+              "medianPullSeconds": 101.5,
+              "recovered": 4,
+              "recoveryRate": 0.2222222222222222
+            },
+            {
+              "deficit": 2,
+              "games": 8,
+              "medianPullSeconds": 161.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 1,
+              "medianPullSeconds": 161.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "LAK",
+          "index": 102.22473038015367,
+          "attack": 0.11309027356608786,
+          "defence": -0.09084296976455118,
+          "gf": 6,
+          "ga": 12,
+          "episodes": 26,
+          "seconds": 1471,
+          "gfPer2": 0.4894629503738953,
+          "gaPer2": 0.9789259007477906,
+          "rawNetPer2": -0.4894629503738953,
+          "secondsPerGA": 122.58333333333333,
+          "gfPerEpisode": 0.23076923076923078,
+          "gaPerEpisode": 0.46153846153846156,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 13,
+              "medianPullSeconds": 125.0,
+              "recovered": 3,
+              "recoveryRate": 0.23076923076923078
+            },
+            {
+              "deficit": 2,
+              "games": 6,
+              "medianPullSeconds": 141.0,
+              "recovered": 1,
+              "recoveryRate": 0.16666666666666666
+            },
+            {
+              "deficit": 3,
+              "games": 2,
+              "medianPullSeconds": 302.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "CBJ",
+          "index": 101.73666123436048,
+          "attack": -0.05082557240863808,
+          "defence": 0.06819218475224284,
+          "gf": 3,
+          "ga": 11,
+          "episodes": 26,
+          "seconds": 1880,
+          "gfPer2": 0.19148936170212766,
+          "gaPer2": 0.7021276595744681,
+          "rawNetPer2": -0.5106382978723404,
+          "secondsPerGA": 170.9090909090909,
+          "gfPerEpisode": 0.11538461538461539,
+          "gaPerEpisode": 0.4230769230769231,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 15,
+              "medianPullSeconds": 107.0,
+              "recovered": 2,
+              "recoveryRate": 0.13333333333333333
+            },
+            {
+              "deficit": 2,
+              "games": 4,
+              "medianPullSeconds": 210.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 1,
+              "medianPullSeconds": 309.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "COL",
+          "index": 99.75854816279735,
+          "attack": 0.07036794213372324,
+          "defence": -0.07278246050574977,
+          "gf": 4,
+          "ga": 9,
+          "episodes": 17,
+          "seconds": 1163,
+          "gfPer2": 0.412725709372313,
+          "gaPer2": 0.9286328460877042,
+          "rawNetPer2": -0.5159071367153912,
+          "secondsPerGA": 129.22222222222223,
+          "gfPerEpisode": 0.23529411764705882,
+          "gaPerEpisode": 0.5294117647058824,
+          "provisional": true,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 8,
+              "medianPullSeconds": 137.5,
+              "recovered": 2,
+              "recoveryRate": 0.25
+            },
+            {
+              "deficit": 2,
+              "games": 2,
+              "medianPullSeconds": 209.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 2,
+              "medianPullSeconds": 255.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "TBL",
+          "index": 99.5609372023859,
+          "attack": -0.011599300300690684,
+          "defence": 0.007208672324549713,
+          "gf": 4,
+          "ga": 12,
+          "episodes": 25,
+          "seconds": 1824,
+          "gfPer2": 0.2631578947368421,
+          "gaPer2": 0.7894736842105263,
+          "rawNetPer2": -0.5263157894736842,
+          "secondsPerGA": 152.0,
+          "gfPerEpisode": 0.16,
+          "gaPerEpisode": 0.48,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 12,
+              "medianPullSeconds": 133.0,
+              "recovered": 1,
+              "recoveryRate": 0.08333333333333333
+            },
+            {
+              "deficit": 2,
+              "games": 4,
+              "medianPullSeconds": 234.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 2,
+              "medianPullSeconds": 293.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "BOS",
+          "index": 98.85123058274456,
+          "attack": 0.010401622074377701,
+          "defence": -0.021889316246932064,
+          "gf": 3,
+          "ga": 9,
+          "episodes": 17,
+          "seconds": 1234,
+          "gfPer2": 0.2917341977309562,
+          "gaPer2": 0.8752025931928687,
+          "rawNetPer2": -0.5834683954619124,
+          "secondsPerGA": 137.11111111111111,
+          "gfPerEpisode": 0.17647058823529413,
+          "gaPerEpisode": 0.5294117647058824,
+          "provisional": true,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 8,
+              "medianPullSeconds": 105.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 2,
+              "games": 6,
+              "medianPullSeconds": 186.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 1,
+              "medianPullSeconds": 217.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "STL",
+          "index": 98.28470129862876,
+          "attack": -0.019927157501989905,
+          "defence": 0.002774170488277471,
+          "gf": 3,
+          "ga": 11,
+          "episodes": 19,
+          "seconds": 1590,
+          "gfPer2": 0.22641509433962265,
+          "gaPer2": 0.8301886792452831,
+          "rawNetPer2": -0.6037735849056604,
+          "secondsPerGA": 144.54545454545453,
+          "gfPerEpisode": 0.15789473684210525,
+          "gaPerEpisode": 0.5789473684210527,
+          "provisional": true,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 7,
+              "medianPullSeconds": 116.0,
+              "recovered": 1,
+              "recoveryRate": 0.14285714285714285
+            },
+            {
+              "deficit": 2,
+              "games": 9,
+              "medianPullSeconds": 224.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "UTA",
+          "index": 96.33653507714055,
+          "attack": -0.1454218795319715,
+          "defence": 0.10878723030337697,
+          "gf": 1,
+          "ga": 12,
+          "episodes": 32,
+          "seconds": 2111,
+          "gfPer2": 0.05684509711037423,
+          "gaPer2": 0.6821411653244908,
+          "rawNetPer2": -0.6252960682141165,
+          "secondsPerGA": 175.91666666666666,
+          "gfPerEpisode": 0.03125,
+          "gaPerEpisode": 0.375,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 17,
+              "medianPullSeconds": 106.0,
+              "recovered": 1,
+              "recoveryRate": 0.058823529411764705
+            },
+            {
+              "deficit": 2,
+              "games": 7,
+              "medianPullSeconds": 178.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "NSH",
+          "index": 96.1495920179055,
+          "attack": -0.040261652115911685,
+          "defence": 0.0017575722949666843,
+          "gf": 4,
+          "ga": 15,
+          "episodes": 36,
+          "seconds": 2183,
+          "gfPer2": 0.21988089784699955,
+          "gaPer2": 0.8245533669262483,
+          "rawNetPer2": -0.6046724690792488,
+          "secondsPerGA": 145.53333333333333,
+          "gfPerEpisode": 0.1111111111111111,
+          "gaPerEpisode": 0.4166666666666667,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 14,
+              "medianPullSeconds": 126.0,
+              "recovered": 2,
+              "recoveryRate": 0.14285714285714285
+            },
+            {
+              "deficit": 2,
+              "games": 8,
+              "medianPullSeconds": 241.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 1,
+              "medianPullSeconds": 199.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "WSH",
+          "index": 95.84495173555835,
+          "attack": -0.02160084506484976,
+          "defence": -0.019949637579566658,
+          "gf": 4,
+          "ga": 14,
+          "episodes": 31,
+          "seconds": 1950,
+          "gfPer2": 0.24615384615384617,
+          "gaPer2": 0.8615384615384616,
+          "rawNetPer2": -0.6153846153846154,
+          "secondsPerGA": 139.28571428571428,
+          "gfPerEpisode": 0.12903225806451613,
+          "gaPerEpisode": 0.45161290322580644,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 12,
+              "medianPullSeconds": 120.0,
+              "recovered": 1,
+              "recoveryRate": 0.08333333333333333
+            },
+            {
+              "deficit": 2,
+              "games": 8,
+              "medianPullSeconds": 195.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 2,
+              "medianPullSeconds": 191.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "PHI",
+          "index": 94.82386535442654,
+          "attack": 0.046724964682032404,
+          "defence": -0.09848631113776701,
+          "gf": 4,
+          "ga": 11,
+          "episodes": 22,
+          "seconds": 1302,
+          "gfPer2": 0.3686635944700461,
+          "gaPer2": 1.0138248847926268,
+          "rawNetPer2": -0.6451612903225806,
+          "secondsPerGA": 118.36363636363636,
+          "gfPerEpisode": 0.18181818181818182,
+          "gaPerEpisode": 0.5,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 8,
+              "medianPullSeconds": 127.0,
+              "recovered": 2,
+              "recoveryRate": 0.25
+            },
+            {
+              "deficit": 2,
+              "games": 5,
+              "medianPullSeconds": 189.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 3,
+              "medianPullSeconds": 224.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 1,
+              "medianPullSeconds": 561.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            }
+          ]
+        },
+        {
+          "team": "CHI",
+          "index": 91.99591519104735,
+          "attack": -0.13700319212137124,
+          "defence": 0.05696234403184476,
+          "gf": 1,
+          "ga": 13,
+          "episodes": 28,
+          "seconds": 2112,
+          "gfPer2": 0.056818181818181816,
+          "gaPer2": 0.7386363636363636,
+          "rawNetPer2": -0.6818181818181818,
+          "secondsPerGA": 162.46153846153845,
+          "gfPerEpisode": 0.03571428571428571,
+          "gaPerEpisode": 0.4642857142857143,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 16,
+              "medianPullSeconds": 91.0,
+              "recovered": 1,
+              "recoveryRate": 0.0625
+            },
+            {
+              "deficit": 2,
+              "games": 6,
+              "medianPullSeconds": 145.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 3,
+              "medianPullSeconds": 322.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "DET",
+          "index": 90.61166788689468,
+          "attack": 0.02578653904723351,
+          "defence": -0.11966986017828676,
+          "gf": 5,
+          "ga": 16,
+          "episodes": 28,
+          "seconds": 1926,
+          "gfPer2": 0.3115264797507788,
+          "gaPer2": 0.9968847352024922,
+          "rawNetPer2": -0.6853582554517134,
+          "secondsPerGA": 120.375,
+          "gfPerEpisode": 0.17857142857142858,
+          "gaPerEpisode": 0.5714285714285714,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 7,
+              "medianPullSeconds": 135.0,
+              "recovered": 1,
+              "recoveryRate": 0.14285714285714285
+            },
+            {
+              "deficit": 2,
+              "games": 13,
+              "medianPullSeconds": 215.0,
+              "recovered": 1,
+              "recoveryRate": 0.07692307692307693
+            },
+            {
+              "deficit": 3,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "FLA",
+          "index": 89.40423667557931,
+          "attack": 0.06823386316134492,
+          "defence": -0.17419149640555176,
+          "gf": 7,
+          "ga": 19,
+          "episodes": 33,
+          "seconds": 2128,
+          "gfPer2": 0.39473684210526316,
+          "gaPer2": 1.0714285714285714,
+          "rawNetPer2": -0.6766917293233082,
+          "secondsPerGA": 112.0,
+          "gfPerEpisode": 0.21212121212121213,
+          "gaPerEpisode": 0.5757575757575758,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 13,
+              "medianPullSeconds": 163.0,
+              "recovered": 2,
+              "recoveryRate": 0.15384615384615385
+            },
+            {
+              "deficit": 2,
+              "games": 9,
+              "medianPullSeconds": 235.0,
+              "recovered": 1,
+              "recoveryRate": 0.1111111111111111
+            },
+            {
+              "deficit": 3,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "SJS",
+          "index": 83.8308527375947,
+          "attack": 0.04033096398158153,
+          "defence": -0.20202243660563454,
+          "gf": 5,
+          "ga": 16,
+          "episodes": 28,
+          "seconds": 1674,
+          "gfPer2": 0.35842293906810035,
+          "gaPer2": 1.146953405017921,
+          "rawNetPer2": -0.7885304659498208,
+          "secondsPerGA": 104.625,
+          "gfPerEpisode": 0.17857142857142858,
+          "gaPerEpisode": 0.5714285714285714,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 12,
+              "medianPullSeconds": 134.0,
+              "recovered": 3,
+              "recoveryRate": 0.25
+            },
+            {
+              "deficit": 2,
+              "games": 9,
+              "medianPullSeconds": 223.0,
+              "recovered": 1,
+              "recoveryRate": 0.1111111111111111
+            },
+            {
+              "deficit": 3,
+              "games": 1,
+              "medianPullSeconds": 243.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "NYR",
+          "index": 80.93321170964487,
+          "attack": -0.0008015525589456657,
+          "defence": -0.18986633034460568,
+          "gf": 6,
+          "ga": 24,
+          "episodes": 42,
+          "seconds": 2536,
+          "gfPer2": 0.28391167192429023,
+          "gaPer2": 1.135646687697161,
+          "rawNetPer2": -0.8517350157728707,
+          "secondsPerGA": 105.66666666666667,
+          "gfPerEpisode": 0.14285714285714285,
+          "gaPerEpisode": 0.5714285714285714,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 19,
+              "medianPullSeconds": 103.0,
+              "recovered": 2,
+              "recoveryRate": 0.10526315789473684
+            },
+            {
+              "deficit": 2,
+              "games": 12,
+              "medianPullSeconds": 173.0,
+              "recovered": 1,
+              "recoveryRate": 0.08333333333333333
+            },
+            {
+              "deficit": 3,
+              "games": 2,
+              "medianPullSeconds": 199.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "SEA",
+          "index": 79.49459390372176,
+          "attack": -0.044014976090661274,
+          "defence": -0.16103908487212107,
+          "gf": 4,
+          "ga": 21,
+          "episodes": 37,
+          "seconds": 2311,
+          "gfPer2": 0.2077022933794894,
+          "gaPer2": 1.0904370402423194,
+          "rawNetPer2": -0.8827347468628299,
+          "secondsPerGA": 110.04761904761905,
+          "gfPerEpisode": 0.10810810810810811,
+          "gaPerEpisode": 0.5675675675675675,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 17,
+              "medianPullSeconds": 108.0,
+              "recovered": 2,
+              "recoveryRate": 0.11764705882352941
+            },
+            {
+              "deficit": 2,
+              "games": 8,
+              "medianPullSeconds": 175.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 4,
+              "medianPullSeconds": 200.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "TOR",
+          "index": 74.20219635943874,
+          "attack": -0.11182859933635832,
+          "defence": -0.1461494370692543,
+          "gf": 2,
+          "ga": 23,
+          "episodes": 35,
+          "seconds": 2696,
+          "gfPer2": 0.08902077151335312,
+          "gaPer2": 1.0237388724035608,
+          "rawNetPer2": -0.9347181008902077,
+          "secondsPerGA": 117.21739130434783,
+          "gfPerEpisode": 0.05714285714285714,
+          "gaPerEpisode": 0.6571428571428571,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 9,
+              "medianPullSeconds": 99.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 2,
+              "games": 12,
+              "medianPullSeconds": 188.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 4,
+              "medianPullSeconds": 308.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "MIN",
+          "index": 73.89558976159105,
+          "attack": -0.08380854656754848,
+          "defence": -0.17723555581654096,
+          "gf": 1,
+          "ga": 12,
+          "episodes": 20,
+          "seconds": 1201,
+          "gfPer2": 0.09991673605328892,
+          "gaPer2": 1.1990008326394672,
+          "rawNetPer2": -1.0990840965861781,
+          "secondsPerGA": 100.08333333333333,
+          "gfPerEpisode": 0.05,
+          "gaPerEpisode": 0.6,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 7,
+              "medianPullSeconds": 127.0,
+              "recovered": 1,
+              "recoveryRate": 0.14285714285714285
+            },
+            {
+              "deficit": 2,
+              "games": 6,
+              "medianPullSeconds": 169.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 1,
+              "medianPullSeconds": 220.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "CGY",
+          "index": 71.44186806413694,
+          "attack": -0.13555980768061623,
+          "defence": -0.15002151167801442,
+          "gf": 1,
+          "ga": 18,
+          "episodes": 31,
+          "seconds": 2003,
+          "gfPer2": 0.05991013479780329,
+          "gaPer2": 1.0783824263604593,
+          "rawNetPer2": -1.018472291562656,
+          "secondsPerGA": 111.27777777777777,
+          "gfPerEpisode": 0.03225806451612903,
+          "gaPerEpisode": 0.5806451612903226,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 14,
+              "medianPullSeconds": 98.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 2,
+              "games": 11,
+              "medianPullSeconds": 185.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "BUF",
+          "index": 54.73782111966034,
+          "attack": -0.07713013869264203,
+          "defence": -0.3754916501107546,
+          "gf": 1,
+          "ga": 15,
+          "episodes": 21,
+          "seconds": 1081,
+          "gfPer2": 0.11100832562442182,
+          "gaPer2": 1.6651248843663276,
+          "rawNetPer2": -1.5541165587419057,
+          "secondsPerGA": 72.06666666666666,
+          "gfPerEpisode": 0.047619047619047616,
+          "gaPerEpisode": 0.7142857142857143,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 8,
+              "medianPullSeconds": 117.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 2,
+              "games": 6,
+              "medianPullSeconds": 134.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 1,
+              "medianPullSeconds": 164.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        }
+      ],
+      "timingBands": [
+        {
+          "deficit": 1,
+          "band": "0\u201360s",
+          "games": 26,
+          "recovered": 0,
+          "rate": 0.0
+        },
+        {
+          "deficit": 1,
+          "band": "61\u2013120s",
+          "games": 180,
+          "recovered": 26,
+          "rate": 0.14444444444444443
+        },
+        {
+          "deficit": 1,
+          "band": "121\u2013180s",
+          "games": 158,
+          "recovered": 32,
+          "rate": 0.20253164556962025
+        },
+        {
+          "deficit": 1,
+          "band": "181\u2013300s",
+          "games": 19,
+          "recovered": 5,
+          "rate": 0.2631578947368421
+        },
+        {
+          "deficit": 1,
+          "band": "301\u2013600s",
+          "games": 0,
+          "recovered": 0,
+          "rate": null
+        },
+        {
+          "deficit": 2,
+          "band": "0\u201360s",
+          "games": 2,
+          "recovered": 0,
+          "rate": 0.0
+        },
+        {
+          "deficit": 2,
+          "band": "61\u2013120s",
+          "games": 23,
+          "recovered": 0,
+          "rate": 0.0
+        },
+        {
+          "deficit": 2,
+          "band": "121\u2013180s",
+          "games": 70,
+          "recovered": 3,
+          "rate": 0.04285714285714286
+        },
+        {
+          "deficit": 2,
+          "band": "181\u2013300s",
+          "games": 138,
+          "recovered": 4,
+          "rate": 0.028985507246376812
+        },
+        {
+          "deficit": 2,
+          "band": "301\u2013600s",
+          "games": 6,
+          "recovered": 1,
+          "rate": 0.16666666666666666
+        },
+        {
+          "deficit": 3,
+          "band": "0\u201360s",
+          "games": 1,
+          "recovered": 0,
+          "rate": 0.0
+        },
+        {
+          "deficit": 3,
+          "band": "61\u2013120s",
+          "games": 3,
+          "recovered": 0,
+          "rate": 0.0
+        },
+        {
+          "deficit": 3,
+          "band": "121\u2013180s",
+          "games": 9,
+          "recovered": 0,
+          "rate": 0.0
+        },
+        {
+          "deficit": 3,
+          "band": "181\u2013300s",
+          "games": 32,
+          "recovered": 0,
+          "rate": 0.0
+        },
+        {
+          "deficit": 3,
+          "band": "301\u2013600s",
+          "games": 26,
+          "recovered": 0,
+          "rate": 0.0
+        },
+        {
+          "deficit": 4,
+          "band": "0\u201360s",
+          "games": 0,
+          "recovered": 0,
+          "rate": null
+        },
+        {
+          "deficit": 4,
+          "band": "61\u2013120s",
+          "games": 0,
+          "recovered": 0,
+          "rate": null
+        },
+        {
+          "deficit": 4,
+          "band": "121\u2013180s",
+          "games": 0,
+          "recovered": 0,
+          "rate": null
+        },
+        {
+          "deficit": 4,
+          "band": "181\u2013300s",
+          "games": 0,
+          "recovered": 0,
+          "rate": null
+        },
+        {
+          "deficit": 4,
+          "band": "301\u2013600s",
+          "games": 1,
+          "recovered": 0,
+          "rate": 0.0
+        }
+      ]
+    },
+    "2026": {
+      "teams": [
+        {
+          "team": "NSH",
+          "index": 114.89153060109703,
+          "attack": 0.05192263242783295,
+          "defence": 0.0969926735831373,
+          "gf": 1,
+          "ga": 0,
+          "episodes": 3,
+          "seconds": 194,
+          "gfPer2": 0.6185567010309279,
+          "gaPer2": 0.0,
+          "rawNetPer2": 0.6185567010309279,
+          "secondsPerGA": null,
+          "gfPerEpisode": 0.3333333333333333,
+          "gaPerEpisode": 0.0,
+          "provisional": true,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 1,
+              "medianPullSeconds": 106.0,
+              "recovered": 1,
+              "recoveryRate": 1.0
+            },
+            {
+              "deficit": 2,
+              "games": 1,
+              "medianPullSeconds": 143.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "FLA",
+          "index": 114.4664722075934,
+          "attack": 0.09744476158749886,
+          "defence": 0.047219960488435145,
+          "gf": 2,
+          "ga": 2,
+          "episodes": 5,
+          "seconds": 381,
+          "gfPer2": 0.6299212598425197,
+          "gaPer2": 0.6299212598425197,
+          "rawNetPer2": 0.0,
+          "secondsPerGA": 190.5,
+          "gfPerEpisode": 0.4,
+          "gaPerEpisode": 0.4,
+          "provisional": true,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 2,
+              "medianPullSeconds": 145.0,
+              "recovered": 2,
+              "recoveryRate": 1.0
+            },
+            {
+              "deficit": 2,
+              "games": 1,
+              "medianPullSeconds": 203.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 1,
+              "medianPullSeconds": 321.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "VAN",
+          "index": 113.021580059933,
+          "attack": -0.07489335672568194,
+          "defence": 0.20510915732501195,
+          "gf": 0,
+          "ga": 1,
+          "episodes": 6,
+          "seconds": 609,
+          "gfPer2": 0.0,
+          "gaPer2": 0.19704433497536947,
+          "rawNetPer2": -0.19704433497536947,
+          "secondsPerGA": 609.0,
+          "gfPerEpisode": 0.0,
+          "gaPerEpisode": 0.16666666666666666,
+          "provisional": true,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 1,
+              "medianPullSeconds": 132.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 2,
+              "games": 4,
+              "medianPullSeconds": 173.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "COL",
+          "index": 112.83658476588059,
+          "attack": 0.027030511535019966,
+          "defence": 0.10133533612378587,
+          "gf": 1,
+          "ga": 1,
+          "episodes": 3,
+          "seconds": 338,
+          "gfPer2": 0.35502958579881655,
+          "gaPer2": 0.35502958579881655,
+          "rawNetPer2": 0.0,
+          "secondsPerGA": 338.0,
+          "gfPerEpisode": 0.3333333333333333,
+          "gaPerEpisode": 0.3333333333333333,
+          "provisional": true,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 1,
+              "medianPullSeconds": 122.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 2,
+              "games": 1,
+              "medianPullSeconds": 284.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "MTL",
+          "index": 109.6187190879743,
+          "attack": 0.18343309054602422,
+          "defence": -0.08724589966628123,
+          "gf": 3,
+          "ga": 3,
+          "episodes": 8,
+          "seconds": 325,
+          "gfPer2": 1.1076923076923078,
+          "gaPer2": 1.1076923076923078,
+          "rawNetPer2": 0.0,
+          "secondsPerGA": 108.33333333333333,
+          "gfPerEpisode": 0.375,
+          "gaPerEpisode": 0.375,
+          "provisional": true,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 2,
+              "medianPullSeconds": 129.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 2,
+              "games": 2,
+              "medianPullSeconds": 202.0,
+              "recovered": 1,
+              "recoveryRate": 0.5
+            },
+            {
+              "deficit": 3,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "BOS",
+          "index": 108.67317799693772,
+          "attack": 0.05772527345293864,
+          "defence": 0.02900650651643865,
+          "gf": 1,
+          "ga": 1,
+          "episodes": 2,
+          "seconds": 183,
+          "gfPer2": 0.6557377049180327,
+          "gaPer2": 0.6557377049180327,
+          "rawNetPer2": 0.0,
+          "secondsPerGA": 183.0,
+          "gfPerEpisode": 0.5,
+          "gaPerEpisode": 0.5,
+          "provisional": true,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 1,
+              "medianPullSeconds": 154.0,
+              "recovered": 1,
+              "recoveryRate": 1.0
+            },
+            {
+              "deficit": 2,
+              "games": 1,
+              "medianPullSeconds": 188.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "CHI",
+          "index": 108.22252626030551,
+          "attack": 0.026951218329576313,
+          "defence": 0.05527404427347884,
+          "gf": 1,
+          "ga": 2,
+          "episodes": 8,
+          "seconds": 431,
+          "gfPer2": 0.27842227378190254,
+          "gaPer2": 0.5568445475638051,
+          "rawNetPer2": -0.27842227378190254,
+          "secondsPerGA": 215.5,
+          "gfPerEpisode": 0.125,
+          "gaPerEpisode": 0.25,
+          "provisional": true,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 2,
+              "medianPullSeconds": 98.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 2,
+              "games": 2,
+              "medianPullSeconds": 178.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 2,
+              "medianPullSeconds": 272.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "WPG",
+          "index": 106.80523571970134,
+          "attack": -0.04388087671774849,
+          "defence": 0.11193323391476194,
+          "gf": 0,
+          "ga": 1,
+          "episodes": 3,
+          "seconds": 403,
+          "gfPer2": 0.0,
+          "gaPer2": 0.2977667493796526,
+          "rawNetPer2": -0.2977667493796526,
+          "secondsPerGA": 403.0,
+          "gfPerEpisode": 0.0,
+          "gaPerEpisode": 0.3333333333333333,
+          "provisional": true,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 2,
+              "medianPullSeconds": 88.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 2,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 3,
+              "games": 1,
+              "medianPullSeconds": 267.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "PIT",
+          "index": 106.57879130527716,
+          "attack": -0.0035682761352891636,
+          "defence": 0.06935618918806084,
+          "gf": 1,
+          "ga": 1,
+          "episodes": 4,
+          "seconds": 431,
+          "gfPer2": 0.27842227378190254,
+          "gaPer2": 0.27842227378190254,
+          "rawNetPer2": 0.0,
+          "secondsPerGA": 431.0,
+          "gfPerEpisode": 0.25,
+          "gaPerEpisode": 0.25,
+          "provisional": true,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 4,
+              "medianPullSeconds": 137.0,
+              "recovered": 1,
+              "recoveryRate": 0.25
+            },
+            {
+              "deficit": 2,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 3,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "MIN",
+          "index": 104.07661653835636,
+          "attack": -0.03476629114391718,
+          "defence": 0.0755324565274808,
+          "gf": 0,
+          "ga": 0,
+          "episodes": 2,
+          "seconds": 180,
+          "gfPer2": 0.0,
+          "gaPer2": 0.0,
+          "rawNetPer2": 0.0,
+          "secondsPerGA": null,
+          "gfPerEpisode": 0.0,
+          "gaPerEpisode": 0.0,
+          "provisional": true,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 2,
+              "medianPullSeconds": 90.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 2,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 3,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "DAL",
+          "index": 103.96701205456114,
+          "attack": 0.010208875858262556,
+          "defence": 0.029461244687348894,
+          "gf": 1,
+          "ga": 2,
+          "episodes": 7,
+          "seconds": 395,
+          "gfPer2": 0.3037974683544304,
+          "gaPer2": 0.6075949367088608,
+          "rawNetPer2": -0.3037974683544304,
+          "secondsPerGA": 197.5,
+          "gfPerEpisode": 0.14285714285714285,
+          "gaPerEpisode": 0.2857142857142857,
+          "provisional": true,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 4,
+              "medianPullSeconds": 105.0,
+              "recovered": 2,
+              "recoveryRate": 0.5
+            },
+            {
+              "deficit": 2,
+              "games": 1,
+              "medianPullSeconds": 255.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "DET",
+          "index": 103.75289454368642,
+          "attack": 0.034506912899967115,
+          "defence": 0.003022032536897096,
+          "gf": 1,
+          "ga": 1,
+          "episodes": 4,
+          "seconds": 226,
+          "gfPer2": 0.5309734513274337,
+          "gaPer2": 0.5309734513274337,
+          "rawNetPer2": 0.0,
+          "secondsPerGA": 226.0,
+          "gfPerEpisode": 0.25,
+          "gaPerEpisode": 0.25,
+          "provisional": true,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 4,
+              "medianPullSeconds": 128.5,
+              "recovered": 2,
+              "recoveryRate": 0.5
+            },
+            {
+              "deficit": 2,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 3,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "VGK",
+          "index": 102.69522130396523,
+          "attack": -0.03016866377479761,
+          "defence": 0.057120876814449904,
+          "gf": 0,
+          "ga": 0,
+          "episodes": 1,
+          "seconds": 140,
+          "gfPer2": 0.0,
+          "gaPer2": 0.0,
+          "rawNetPer2": 0.0,
+          "secondsPerGA": null,
+          "gfPerEpisode": 0.0,
+          "gaPerEpisode": 0.0,
+          "provisional": true,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 1,
+              "medianPullSeconds": 140.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 2,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 3,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "CAR",
+          "index": 102.55016279079037,
+          "attack": -0.02367545783984958,
+          "defence": 0.0491770857477532,
+          "gf": 0,
+          "ga": 0,
+          "episodes": 1,
+          "seconds": 109,
+          "gfPer2": 0.0,
+          "gaPer2": 0.0,
+          "rawNetPer2": 0.0,
+          "secondsPerGA": null,
+          "gfPerEpisode": 0.0,
+          "gaPerEpisode": 0.0,
+          "provisional": true,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 1,
+              "medianPullSeconds": 109.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 2,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 3,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "OTT",
+          "index": 101.91480193415286,
+          "attack": 0.020845233223835267,
+          "defence": -0.0016972138823066886,
+          "gf": 1,
+          "ga": 2,
+          "episodes": 5,
+          "seconds": 369,
+          "gfPer2": 0.3252032520325203,
+          "gaPer2": 0.6504065040650406,
+          "rawNetPer2": -0.3252032520325203,
+          "secondsPerGA": 184.5,
+          "gfPerEpisode": 0.2,
+          "gaPerEpisode": 0.4,
+          "provisional": true,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 2,
+              "medianPullSeconds": 154.0,
+              "recovered": 1,
+              "recoveryRate": 0.5
+            },
+            {
+              "deficit": 2,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 3,
+              "games": 2,
+              "medianPullSeconds": 294.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "CGY",
+          "index": 100.3373817328327,
+          "attack": -0.026341434462067388,
+          "defence": 0.029715251790394342,
+          "gf": 0,
+          "ga": 1,
+          "episodes": 2,
+          "seconds": 183,
+          "gfPer2": 0.0,
+          "gaPer2": 0.6557377049180327,
+          "rawNetPer2": -0.6557377049180327,
+          "secondsPerGA": 183.0,
+          "gfPerEpisode": 0.0,
+          "gaPerEpisode": 0.5,
+          "provisional": true,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 2,
+              "games": 2,
+              "medianPullSeconds": 173.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "STL",
+          "index": 100.18312143087832,
+          "attack": 0.042857995070392306,
+          "defence": -0.04102678076160912,
+          "gf": 1,
+          "ga": 1,
+          "episodes": 3,
+          "seconds": 188,
+          "gfPer2": 0.6382978723404256,
+          "gaPer2": 0.6382978723404256,
+          "rawNetPer2": 0.0,
+          "secondsPerGA": 188.0,
+          "gfPerEpisode": 0.3333333333333333,
+          "gaPerEpisode": 0.3333333333333333,
+          "provisional": true,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 1,
+              "medianPullSeconds": 110.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 2,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 3,
+              "games": 1,
+              "medianPullSeconds": 403.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "WSH",
+          "index": 100.03686245317458,
+          "attack": -0.05375295098905797,
+          "defence": 0.054121575520803815,
+          "gf": 0,
+          "ga": 2,
+          "episodes": 5,
+          "seconds": 415,
+          "gfPer2": 0.0,
+          "gaPer2": 0.5783132530120482,
+          "rawNetPer2": -0.5783132530120482,
+          "secondsPerGA": 207.5,
+          "gfPerEpisode": 0.0,
+          "gaPerEpisode": 0.4,
+          "provisional": true,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 1,
+              "medianPullSeconds": 100.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 2,
+              "games": 3,
+              "medianPullSeconds": 135.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "PHI",
+          "index": 98.78127360873098,
+          "attack": -0.03760312301452932,
+          "defence": 0.025415859101839213,
+          "gf": 0,
+          "ga": 1,
+          "episodes": 2,
+          "seconds": 228,
+          "gfPer2": 0.0,
+          "gaPer2": 0.5263157894736842,
+          "rawNetPer2": -0.5263157894736842,
+          "secondsPerGA": 228.0,
+          "gfPerEpisode": 0.0,
+          "gaPerEpisode": 0.5,
+          "provisional": true,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 1,
+              "medianPullSeconds": 105.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 2,
+              "games": 1,
+              "medianPullSeconds": 130.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "ANA",
+          "index": 98.68785104903262,
+          "attack": 0.0372742179170486,
+          "defence": -0.050395707426722475,
+          "gf": 1,
+          "ga": 2,
+          "episodes": 4,
+          "seconds": 242,
+          "gfPer2": 0.49586776859504134,
+          "gaPer2": 0.9917355371900827,
+          "rawNetPer2": -0.49586776859504134,
+          "secondsPerGA": 121.0,
+          "gfPerEpisode": 0.25,
+          "gaPerEpisode": 0.5,
+          "provisional": true,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 1,
+              "medianPullSeconds": 136.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 2,
+              "games": 2,
+              "medianPullSeconds": 123.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "BUF",
+          "index": 98.28650715407308,
+          "attack": -0.022770066697831742,
+          "defence": 0.005635138238562578,
+          "gf": 0,
+          "ga": 1,
+          "episodes": 3,
+          "seconds": 155,
+          "gfPer2": 0.0,
+          "gaPer2": 0.7741935483870968,
+          "rawNetPer2": -0.7741935483870968,
+          "secondsPerGA": 155.0,
+          "gfPerEpisode": 0.0,
+          "gaPerEpisode": 0.3333333333333333,
+          "provisional": true,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 2,
+              "games": 2,
+              "medianPullSeconds": 147.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "NJD",
+          "index": 98.03905861997148,
+          "attack": -0.014610935772761499,
+          "defence": -0.004998478027523673,
+          "gf": 0,
+          "ga": 1,
+          "episodes": 1,
+          "seconds": 95,
+          "gfPer2": 0.0,
+          "gaPer2": 1.263157894736842,
+          "rawNetPer2": -1.263157894736842,
+          "secondsPerGA": 95.0,
+          "gfPerEpisode": 0.0,
+          "gaPerEpisode": 1.0,
+          "provisional": true,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 2,
+              "games": 1,
+              "medianPullSeconds": 222.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "CBJ",
+          "index": 95.42412564077725,
+          "attack": -0.050131305886411744,
+          "defence": 0.004372562294184221,
+          "gf": 0,
+          "ga": 2,
+          "episodes": 3,
+          "seconds": 322,
+          "gfPer2": 0.0,
+          "gaPer2": 0.7453416149068323,
+          "rawNetPer2": -0.7453416149068323,
+          "secondsPerGA": 161.0,
+          "gfPerEpisode": 0.0,
+          "gaPerEpisode": 0.6666666666666666,
+          "provisional": true,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 2,
+              "medianPullSeconds": 108.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 2,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 3,
+              "games": 1,
+              "medianPullSeconds": 285.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "TOR",
+          "index": 94.77148149744195,
+          "attack": -0.02231215095921509,
+          "defence": -0.029973034066365437,
+          "gf": 1,
+          "ga": 1,
+          "episodes": 5,
+          "seconds": 135,
+          "gfPer2": 0.8888888888888888,
+          "gaPer2": 0.8888888888888888,
+          "rawNetPer2": 0.0,
+          "secondsPerGA": 135.0,
+          "gfPerEpisode": 0.2,
+          "gaPerEpisode": 0.2,
+          "provisional": true,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 1,
+              "medianPullSeconds": 169.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 2,
+              "games": 2,
+              "medianPullSeconds": 364.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "EDM",
+          "index": 94.54926338112779,
+          "attack": 0.04881070375825059,
+          "defence": -0.10331806994697276,
+          "gf": 1,
+          "ga": 2,
+          "episodes": 4,
+          "seconds": 176,
+          "gfPer2": 0.6818181818181818,
+          "gaPer2": 1.3636363636363635,
+          "rawNetPer2": -0.6818181818181818,
+          "secondsPerGA": 88.0,
+          "gfPerEpisode": 0.25,
+          "gaPerEpisode": 0.5,
+          "provisional": true,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 1,
+              "medianPullSeconds": 141.0,
+              "recovered": 1,
+              "recoveryRate": 1.0
+            },
+            {
+              "deficit": 2,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 3,
+              "games": 1,
+              "medianPullSeconds": 139.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "SEA",
+          "index": 91.88451279601496,
+          "attack": -0.050700634492981206,
+          "defence": -0.03045423754686919,
+          "gf": 0,
+          "ga": 1,
+          "episodes": 2,
+          "seconds": 205,
+          "gfPer2": 0.0,
+          "gaPer2": 0.5853658536585366,
+          "rawNetPer2": -0.5853658536585366,
+          "secondsPerGA": 205.0,
+          "gfPerEpisode": 0.0,
+          "gaPerEpisode": 0.5,
+          "provisional": true,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 2,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 3,
+              "games": 1,
+              "medianPullSeconds": 425.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "LAK",
+          "index": 90.84230685389753,
+          "attack": 0.02572825422590599,
+          "defence": -0.1173051856869307,
+          "gf": 1,
+          "ga": 3,
+          "episodes": 6,
+          "seconds": 294,
+          "gfPer2": 0.40816326530612246,
+          "gaPer2": 1.2244897959183674,
+          "rawNetPer2": -0.8163265306122449,
+          "secondsPerGA": 98.0,
+          "gfPerEpisode": 0.16666666666666666,
+          "gaPerEpisode": 0.5,
+          "provisional": true,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 2,
+              "medianPullSeconds": 113.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 2,
+              "games": 2,
+              "medianPullSeconds": 142.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 1,
+              "medianPullSeconds": 495.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "TBL",
+          "index": 90.74080506012422,
+          "attack": -0.017249121297595687,
+          "defence": -0.07534282810116211,
+          "gf": 0,
+          "ga": 2,
+          "episodes": 2,
+          "seconds": 142,
+          "gfPer2": 0.0,
+          "gaPer2": 1.6901408450704225,
+          "rawNetPer2": -1.6901408450704225,
+          "secondsPerGA": 71.0,
+          "gfPerEpisode": 0.0,
+          "gaPerEpisode": 1.0,
+          "provisional": true,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 2,
+              "games": 1,
+              "medianPullSeconds": 169.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "SJS",
+          "index": 88.27985619279748,
+          "attack": -0.05081157071357624,
+          "defence": -0.06638986735844897,
+          "gf": 0,
+          "ga": 3,
+          "episodes": 4,
+          "seconds": 312,
+          "gfPer2": 0.0,
+          "gaPer2": 1.1538461538461537,
+          "rawNetPer2": -1.1538461538461537,
+          "secondsPerGA": 104.0,
+          "gfPerEpisode": 0.0,
+          "gaPerEpisode": 0.75,
+          "provisional": true,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 2,
+              "medianPullSeconds": 97.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 2,
+              "games": 2,
+              "medianPullSeconds": 182.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "UTA",
+          "index": 84.53177526897477,
+          "attack": -0.03286601194544646,
+          "defence": -0.12181623536480593,
+          "gf": 0,
+          "ga": 2,
+          "episodes": 3,
+          "seconds": 136,
+          "gfPer2": 0.0,
+          "gaPer2": 1.7647058823529411,
+          "rawNetPer2": -1.7647058823529411,
+          "secondsPerGA": 68.0,
+          "gfPerEpisode": 0.0,
+          "gaPerEpisode": 0.6666666666666666,
+          "provisional": true,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 2,
+              "medianPullSeconds": 110.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 2,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 3,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "NYI",
+          "index": 77.9136875971184,
+          "attack": -0.035694441677758364,
+          "defence": -0.18516868235105763,
+          "gf": 0,
+          "ga": 3,
+          "episodes": 4,
+          "seconds": 169,
+          "gfPer2": 0.0,
+          "gaPer2": 2.1301775147928996,
+          "rawNetPer2": -2.1301775147928996,
+          "secondsPerGA": 56.333333333333336,
+          "gfPerEpisode": 0.0,
+          "gaPerEpisode": 0.75,
+          "provisional": true,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 3,
+              "medianPullSeconds": 113.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 2,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 3,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "NYR",
+          "index": 71.34034734375327,
+          "attack": -0.04287399506775912,
+          "defence": -0.24372253149470818,
+          "gf": 0,
+          "ga": 4,
+          "episodes": 4,
+          "seconds": 217,
+          "gfPer2": 0.0,
+          "gaPer2": 2.2119815668202767,
+          "rawNetPer2": -2.2119815668202767,
+          "secondsPerGA": 54.25,
+          "gfPerEpisode": 0.0,
+          "gaPerEpisode": 1.0,
+          "provisional": true,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 2,
+              "medianPullSeconds": 110.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 2,
+              "games": 1,
+              "medianPullSeconds": 162.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        }
+      ],
+      "timingBands": [
+        {
+          "deficit": 1,
+          "band": "0\u201360s",
+          "games": 3,
+          "recovered": 0,
+          "rate": 0.0
+        },
+        {
+          "deficit": 1,
+          "band": "61\u2013120s",
+          "games": 23,
+          "recovered": 3,
+          "rate": 0.13043478260869565
+        },
+        {
+          "deficit": 1,
+          "band": "121\u2013180s",
+          "games": 23,
+          "recovered": 8,
+          "rate": 0.34782608695652173
+        },
+        {
+          "deficit": 1,
+          "band": "181\u2013300s",
+          "games": 0,
+          "recovered": 0,
+          "rate": null
+        },
+        {
+          "deficit": 1,
+          "band": "301\u2013600s",
+          "games": 0,
+          "recovered": 0,
+          "rate": null
+        },
+        {
+          "deficit": 2,
+          "band": "0\u201360s",
+          "games": 2,
+          "recovered": 0,
+          "rate": 0.0
+        },
+        {
+          "deficit": 2,
+          "band": "61\u2013120s",
+          "games": 2,
+          "recovered": 0,
+          "rate": 0.0
+        },
+        {
+          "deficit": 2,
+          "band": "121\u2013180s",
+          "games": 15,
+          "recovered": 0,
+          "rate": 0.0
+        },
+        {
+          "deficit": 2,
+          "band": "181\u2013300s",
+          "games": 12,
+          "recovered": 1,
+          "rate": 0.08333333333333333
+        },
+        {
+          "deficit": 2,
+          "band": "301\u2013600s",
+          "games": 1,
+          "recovered": 0,
+          "rate": 0.0
+        },
+        {
+          "deficit": 3,
+          "band": "0\u201360s",
+          "games": 0,
+          "recovered": 0,
+          "rate": null
+        },
+        {
+          "deficit": 3,
+          "band": "61\u2013120s",
+          "games": 0,
+          "recovered": 0,
+          "rate": null
+        },
+        {
+          "deficit": 3,
+          "band": "121\u2013180s",
+          "games": 1,
+          "recovered": 0,
+          "rate": 0.0
+        },
+        {
+          "deficit": 3,
+          "band": "181\u2013300s",
+          "games": 4,
+          "recovered": 0,
+          "rate": 0.0
+        },
+        {
+          "deficit": 3,
+          "band": "301\u2013600s",
+          "games": 6,
+          "recovered": 0,
+          "rate": 0.0
+        },
+        {
+          "deficit": 4,
+          "band": "0\u201360s",
+          "games": 0,
+          "recovered": 0,
+          "rate": null
+        },
+        {
+          "deficit": 4,
+          "band": "61\u2013120s",
+          "games": 0,
+          "recovered": 0,
+          "rate": null
+        },
+        {
+          "deficit": 4,
+          "band": "121\u2013180s",
+          "games": 0,
+          "recovered": 0,
+          "rate": null
+        },
+        {
+          "deficit": 4,
+          "band": "181\u2013300s",
+          "games": 0,
+          "recovered": 0,
+          "rate": null
+        },
+        {
+          "deficit": 4,
+          "band": "301\u2013600s",
+          "games": 0,
+          "recovered": 0,
+          "rate": null
+        }
+      ]
+    },
+    "combined": {
+      "teams": [
+        {
+          "team": "VGK",
+          "index": 127.50658451402064,
+          "attack": 0.02431364632603213,
+          "defence": 0.2507521988141744,
+          "gf": 6,
+          "ga": 8,
+          "episodes": 28,
+          "seconds": 2241,
+          "gfPer2": 0.321285140562249,
+          "gaPer2": 0.428380187416332,
+          "rawNetPer2": -0.107095046854083,
+          "secondsPerGA": 280.125,
+          "gfPerEpisode": 0.21428571428571427,
+          "gaPerEpisode": 0.2857142857142857,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 16,
+              "medianPullSeconds": 107.0,
+              "recovered": 4,
+              "recoveryRate": 0.25
+            },
+            {
+              "deficit": 2,
+              "games": 6,
+              "medianPullSeconds": 191.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 2,
+              "medianPullSeconds": 215.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "OTT",
+          "index": 124.26028239244218,
+          "attack": -0.030848891191909103,
+          "defence": 0.2734517151163308,
+          "gf": 5,
+          "ga": 9,
+          "episodes": 34,
+          "seconds": 2619,
+          "gfPer2": 0.2290950744558992,
+          "gaPer2": 0.41237113402061853,
+          "rawNetPer2": -0.18327605956471935,
+          "secondsPerGA": 291.0,
+          "gfPerEpisode": 0.14705882352941177,
+          "gaPerEpisode": 0.2647058823529412,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 14,
+              "medianPullSeconds": 125.5,
+              "recovered": 3,
+              "recoveryRate": 0.21428571428571427
+            },
+            {
+              "deficit": 2,
+              "games": 5,
+              "medianPullSeconds": 144.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 6,
+              "medianPullSeconds": 266.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "MTL",
+          "index": 119.27300220924226,
+          "attack": 0.14937150332537436,
+          "defence": 0.04335851876704835,
+          "gf": 10,
+          "ga": 15,
+          "episodes": 41,
+          "seconds": 2392,
+          "gfPer2": 0.5016722408026756,
+          "gaPer2": 0.7525083612040134,
+          "rawNetPer2": -0.2508361204013378,
+          "secondsPerGA": 159.46666666666667,
+          "gfPerEpisode": 0.24390243902439024,
+          "gaPerEpisode": 0.36585365853658536,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 17,
+              "medianPullSeconds": 111.0,
+              "recovered": 4,
+              "recoveryRate": 0.23529411764705882
+            },
+            {
+              "deficit": 2,
+              "games": 7,
+              "medianPullSeconds": 210.0,
+              "recovered": 2,
+              "recoveryRate": 0.2857142857142857
+            },
+            {
+              "deficit": 3,
+              "games": 2,
+              "medianPullSeconds": 292.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "NJD",
+          "index": 118.04161412862038,
+          "attack": 0.06581278199880251,
+          "defence": 0.11460335928740138,
+          "gf": 7,
+          "ga": 12,
+          "episodes": 29,
+          "seconds": 2235,
+          "gfPer2": 0.37583892617449666,
+          "gaPer2": 0.6442953020134228,
+          "rawNetPer2": -0.2684563758389262,
+          "secondsPerGA": 186.25,
+          "gfPerEpisode": 0.2413793103448276,
+          "gaPerEpisode": 0.41379310344827586,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 12,
+              "medianPullSeconds": 135.0,
+              "recovered": 3,
+              "recoveryRate": 0.25
+            },
+            {
+              "deficit": 2,
+              "games": 8,
+              "medianPullSeconds": 213.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 2,
+              "medianPullSeconds": 358.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "NYI",
+          "index": 117.88761387248874,
+          "attack": 0.021740436693887002,
+          "defence": 0.15713570203100038,
+          "gf": 10,
+          "ga": 17,
+          "episodes": 39,
+          "seconds": 4351,
+          "gfPer2": 0.2757986669731096,
+          "gaPer2": 0.46885773385428636,
+          "rawNetPer2": -0.19305906688117674,
+          "secondsPerGA": 255.94117647058823,
+          "gfPerEpisode": 0.2564102564102564,
+          "gaPerEpisode": 0.4358974358974359,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 13,
+              "medianPullSeconds": 124.0,
+              "recovered": 3,
+              "recoveryRate": 0.23076923076923078
+            },
+            {
+              "deficit": 2,
+              "games": 12,
+              "medianPullSeconds": 245.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 6,
+              "medianPullSeconds": 481.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "EDM",
+          "index": 116.38071279534127,
+          "attack": 0.05407222374097853,
+          "defence": 0.1097349042124341,
+          "gf": 7,
+          "ga": 12,
+          "episodes": 29,
+          "seconds": 2321,
+          "gfPer2": 0.3619129685480396,
+          "gaPer2": 0.6204222317966394,
+          "rawNetPer2": -0.25850926324859974,
+          "secondsPerGA": 193.41666666666666,
+          "gfPerEpisode": 0.2413793103448276,
+          "gaPerEpisode": 0.41379310344827586,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 16,
+              "medianPullSeconds": 104.0,
+              "recovered": 4,
+              "recoveryRate": 0.25
+            },
+            {
+              "deficit": 2,
+              "games": 4,
+              "medianPullSeconds": 215.0,
+              "recovered": 1,
+              "recoveryRate": 0.25
+            },
+            {
+              "deficit": 3,
+              "games": 4,
+              "medianPullSeconds": 251.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "CAR",
+          "index": 112.86027269947901,
+          "attack": 0.09127762961131226,
+          "defence": 0.03732509738347785,
+          "gf": 6,
+          "ga": 11,
+          "episodes": 24,
+          "seconds": 1732,
+          "gfPer2": 0.41570438799076215,
+          "gaPer2": 0.7621247113163973,
+          "rawNetPer2": -0.3464203233256351,
+          "secondsPerGA": 157.45454545454547,
+          "gfPerEpisode": 0.25,
+          "gaPerEpisode": 0.4583333333333333,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 7,
+              "medianPullSeconds": 112.0,
+              "recovered": 2,
+              "recoveryRate": 0.2857142857142857
+            },
+            {
+              "deficit": 2,
+              "games": 10,
+              "medianPullSeconds": 162.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 1,
+              "medianPullSeconds": 253.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "PIT",
+          "index": 112.63160367497227,
+          "attack": 0.08435672523657016,
+          "defence": 0.041959311513152485,
+          "gf": 8,
+          "ga": 13,
+          "episodes": 33,
+          "seconds": 2469,
+          "gfPer2": 0.3888213851761847,
+          "gaPer2": 0.6318347509113001,
+          "rawNetPer2": -0.24301336573511542,
+          "secondsPerGA": 189.92307692307693,
+          "gfPerEpisode": 0.24242424242424243,
+          "gaPerEpisode": 0.3939393939393939,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 17,
+              "medianPullSeconds": 128.0,
+              "recovered": 5,
+              "recoveryRate": 0.29411764705882354
+            },
+            {
+              "deficit": 2,
+              "games": 3,
+              "medianPullSeconds": 148.0,
+              "recovered": 1,
+              "recoveryRate": 0.3333333333333333
+            },
+            {
+              "deficit": 3,
+              "games": 6,
+              "medianPullSeconds": 284.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "DAL",
+          "index": 111.11732976349633,
+          "attack": 0.06861567367564952,
+          "defence": 0.04255762395931376,
+          "gf": 8,
+          "ga": 15,
+          "episodes": 35,
+          "seconds": 2567,
+          "gfPer2": 0.37397740553174913,
+          "gaPer2": 0.7012076353720296,
+          "rawNetPer2": -0.3272302298402805,
+          "secondsPerGA": 171.13333333333333,
+          "gfPerEpisode": 0.22857142857142856,
+          "gaPerEpisode": 0.42857142857142855,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 12,
+              "medianPullSeconds": 136.5,
+              "recovered": 3,
+              "recoveryRate": 0.25
+            },
+            {
+              "deficit": 2,
+              "games": 7,
+              "medianPullSeconds": 241.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 4,
+              "medianPullSeconds": 276.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "ANA",
+          "index": 110.7928824192914,
+          "attack": 0.11210153042655455,
+          "defence": -0.004172706233640518,
+          "gf": 10,
+          "ga": 19,
+          "episodes": 43,
+          "seconds": 2746,
+          "gfPer2": 0.43699927166788055,
+          "gaPer2": 0.830298616168973,
+          "rawNetPer2": -0.3932993445010925,
+          "secondsPerGA": 144.52631578947367,
+          "gfPerEpisode": 0.23255813953488372,
+          "gaPerEpisode": 0.4418604651162791,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 16,
+              "medianPullSeconds": 121.0,
+              "recovered": 5,
+              "recoveryRate": 0.3125
+            },
+            {
+              "deficit": 2,
+              "games": 12,
+              "medianPullSeconds": 169.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 3,
+              "medianPullSeconds": 233.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "VAN",
+          "index": 110.02053569774867,
+          "attack": -0.05293294689061135,
+          "defence": 0.15313830386809812,
+          "gf": 6,
+          "ga": 19,
+          "episodes": 43,
+          "seconds": 3779,
+          "gfPer2": 0.19052659433712624,
+          "gaPer2": 0.6033342154008997,
+          "rawNetPer2": -0.4128076210637735,
+          "secondsPerGA": 198.89473684210526,
+          "gfPerEpisode": 0.13953488372093023,
+          "gaPerEpisode": 0.4418604651162791,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 9,
+              "medianPullSeconds": 132.0,
+              "recovered": 1,
+              "recoveryRate": 0.1111111111111111
+            },
+            {
+              "deficit": 2,
+              "games": 16,
+              "medianPullSeconds": 204.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 7,
+              "medianPullSeconds": 222.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "WPG",
+          "index": 107.43134915843726,
+          "attack": -0.052196229337285696,
+          "defence": 0.12650972092165824,
+          "gf": 4,
+          "ga": 14,
+          "episodes": 33,
+          "seconds": 2594,
+          "gfPer2": 0.18504240555127216,
+          "gaPer2": 0.6476484194294526,
+          "rawNetPer2": -0.4626060138781804,
+          "secondsPerGA": 185.28571428571428,
+          "gfPerEpisode": 0.12121212121212122,
+          "gaPerEpisode": 0.42424242424242425,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 20,
+              "medianPullSeconds": 101.5,
+              "recovered": 4,
+              "recoveryRate": 0.2
+            },
+            {
+              "deficit": 2,
+              "games": 8,
+              "medianPullSeconds": 161.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 2,
+              "medianPullSeconds": 214.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "COL",
+          "index": 107.09815500874286,
+          "attack": 0.07695385931242084,
+          "defence": -0.00597230922499222,
+          "gf": 5,
+          "ga": 10,
+          "episodes": 20,
+          "seconds": 1501,
+          "gfPer2": 0.39973351099267157,
+          "gaPer2": 0.7994670219853431,
+          "rawNetPer2": -0.39973351099267157,
+          "secondsPerGA": 150.1,
+          "gfPerEpisode": 0.25,
+          "gaPerEpisode": 0.5,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 9,
+              "medianPullSeconds": 136.0,
+              "recovered": 2,
+              "recoveryRate": 0.2222222222222222
+            },
+            {
+              "deficit": 2,
+              "games": 3,
+              "medianPullSeconds": 223.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 2,
+              "medianPullSeconds": 255.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "BOS",
+          "index": 103.51505556292135,
+          "attack": 0.0401802068454144,
+          "defence": -0.005029651216200991,
+          "gf": 4,
+          "ga": 10,
+          "episodes": 19,
+          "seconds": 1417,
+          "gfPer2": 0.3387438249823571,
+          "gaPer2": 0.8468595624558928,
+          "rawNetPer2": -0.5081157374735357,
+          "secondsPerGA": 141.7,
+          "gfPerEpisode": 0.21052631578947367,
+          "gaPerEpisode": 0.5263157894736842,
+          "provisional": true,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 9,
+              "medianPullSeconds": 115.0,
+              "recovered": 1,
+              "recoveryRate": 0.1111111111111111
+            },
+            {
+              "deficit": 2,
+              "games": 7,
+              "medianPullSeconds": 188.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 1,
+              "medianPullSeconds": 217.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "NSH",
+          "index": 102.16182931353188,
+          "attack": -0.017843170115663987,
+          "defence": 0.03946146325098286,
+          "gf": 5,
+          "ga": 15,
+          "episodes": 39,
+          "seconds": 2377,
+          "gfPer2": 0.2524190155658393,
+          "gaPer2": 0.7572570466975179,
+          "rawNetPer2": -0.5048380311316786,
+          "secondsPerGA": 158.46666666666667,
+          "gfPerEpisode": 0.1282051282051282,
+          "gaPerEpisode": 0.38461538461538464,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 15,
+              "medianPullSeconds": 122.0,
+              "recovered": 3,
+              "recoveryRate": 0.2
+            },
+            {
+              "deficit": 2,
+              "games": 9,
+              "medianPullSeconds": 238.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 1,
+              "medianPullSeconds": 199.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "CBJ",
+          "index": 99.52511341184399,
+          "attack": -0.06844286025212343,
+          "defence": 0.06369399437056332,
+          "gf": 3,
+          "ga": 13,
+          "episodes": 29,
+          "seconds": 2202,
+          "gfPer2": 0.16348773841961853,
+          "gaPer2": 0.7084468664850136,
+          "rawNetPer2": -0.5449591280653951,
+          "secondsPerGA": 169.3846153846154,
+          "gfPerEpisode": 0.10344827586206896,
+          "gaPerEpisode": 0.4482758620689655,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 17,
+              "medianPullSeconds": 107.0,
+              "recovered": 2,
+              "recoveryRate": 0.11764705882352941
+            },
+            {
+              "deficit": 2,
+              "games": 4,
+              "medianPullSeconds": 210.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 2,
+              "medianPullSeconds": 297.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "STL",
+          "index": 98.47833753164316,
+          "attack": 0.00130628869279807,
+          "defence": -0.016522913376366414,
+          "gf": 4,
+          "ga": 12,
+          "episodes": 22,
+          "seconds": 1778,
+          "gfPer2": 0.26996625421822273,
+          "gaPer2": 0.8098987626546682,
+          "rawNetPer2": -0.5399325084364455,
+          "secondsPerGA": 148.16666666666666,
+          "gfPerEpisode": 0.18181818181818182,
+          "gaPerEpisode": 0.5454545454545454,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 8,
+              "medianPullSeconds": 113.0,
+              "recovered": 1,
+              "recoveryRate": 0.125
+            },
+            {
+              "deficit": 2,
+              "games": 9,
+              "medianPullSeconds": 224.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 1,
+              "medianPullSeconds": 403.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "LAK",
+          "index": 97.38976771841935,
+          "attack": 0.11484051686628137,
+          "defence": -0.14094283968208784,
+          "gf": 7,
+          "ga": 15,
+          "episodes": 32,
+          "seconds": 1765,
+          "gfPer2": 0.47592067988668557,
+          "gaPer2": 1.019830028328612,
+          "rawNetPer2": -0.5439093484419264,
+          "secondsPerGA": 117.66666666666667,
+          "gfPerEpisode": 0.21875,
+          "gaPerEpisode": 0.46875,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 15,
+              "medianPullSeconds": 124.0,
+              "recovered": 3,
+              "recoveryRate": 0.2
+            },
+            {
+              "deficit": 2,
+              "games": 8,
+              "medianPullSeconds": 141.0,
+              "recovered": 1,
+              "recoveryRate": 0.125
+            },
+            {
+              "deficit": 3,
+              "games": 3,
+              "medianPullSeconds": 393.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "FLA",
+          "index": 96.65915131208766,
+          "attack": 0.1027615164925294,
+          "defence": -0.1361700033716528,
+          "gf": 9,
+          "ga": 21,
+          "episodes": 38,
+          "seconds": 2509,
+          "gfPer2": 0.43045037863690716,
+          "gaPer2": 1.00438421681945,
+          "rawNetPer2": -0.5739338381825428,
+          "secondsPerGA": 119.47619047619048,
+          "gfPerEpisode": 0.23684210526315788,
+          "gaPerEpisode": 0.5526315789473685,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 15,
+              "medianPullSeconds": 162.0,
+              "recovered": 4,
+              "recoveryRate": 0.26666666666666666
+            },
+            {
+              "deficit": 2,
+              "games": 10,
+              "medianPullSeconds": 228.5,
+              "recovered": 1,
+              "recoveryRate": 0.1
+            },
+            {
+              "deficit": 3,
+              "games": 1,
+              "medianPullSeconds": 321.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "CHI",
+          "index": 96.50051067146866,
+          "attack": -0.10948360545296354,
+          "defence": 0.07448871216765013,
+          "gf": 2,
+          "ga": 15,
+          "episodes": 36,
+          "seconds": 2543,
+          "gfPer2": 0.09437672040896579,
+          "gaPer2": 0.7078254030672434,
+          "rawNetPer2": -0.6134486826582777,
+          "secondsPerGA": 169.53333333333333,
+          "gfPerEpisode": 0.05555555555555555,
+          "gaPerEpisode": 0.4166666666666667,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 18,
+              "medianPullSeconds": 91.0,
+              "recovered": 1,
+              "recoveryRate": 0.05555555555555555
+            },
+            {
+              "deficit": 2,
+              "games": 8,
+              "medianPullSeconds": 158.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 5,
+              "medianPullSeconds": 309.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "WSH",
+          "index": 96.34533824092166,
+          "attack": -0.04343721677464388,
+          "defence": 0.006890599183860567,
+          "gf": 4,
+          "ga": 16,
+          "episodes": 36,
+          "seconds": 2365,
+          "gfPer2": 0.2029598308668076,
+          "gaPer2": 0.8118393234672304,
+          "rawNetPer2": -0.6088794926004228,
+          "secondsPerGA": 147.8125,
+          "gfPerEpisode": 0.1111111111111111,
+          "gaPerEpisode": 0.4444444444444444,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 13,
+              "medianPullSeconds": 116.0,
+              "recovered": 1,
+              "recoveryRate": 0.07692307692307693
+            },
+            {
+              "deficit": 2,
+              "games": 11,
+              "medianPullSeconds": 184.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 2,
+              "medianPullSeconds": 191.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "TBL",
+          "index": 95.65585422953306,
+          "attack": -0.018390589036848395,
+          "defence": -0.025050868667821007,
+          "gf": 4,
+          "ga": 14,
+          "episodes": 27,
+          "seconds": 1966,
+          "gfPer2": 0.2441505595116989,
+          "gaPer2": 0.854526958290946,
+          "rawNetPer2": -0.6103763987792472,
+          "secondsPerGA": 140.42857142857142,
+          "gfPerEpisode": 0.14814814814814814,
+          "gaPerEpisode": 0.5185185185185185,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 12,
+              "medianPullSeconds": 133.0,
+              "recovered": 1,
+              "recoveryRate": 0.08333333333333333
+            },
+            {
+              "deficit": 2,
+              "games": 5,
+              "medianPullSeconds": 187.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 2,
+              "medianPullSeconds": 293.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "PHI",
+          "index": 94.61867026741504,
+          "attack": 0.02315333405483416,
+          "defence": -0.07696663138068376,
+          "gf": 4,
+          "ga": 12,
+          "episodes": 24,
+          "seconds": 1530,
+          "gfPer2": 0.3137254901960784,
+          "gaPer2": 0.9411764705882353,
+          "rawNetPer2": -0.6274509803921569,
+          "secondsPerGA": 127.5,
+          "gfPerEpisode": 0.16666666666666666,
+          "gaPerEpisode": 0.5,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 9,
+              "medianPullSeconds": 119.0,
+              "recovered": 2,
+              "recoveryRate": 0.2222222222222222
+            },
+            {
+              "deficit": 2,
+              "games": 6,
+              "medianPullSeconds": 164.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 3,
+              "medianPullSeconds": 224.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 1,
+              "medianPullSeconds": 561.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            }
+          ]
+        },
+        {
+          "team": "DET",
+          "index": 92.84119971173317,
+          "attack": 0.03872779798836665,
+          "defence": -0.11031580087103497,
+          "gf": 6,
+          "ga": 17,
+          "episodes": 32,
+          "seconds": 2152,
+          "gfPer2": 0.3345724907063197,
+          "gaPer2": 0.9479553903345725,
+          "rawNetPer2": -0.6133828996282528,
+          "secondsPerGA": 126.58823529411765,
+          "gfPerEpisode": 0.1875,
+          "gaPerEpisode": 0.53125,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 11,
+              "medianPullSeconds": 134.0,
+              "recovered": 3,
+              "recoveryRate": 0.2727272727272727
+            },
+            {
+              "deficit": 2,
+              "games": 13,
+              "medianPullSeconds": 215.0,
+              "recovered": 1,
+              "recoveryRate": 0.07692307692307693
+            },
+            {
+              "deficit": 3,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "UTA",
+          "index": 90.4858483898354,
+          "attack": -0.15242263855221186,
+          "defence": 0.05728112245056587,
+          "gf": 1,
+          "ga": 14,
+          "episodes": 35,
+          "seconds": 2247,
+          "gfPer2": 0.0534045393858478,
+          "gaPer2": 0.7476635514018691,
+          "rawNetPer2": -0.6942590120160214,
+          "secondsPerGA": 160.5,
+          "gfPerEpisode": 0.02857142857142857,
+          "gaPerEpisode": 0.4,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 19,
+              "medianPullSeconds": 106.0,
+              "recovered": 1,
+              "recoveryRate": 0.05263157894736842
+            },
+            {
+              "deficit": 2,
+              "games": 7,
+              "medianPullSeconds": 178.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "SJS",
+          "index": 79.85216990940269,
+          "attack": 0.012267449957356551,
+          "defence": -0.21374575086332961,
+          "gf": 5,
+          "ga": 19,
+          "episodes": 32,
+          "seconds": 1986,
+          "gfPer2": 0.3021148036253776,
+          "gaPer2": 1.148036253776435,
+          "rawNetPer2": -0.8459214501510574,
+          "secondsPerGA": 104.52631578947368,
+          "gfPerEpisode": 0.15625,
+          "gaPerEpisode": 0.59375,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 14,
+              "medianPullSeconds": 132.5,
+              "recovered": 3,
+              "recoveryRate": 0.21428571428571427
+            },
+            {
+              "deficit": 2,
+              "games": 11,
+              "medianPullSeconds": 223.0,
+              "recovered": 1,
+              "recoveryRate": 0.09090909090909091
+            },
+            {
+              "deficit": 3,
+              "games": 1,
+              "medianPullSeconds": 243.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "MIN",
+          "index": 77.89579304165514,
+          "attack": -0.09655242235075148,
+          "defence": -0.12448964723269713,
+          "gf": 1,
+          "ga": 12,
+          "episodes": 22,
+          "seconds": 1381,
+          "gfPer2": 0.08689355539464157,
+          "gaPer2": 1.0427226647356989,
+          "rawNetPer2": -0.9558291093410572,
+          "secondsPerGA": 115.08333333333333,
+          "gfPerEpisode": 0.045454545454545456,
+          "gaPerEpisode": 0.5454545454545454,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 9,
+              "medianPullSeconds": 123.0,
+              "recovered": 1,
+              "recoveryRate": 0.1111111111111111
+            },
+            {
+              "deficit": 2,
+              "games": 6,
+              "medianPullSeconds": 169.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 1,
+              "medianPullSeconds": 220.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "SEA",
+          "index": 77.55738957867818,
+          "attack": -0.06075645116171969,
+          "defence": -0.16366965305149847,
+          "gf": 4,
+          "ga": 22,
+          "episodes": 39,
+          "seconds": 2516,
+          "gfPer2": 0.1907790143084261,
+          "gaPer2": 1.0492845786963434,
+          "rawNetPer2": -0.8585055643879174,
+          "secondsPerGA": 114.36363636363636,
+          "gfPerEpisode": 0.10256410256410256,
+          "gaPerEpisode": 0.5641025641025641,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 17,
+              "medianPullSeconds": 108.0,
+              "recovered": 2,
+              "recoveryRate": 0.11764705882352941
+            },
+            {
+              "deficit": 2,
+              "games": 8,
+              "medianPullSeconds": 175.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 5,
+              "medianPullSeconds": 228.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "TOR",
+          "index": 73.33457822263912,
+          "attack": -0.11547282176755251,
+          "defence": -0.15118139600605632,
+          "gf": 3,
+          "ga": 24,
+          "episodes": 40,
+          "seconds": 2831,
+          "gfPer2": 0.12716354645001765,
+          "gaPer2": 1.0173083716001412,
+          "rawNetPer2": -0.8901448251501236,
+          "secondsPerGA": 117.95833333333333,
+          "gfPerEpisode": 0.075,
+          "gaPerEpisode": 0.6,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 10,
+              "medianPullSeconds": 106.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 2,
+              "games": 14,
+              "medianPullSeconds": 188.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 4,
+              "medianPullSeconds": 308.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "CGY",
+          "index": 73.12312532366752,
+          "attack": -0.1389924004317935,
+          "defence": -0.1297763463315313,
+          "gf": 1,
+          "ga": 19,
+          "episodes": 33,
+          "seconds": 2186,
+          "gfPer2": 0.05489478499542543,
+          "gaPer2": 1.0430009149130832,
+          "rawNetPer2": -0.9881061299176578,
+          "secondsPerGA": 115.05263157894737,
+          "gfPerEpisode": 0.030303030303030304,
+          "gaPerEpisode": 0.5757575757575758,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 14,
+              "medianPullSeconds": 98.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 2,
+              "games": 13,
+              "medianPullSeconds": 178.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "NYR",
+          "index": 71.70648902942868,
+          "attack": -0.016126246236082872,
+          "defence": -0.2668088634696303,
+          "gf": 6,
+          "ga": 28,
+          "episodes": 46,
+          "seconds": 2753,
+          "gfPer2": 0.2615328732292045,
+          "gaPer2": 1.2204867417362877,
+          "rawNetPer2": -0.9589538685070832,
+          "secondsPerGA": 98.32142857142857,
+          "gfPerEpisode": 0.13043478260869565,
+          "gaPerEpisode": 0.6086956521739131,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 21,
+              "medianPullSeconds": 105.0,
+              "recovered": 2,
+              "recoveryRate": 0.09523809523809523
+            },
+            {
+              "deficit": 2,
+              "games": 13,
+              "medianPullSeconds": 169.0,
+              "recovered": 1,
+              "recoveryRate": 0.07692307692307693
+            },
+            {
+              "deficit": 3,
+              "games": 2,
+              "medianPullSeconds": 199.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        },
+        {
+          "team": "BUF",
+          "index": 56.66469095554772,
+          "attack": -0.08488804874116522,
+          "defence": -0.34846504170335757,
+          "gf": 1,
+          "ga": 16,
+          "episodes": 24,
+          "seconds": 1236,
+          "gfPer2": 0.0970873786407767,
+          "gaPer2": 1.5533980582524272,
+          "rawNetPer2": -1.4563106796116505,
+          "secondsPerGA": 77.25,
+          "gfPerEpisode": 0.041666666666666664,
+          "gaPerEpisode": 0.6666666666666666,
+          "provisional": false,
+          "timing": [
+            {
+              "deficit": 1,
+              "games": 8,
+              "medianPullSeconds": 117.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 2,
+              "games": 8,
+              "medianPullSeconds": 147.5,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 3,
+              "games": 1,
+              "medianPullSeconds": 164.0,
+              "recovered": 0,
+              "recoveryRate": 0.0
+            },
+            {
+              "deficit": 4,
+              "games": 0,
+              "medianPullSeconds": null,
+              "recovered": 0,
+              "recoveryRate": null
+            }
+          ]
+        }
+      ],
+      "timingBands": [
+        {
+          "deficit": 1,
+          "band": "0\u201360s",
+          "games": 29,
+          "recovered": 0,
+          "rate": 0.0
+        },
+        {
+          "deficit": 1,
+          "band": "61\u2013120s",
+          "games": 203,
+          "recovered": 29,
+          "rate": 0.14285714285714285
+        },
+        {
+          "deficit": 1,
+          "band": "121\u2013180s",
+          "games": 181,
+          "recovered": 40,
+          "rate": 0.22099447513812154
+        },
+        {
+          "deficit": 1,
+          "band": "181\u2013300s",
+          "games": 19,
+          "recovered": 5,
+          "rate": 0.2631578947368421
+        },
+        {
+          "deficit": 1,
+          "band": "301\u2013600s",
+          "games": 0,
+          "recovered": 0,
+          "rate": null
+        },
+        {
+          "deficit": 2,
+          "band": "0\u201360s",
+          "games": 4,
+          "recovered": 0,
+          "rate": 0.0
+        },
+        {
+          "deficit": 2,
+          "band": "61\u2013120s",
+          "games": 25,
+          "recovered": 0,
+          "rate": 0.0
+        },
+        {
+          "deficit": 2,
+          "band": "121\u2013180s",
+          "games": 85,
+          "recovered": 3,
+          "rate": 0.03529411764705882
+        },
+        {
+          "deficit": 2,
+          "band": "181\u2013300s",
+          "games": 150,
+          "recovered": 5,
+          "rate": 0.03333333333333333
+        },
+        {
+          "deficit": 2,
+          "band": "301\u2013600s",
+          "games": 7,
+          "recovered": 1,
+          "rate": 0.14285714285714285
+        },
+        {
+          "deficit": 3,
+          "band": "0\u201360s",
+          "games": 1,
+          "recovered": 0,
+          "rate": 0.0
+        },
+        {
+          "deficit": 3,
+          "band": "61\u2013120s",
+          "games": 3,
+          "recovered": 0,
+          "rate": 0.0
+        },
+        {
+          "deficit": 3,
+          "band": "121\u2013180s",
+          "games": 10,
+          "recovered": 0,
+          "rate": 0.0
+        },
+        {
+          "deficit": 3,
+          "band": "181\u2013300s",
+          "games": 36,
+          "recovered": 0,
+          "rate": 0.0
+        },
+        {
+          "deficit": 3,
+          "band": "301\u2013600s",
+          "games": 32,
+          "recovered": 0,
+          "rate": 0.0
+        },
+        {
+          "deficit": 4,
+          "band": "0\u201360s",
+          "games": 0,
+          "recovered": 0,
+          "rate": null
+        },
+        {
+          "deficit": 4,
+          "band": "61\u2013120s",
+          "games": 0,
+          "recovered": 0,
+          "rate": null
+        },
+        {
+          "deficit": 4,
+          "band": "121\u2013180s",
+          "games": 0,
+          "recovered": 0,
+          "rate": null
+        },
+        {
+          "deficit": 4,
+          "band": "181\u2013300s",
+          "games": 0,
+          "recovered": 0,
+          "rate": null
+        },
+        {
+          "deficit": 4,
+          "band": "301\u2013600s",
+          "games": 1,
+          "recovered": 0,
+          "rate": 0.0
+        }
+      ]
+    }
+  },
+  "scope": "Final 10 minutes; leading by 1\u20134; screened tactical pulls; exact 5-on-6 only",
+  "timingGames": 786,
+  "definition": "Index = 100 + 100 \u00d7 120 \u00d7 (GF \u2212 GA \u2212 expected GF + expected GA) / (seconds + 1200). Expected goals match season, deficit and remaining time."
+}
