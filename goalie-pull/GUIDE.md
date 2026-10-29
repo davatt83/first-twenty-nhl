@@ -6,25 +6,27 @@ The public calculator uses only seasons beginning in 2025 or later, including co
 
 Nonempty samples below the old thresholds (60 raw / 40 effective games) now show explicitly provisional estimates. Pull medians with fewer than 20 observed pulls are provisional. No observations still means no estimate. These sparse empirical probabilities and prices can be unstable; the combined view supplies more evidence. No artificial games or inferred goal events are introduced.
 
-The verified data-through date is October 25, 2026 after the October 26 refresh. All validation scores below are frozen legacy results, not fresh validation of this restricted model or its provisional prices. Existing fitted settings were retained, not re-estimated using the current season. Historical research artifacts remain in the source archive solely as an audit record; they do not enter the active calculator.
+The verified data-through date is October 28, 2026 after the October 29 refresh. All validation scores below are frozen legacy results, not fresh validation of this restricted model or its provisional prices. Existing fitted settings were retained, not re-estimated using the current season. Historical research artifacts remain in the source archive solely as an audit record; they do not enter the active calculator.
 
 Public page: https://davatt83.github.io/first-twenty-nhl/goalie-pull/
 
 Run `test_recent.js` for this edition's engine checks. The older parity/browser tests describe the superseded multi-season edition. `test_recent_browser.js` exercises the new controls when a Chromium installation is available. GitHub deployment includes the goalie-pull page on every subsequent First Twenty publication; the First Twenty updater does not ingest goalie-pull data.
 
-## Current data update — through October 25, 2026
+## Current data update — through October 28, 2026
 
-The public [GitHub goalie-pull calculator](https://davatt83.github.io/first-twenty-nhl/goalie-pull/) includes all **184 completed regular-season games through October 25**, adding **95 games** to the October 12 edition. The most recent complete game day contains five games. The older private Site is not updated by this publication.
+Successful model refresh timestamp: **2026-10-29T08:05:36.309919+00:00**.
 
-All 184 games have play-by-play, rosters, shift charts, game-end and regulation-ending records. Goal totals reconcile to final scores (with the shootout decision handled separately). All 95 additions agree with CBS daily schedules and scores across 13 game days, and no previously accepted games were lost. Raw files are archived in `raw_2026`.
+All **202 completed 2026–27 regular-season games through October 28** are included: **18 additions**, retaining all 184 accepted games from October 25. Additions comprise three games October 26, eleven October 27 and four October 28. Official NHL preview/recap listings and October 27–28 complete On Tap schedules were independently reconciled with the game list. Official schedule API access returned HTTP 403; the independent coverage check used those official published pages instead.
 
-All **368 team-game coach assignments** are populated using dated tenure records. Five provider entries lacked start dates: Toronto, Edmonton, Vancouver, Vegas and Los Angeles. `verified_coach_intervals.json` records bounded tenure intervals corroborated by the earlier dated game evidence, current head-coach listing and later dated NHL/team coverage (Sportsnet for Edmonton). These are tenure-continuity assignments, not independent confirmation of physical bench attendance at every game. Intervals do not extend beyond their dated corroboration.
+Every addition passed official final-status, date, goal-total (shootout decision treated separately), game-end and regulation-ending checks. Archived goal events reconcile with the official play-by-play. Rosters match official roster spots; shift-player IDs, both-team coverage, all regulation periods and nonnegative intervals were checked. All 202 games have PBP, roster and shift data. Four October 28 games used the official endpoint fallback because the parquet archive stopped at October 27.
 
-The 2026–27 isolated view contains **2,207 qualifying states from 154 games and 126 screened tactical goalie-absence episodes**. Thirty complete games have no supported states. The combined 2025–26 and 2026–27 view contains **18,521 states**. Current-season observations remain included even for small samples, with provisional labels; no pre-2025 season enters active estimates.
+All **404 team-game coach assignments** are populated. Five bounded tenure intervals were extended only to dated official evidence: LAK/VAN/VGK October 27; TOR/EDM October 28. These are tenure-continuity assignments, not independent physical bench-attendance verification at every game. Sources are in verified_coach_intervals.json.
 
-The source contains repeated shift records and reused shift numbers. The existing reconstruction merges interval coverage per player, preventing duplicate goalie/skater counts. Two one-second skater-boundary discrepancies occur before the last ten minutes and do not change supported late-game snapshots. There are zero shift-versus-play-by-play disagreements among the checked snapshot observations. Unsupported manpower and ambiguous pull situations remain excluded; see `current_state_audit.json`.
+The isolated current season contains **2,484 qualifying states from 171 games and 145 screened tactical episodes**. Thirty-one completed games have no supported states. The combined 2025–26/2026–27 view contains **18,798 states**. Earlier seasons remain excluded, current small samples contribute provisionally, and median-pull recency weighting remains 0.35. No shift/PBP snapshot disagreements were found. Unsupported manpower and ambiguous absences remain excluded; see current_state_audit.json.
 
-Validation: the recent-scope engine checks passed across 112 supported scenarios, including 59 provisional cases, probability/settlement identities, signed odds, season isolation and current-season inclusion. Frozen historical validation files remain byte-for-byte unchanged. This refresh adds observations; it does not establish new predictive accuracy or betting profitability.
+Recent-scope engine checks passed across **113 supported scenarios**, including 59 provisional cases. Frozen historical validation remains unchanged. Static JavaScript and integration checks passed. The updated live-only browser test could not run because the Chromium executable is unavailable; no browser pass is claimed for this refresh.
+
+Both descriptive ranking datasets were rebuilt through October 28, with coefficient/goal/exposure reconciliation and all 32 teams in each of three views. Own-net GF/GA mirror defender GA/GF with identical exposure and unique team/game timing rows. They do not alter prediction odds. Small samples and observed-recovery limitations remain disclosed. This update does not establish predictive accuracy or betting profitability.
 
 ## Open and use it
 
@@ -33,7 +35,7 @@ Download **NHL_Late_Game_Calculator.html** and open it in Chrome, Safari or anot
 1. The calculator opens in **Live game**. Select the trailing and leading teams, deficit, regulation clock and whether the trailing goalie is in or out. These five choices remain visible and automatically update the estimate.
 2. Read the leading opponent's empty-net scoring chance, pull chance and median pull clock. Switch between the **Next goal** and **Full-game spread** market tabs; enter sportsbook odds only if you want the model's offered-price comparison.
 3. Open **Coach** to verify the auto-selected coach or change venue, season and game-situation settings. Next-goal settlement, coach history, full coach rankings and validation are in separate disclosures.
-4. Switch to **Plan ahead** to estimate a coach-informed pull clock from a 10:00 remaining reference state; that scenario does not require the current clock.
+4. The interface is live-only: the entered remaining clock is used directly. Planning mode is inaccessible. On the public site, Update stats reloads the latest published bundle; it does not ingest games or advance the model timestamp.
 
 
 The calculator is a working historical prediction baseline. A single-year quote is an exploratory slice of that year’s games, not a separately validated model. It is **not a proven profitable betting strategy**.
