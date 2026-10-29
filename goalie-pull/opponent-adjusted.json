@@ -1,0 +1,1778 @@
+{
+  "dataThrough": "2026-10-28",
+  "priorSeconds": 1200,
+  "roles": {
+    "defending": {
+      "views": {
+        "2025": [
+          {
+            "team": "EDM",
+            "seconds": 1537,
+            "episodes": 26,
+            "index": 137.42221637854732,
+            "baseline": 134.68259007123635,
+            "delta": 2.739626307310977,
+            "provisional": false
+          },
+          {
+            "team": "NYR",
+            "seconds": 800,
+            "episodes": 11,
+            "index": 135.76179016262282,
+            "baseline": 134.82915846234033,
+            "delta": 0.9326317002824824,
+            "provisional": true
+          },
+          {
+            "team": "TOR",
+            "seconds": 1699,
+            "episodes": 27,
+            "index": 128.45718397379397,
+            "baseline": 128.56450109783177,
+            "delta": -0.10731712403778682,
+            "provisional": false
+          },
+          {
+            "team": "TBL",
+            "seconds": 1845,
+            "episodes": 32,
+            "index": 123.88080992431033,
+            "baseline": 124.90012666691663,
+            "delta": -1.0193167426063077,
+            "provisional": false
+          },
+          {
+            "team": "SEA",
+            "seconds": 1807,
+            "episodes": 24,
+            "index": 123.28481150276536,
+            "baseline": 122.7094375689047,
+            "delta": 0.5753739338606512,
+            "provisional": false
+          },
+          {
+            "team": "PHI",
+            "seconds": 2063,
+            "episodes": 32,
+            "index": 119.44281826028663,
+            "baseline": 115.99923327636012,
+            "delta": 3.4435849839265007,
+            "provisional": false
+          },
+          {
+            "team": "BUF",
+            "seconds": 2948,
+            "episodes": 47,
+            "index": 117.63342240995118,
+            "baseline": 114.26288823855383,
+            "delta": 3.3705341713973658,
+            "provisional": false
+          },
+          {
+            "team": "WSH",
+            "seconds": 2660,
+            "episodes": 39,
+            "index": 114.94436788446914,
+            "baseline": 111.78292274255276,
+            "delta": 3.161445141916393,
+            "provisional": false
+          },
+          {
+            "team": "UTA",
+            "seconds": 1695,
+            "episodes": 27,
+            "index": 112.63887065864238,
+            "baseline": 113.44703070264781,
+            "delta": -0.8081600440054376,
+            "provisional": false
+          },
+          {
+            "team": "PIT",
+            "seconds": 1232,
+            "episodes": 23,
+            "index": 110.34474914704252,
+            "baseline": 116.38782307483564,
+            "delta": -6.043073927793116,
+            "provisional": false
+          },
+          {
+            "team": "MIN",
+            "seconds": 1762,
+            "episodes": 31,
+            "index": 108.60852244478565,
+            "baseline": 107.7751119491662,
+            "delta": 0.8334104956194452,
+            "provisional": false
+          },
+          {
+            "team": "NSH",
+            "seconds": 1991,
+            "episodes": 30,
+            "index": 108.57401874511093,
+            "baseline": 107.13864899689192,
+            "delta": 1.4353697482190244,
+            "provisional": false
+          },
+          {
+            "team": "COL",
+            "seconds": 2784,
+            "episodes": 40,
+            "index": 108.53805380704509,
+            "baseline": 116.39766355076623,
+            "delta": -7.859609743721134,
+            "provisional": false
+          },
+          {
+            "team": "NJD",
+            "seconds": 2219,
+            "episodes": 25,
+            "index": 107.47776536719883,
+            "baseline": 107.61840717769401,
+            "delta": -0.14064181049518037,
+            "provisional": false
+          },
+          {
+            "team": "CGY",
+            "seconds": 2092,
+            "episodes": 24,
+            "index": 103.9082409935981,
+            "baseline": 105.38731759537632,
+            "delta": -1.4790766017782133,
+            "provisional": false
+          },
+          {
+            "team": "FLA",
+            "seconds": 1714,
+            "episodes": 30,
+            "index": 100.3377826306704,
+            "baseline": 100.67042992809121,
+            "delta": -0.3326472974208114,
+            "provisional": false
+          },
+          {
+            "team": "OTT",
+            "seconds": 2594,
+            "episodes": 32,
+            "index": 100.24460479854046,
+            "baseline": 100.57294899246067,
+            "delta": -0.3283441939201995,
+            "provisional": false
+          },
+          {
+            "team": "ANA",
+            "seconds": 1789,
+            "episodes": 27,
+            "index": 99.4526853705918,
+            "baseline": 99.22672450896442,
+            "delta": 0.22596086162736673,
+            "provisional": false
+          },
+          {
+            "team": "DET",
+            "seconds": 2940,
+            "episodes": 38,
+            "index": 99.42233571093871,
+            "baseline": 102.08095743184276,
+            "delta": -2.658621720904055,
+            "provisional": false
+          },
+          {
+            "team": "BOS",
+            "seconds": 2539,
+            "episodes": 32,
+            "index": 99.25662021298666,
+            "baseline": 98.48890554109212,
+            "delta": 0.7677146718945298,
+            "provisional": false
+          },
+          {
+            "team": "CBJ",
+            "seconds": 2233,
+            "episodes": 31,
+            "index": 90.26820153891879,
+            "baseline": 87.93376482113882,
+            "delta": 2.334436717779978,
+            "provisional": false
+          },
+          {
+            "team": "STL",
+            "seconds": 2184,
+            "episodes": 31,
+            "index": 88.66312472766852,
+            "baseline": 90.4289149430578,
+            "delta": -1.7657902153892888,
+            "provisional": false
+          },
+          {
+            "team": "VAN",
+            "seconds": 1050,
+            "episodes": 14,
+            "index": 87.2042481182441,
+            "baseline": 85.46729364774929,
+            "delta": 1.7369544704948088,
+            "provisional": true
+          },
+          {
+            "team": "CAR",
+            "seconds": 2298,
+            "episodes": 31,
+            "index": 86.2549636015507,
+            "baseline": 85.5103382590779,
+            "delta": 0.7446253424727989,
+            "provisional": false
+          },
+          {
+            "team": "WPG",
+            "seconds": 1906,
+            "episodes": 28,
+            "index": 84.78800762052431,
+            "baseline": 84.08685391220422,
+            "delta": 0.7011537083200903,
+            "provisional": false
+          },
+          {
+            "team": "VGK",
+            "seconds": 1452,
+            "episodes": 21,
+            "index": 79.86394266182018,
+            "baseline": 83.27205530457898,
+            "delta": -3.4081126427587956,
+            "provisional": false
+          },
+          {
+            "team": "CHI",
+            "seconds": 1244,
+            "episodes": 18,
+            "index": 79.7100360234179,
+            "baseline": 84.16665406685179,
+            "delta": -4.456618043433896,
+            "provisional": true
+          },
+          {
+            "team": "DAL",
+            "seconds": 2198,
+            "episodes": 36,
+            "index": 78.74506890231021,
+            "baseline": 81.70806214985738,
+            "delta": -2.9629932475471743,
+            "provisional": false
+          },
+          {
+            "team": "SJS",
+            "seconds": 2120,
+            "episodes": 30,
+            "index": 75.35047627085702,
+            "baseline": 77.08127988294994,
+            "delta": -1.730803612092921,
+            "provisional": false
+          },
+          {
+            "team": "LAK",
+            "seconds": 2264,
+            "episodes": 22,
+            "index": 72.0492765735152,
+            "baseline": 70.62509894697158,
+            "delta": 1.4241776265436268,
+            "provisional": false
+          },
+          {
+            "team": "MTL",
+            "seconds": 2718,
+            "episodes": 32,
+            "index": 70.80729737885176,
+            "baseline": 68.43369309486643,
+            "delta": 2.373604283985331,
+            "provisional": false
+          },
+          {
+            "team": "NYI",
+            "seconds": 2582,
+            "episodes": 26,
+            "index": 64.28394295098616,
+            "baseline": 64.70691639374962,
+            "delta": -0.4229734427634635,
+            "provisional": false
+          }
+        ],
+        "2026": [
+          {
+            "team": "NYR",
+            "seconds": 256,
+            "episodes": 5,
+            "index": 133.92970493999132,
+            "baseline": 134.26762201399282,
+            "delta": -0.33791707400148696,
+            "provisional": true
+          },
+          {
+            "team": "VGK",
+            "seconds": 254,
+            "episodes": 5,
+            "index": 120.38861356897465,
+            "baseline": 118.05134541844538,
+            "delta": 2.3372681505292703,
+            "provisional": true
+          },
+          {
+            "team": "CGY",
+            "seconds": 351,
+            "episodes": 5,
+            "index": 119.28825895049881,
+            "baseline": 118.44508624703236,
+            "delta": 0.8431727034664493,
+            "provisional": true
+          },
+          {
+            "team": "BOS",
+            "seconds": 261,
+            "episodes": 4,
+            "index": 118.36401450762183,
+            "baseline": 121.71781964204524,
+            "delta": -3.3538051344234128,
+            "provisional": true
+          },
+          {
+            "team": "STL",
+            "seconds": 328,
+            "episodes": 6,
+            "index": 116.96611185991256,
+            "baseline": 116.10207277575317,
+            "delta": 0.8640390841593903,
+            "provisional": true
+          },
+          {
+            "team": "CHI",
+            "seconds": 153,
+            "episodes": 2,
+            "index": 116.23948123780512,
+            "baseline": 115.00828275924515,
+            "delta": 1.231198478559972,
+            "provisional": true
+          },
+          {
+            "team": "OTT",
+            "seconds": 361,
+            "episodes": 7,
+            "index": 112.45144506615263,
+            "baseline": 113.083023133807,
+            "delta": -0.6315780676543814,
+            "provisional": true
+          },
+          {
+            "team": "TOR",
+            "seconds": 187,
+            "episodes": 3,
+            "index": 111.31946227816982,
+            "baseline": 113.99198765386646,
+            "delta": -2.6725253756966314,
+            "provisional": true
+          },
+          {
+            "team": "WSH",
+            "seconds": 239,
+            "episodes": 3,
+            "index": 111.12435071560694,
+            "baseline": 111.35664803105104,
+            "delta": -0.23229731544408966,
+            "provisional": true
+          },
+          {
+            "team": "BUF",
+            "seconds": 98,
+            "episodes": 2,
+            "index": 106.9426459953062,
+            "baseline": 107.30690563625706,
+            "delta": -0.3642596409508522,
+            "provisional": true
+          },
+          {
+            "team": "NJD",
+            "seconds": 334,
+            "episodes": 5,
+            "index": 103.69218988015658,
+            "baseline": 103.05465606235957,
+            "delta": 0.637533817797016,
+            "provisional": true
+          },
+          {
+            "team": "MTL",
+            "seconds": 386,
+            "episodes": 3,
+            "index": 100.59175498264341,
+            "baseline": 99.77116898735046,
+            "delta": 0.8205859952929381,
+            "provisional": true
+          },
+          {
+            "team": "TBL",
+            "seconds": 509,
+            "episodes": 5,
+            "index": 99.74058600769243,
+            "baseline": 96.79400973680063,
+            "delta": 2.9465762708917893,
+            "provisional": true
+          },
+          {
+            "team": "UTA",
+            "seconds": 212,
+            "episodes": 3,
+            "index": 99.1799825042637,
+            "baseline": 98.48285744762212,
+            "delta": 0.6971250566415824,
+            "provisional": true
+          },
+          {
+            "team": "DET",
+            "seconds": 21,
+            "episodes": 1,
+            "index": 99.14007224582157,
+            "baseline": 99.30097135854969,
+            "delta": -0.16089911272810603,
+            "provisional": true
+          },
+          {
+            "team": "PHI",
+            "seconds": 393,
+            "episodes": 4,
+            "index": 98.77865520737723,
+            "baseline": 98.96593307360905,
+            "delta": -0.18727786623183412,
+            "provisional": true
+          },
+          {
+            "team": "FLA",
+            "seconds": 386,
+            "episodes": 4,
+            "index": 97.85962142411265,
+            "baseline": 98.85388707914365,
+            "delta": -0.9942656550310113,
+            "provisional": true
+          },
+          {
+            "team": "LAK",
+            "seconds": 205,
+            "episodes": 3,
+            "index": 97.74589636956162,
+            "baseline": 99.72044160758307,
+            "delta": -1.9745452380214368,
+            "provisional": true
+          },
+          {
+            "team": "COL",
+            "seconds": 126,
+            "episodes": 3,
+            "index": 97.71579474733801,
+            "baseline": 97.68430759883424,
+            "delta": 0.03148714850378098,
+            "provisional": true
+          },
+          {
+            "team": "CAR",
+            "seconds": 511,
+            "episodes": 12,
+            "index": 97.66475921003648,
+            "baseline": 95.53792078834839,
+            "delta": 2.126838421688097,
+            "provisional": true
+          },
+          {
+            "team": "VAN",
+            "seconds": 153,
+            "episodes": 2,
+            "index": 97.4133840757504,
+            "baseline": 96.8719992757761,
+            "delta": 0.5413847999743041,
+            "provisional": true
+          },
+          {
+            "team": "CBJ",
+            "seconds": 89,
+            "episodes": 2,
+            "index": 96.97217195187847,
+            "baseline": 97.26087402545907,
+            "delta": -0.28870207358059863,
+            "provisional": true
+          },
+          {
+            "team": "EDM",
+            "seconds": 247,
+            "episodes": 4,
+            "index": 93.62714245960775,
+            "baseline": 93.3106907658423,
+            "delta": 0.31645169376545573,
+            "provisional": true
+          },
+          {
+            "team": "NSH",
+            "seconds": 320,
+            "episodes": 5,
+            "index": 93.23635623794056,
+            "baseline": 93.58548031863339,
+            "delta": -0.3491240806928378,
+            "provisional": true
+          },
+          {
+            "team": "SEA",
+            "seconds": 304,
+            "episodes": 6,
+            "index": 91.71723793126901,
+            "baseline": 91.91112953197214,
+            "delta": -0.19389160070313466,
+            "provisional": true
+          },
+          {
+            "team": "MIN",
+            "seconds": 1141,
+            "episodes": 13,
+            "index": 88.29721147408344,
+            "baseline": 86.52752672330105,
+            "delta": 1.769684750782384,
+            "provisional": true
+          },
+          {
+            "team": "PIT",
+            "seconds": 194,
+            "episodes": 4,
+            "index": 86.11516416443104,
+            "baseline": 85.02391486698103,
+            "delta": 1.0912492974500032,
+            "provisional": true
+          },
+          {
+            "team": "SJS",
+            "seconds": 229,
+            "episodes": 3,
+            "index": 82.37965943145608,
+            "baseline": 83.2126385797141,
+            "delta": -0.8329791482580284,
+            "provisional": true
+          },
+          {
+            "team": "WPG",
+            "seconds": 359,
+            "episodes": 4,
+            "index": 81.41424782873725,
+            "baseline": 79.64661619803375,
+            "delta": 1.7676316307034896,
+            "provisional": true
+          },
+          {
+            "team": "NYI",
+            "seconds": 285,
+            "episodes": 4,
+            "index": 78.70718889990827,
+            "baseline": 81.30968378380999,
+            "delta": -2.6024948839017155,
+            "provisional": true
+          },
+          {
+            "team": "ANA",
+            "seconds": 614,
+            "episodes": 6,
+            "index": 71.1219830146195,
+            "baseline": 70.73826851635607,
+            "delta": 0.3837144982634322,
+            "provisional": true
+          },
+          {
+            "team": "DAL",
+            "seconds": 0,
+            "episodes": 0,
+            "index": null,
+            "baseline": null,
+            "delta": null,
+            "provisional": true
+          }
+        ],
+        "combined": [
+          {
+            "team": "NYR",
+            "seconds": 1056,
+            "episodes": 16,
+            "index": 153.6016093607593,
+            "baseline": 152.9928965323822,
+            "delta": 0.6087128283771226,
+            "provisional": true
+          },
+          {
+            "team": "TOR",
+            "seconds": 1886,
+            "episodes": 30,
+            "index": 131.8203080103209,
+            "baseline": 133.12228631190118,
+            "delta": -1.3019783015802977,
+            "provisional": false
+          },
+          {
+            "team": "EDM",
+            "seconds": 1784,
+            "episodes": 30,
+            "index": 131.23427659756584,
+            "baseline": 128.56796868738195,
+            "delta": 2.666307910183885,
+            "provisional": false
+          },
+          {
+            "team": "TBL",
+            "seconds": 2354,
+            "episodes": 37,
+            "index": 120.33588286625529,
+            "baseline": 119.7923039788839,
+            "delta": 0.5435788873713876,
+            "provisional": false
+          },
+          {
+            "team": "BUF",
+            "seconds": 3046,
+            "episodes": 49,
+            "index": 119.3487966694265,
+            "baseline": 116.16741025185655,
+            "delta": 3.1813864175699536,
+            "provisional": false
+          },
+          {
+            "team": "WSH",
+            "seconds": 2899,
+            "episodes": 42,
+            "index": 117.9783363536983,
+            "baseline": 115.08277587288025,
+            "delta": 2.895560480818049,
+            "provisional": false
+          },
+          {
+            "team": "SEA",
+            "seconds": 2111,
+            "episodes": 30,
+            "index": 117.38452251206404,
+            "baseline": 116.95005061485429,
+            "delta": 0.4344718972097511,
+            "provisional": false
+          },
+          {
+            "team": "PHI",
+            "seconds": 2456,
+            "episodes": 36,
+            "index": 116.82065473978861,
+            "baseline": 113.82883740892295,
+            "delta": 2.991817330865662,
+            "provisional": false
+          },
+          {
+            "team": "CGY",
+            "seconds": 2443,
+            "episodes": 29,
+            "index": 111.74362310819342,
+            "baseline": 112.72121281721824,
+            "delta": -0.9775897090248273,
+            "provisional": false
+          },
+          {
+            "team": "UTA",
+            "seconds": 1907,
+            "episodes": 30,
+            "index": 111.40381907074028,
+            "baseline": 111.84002207924296,
+            "delta": -0.43620300850267246,
+            "provisional": false
+          },
+          {
+            "team": "NJD",
+            "seconds": 2553,
+            "episodes": 30,
+            "index": 108.3214226130064,
+            "baseline": 108.18896257399292,
+            "delta": 0.13246003901348224,
+            "provisional": false
+          },
+          {
+            "team": "COL",
+            "seconds": 2910,
+            "episodes": 43,
+            "index": 107.53935528034984,
+            "baseline": 115.14785485700895,
+            "delta": -7.608499576659114,
+            "provisional": false
+          },
+          {
+            "team": "BOS",
+            "seconds": 2800,
+            "episodes": 36,
+            "index": 106.01258204299815,
+            "baseline": 106.5199380787929,
+            "delta": -0.5073560357947544,
+            "provisional": false
+          },
+          {
+            "team": "OTT",
+            "seconds": 2955,
+            "episodes": 39,
+            "index": 104.90126025365265,
+            "baseline": 105.43835561715247,
+            "delta": -0.5370953634998087,
+            "provisional": false
+          },
+          {
+            "team": "NSH",
+            "seconds": 2311,
+            "episodes": 35,
+            "index": 104.86441335725397,
+            "baseline": 103.71101083264166,
+            "delta": 1.1534025246123008,
+            "provisional": false
+          },
+          {
+            "team": "PIT",
+            "seconds": 1426,
+            "episodes": 27,
+            "index": 102.20981293633825,
+            "baseline": 107.2271603360898,
+            "delta": -5.017347399751534,
+            "provisional": false
+          },
+          {
+            "team": "MIN",
+            "seconds": 2903,
+            "episodes": 44,
+            "index": 99.53746418286238,
+            "baseline": 97.92610812885157,
+            "delta": 1.6113560540108145,
+            "provisional": false
+          },
+          {
+            "team": "FLA",
+            "seconds": 2100,
+            "episodes": 34,
+            "index": 99.26959338315642,
+            "baseline": 100.04118112666048,
+            "delta": -0.7715877435040561,
+            "provisional": false
+          },
+          {
+            "team": "DET",
+            "seconds": 2961,
+            "episodes": 39,
+            "index": 99.17291469729257,
+            "baseline": 101.86533280380154,
+            "delta": -2.6924181065089656,
+            "provisional": false
+          },
+          {
+            "team": "STL",
+            "seconds": 2512,
+            "episodes": 37,
+            "index": 96.64876966604974,
+            "baseline": 97.90285974371187,
+            "delta": -1.254090077662125,
+            "provisional": false
+          },
+          {
+            "team": "VGK",
+            "seconds": 1706,
+            "episodes": 26,
+            "index": 91.82526499257958,
+            "baseline": 93.76605192916827,
+            "delta": -1.9407869365886974,
+            "provisional": false
+          },
+          {
+            "team": "CBJ",
+            "seconds": 2322,
+            "episodes": 33,
+            "index": 89.40598112693912,
+            "baseline": 87.23619569840609,
+            "delta": 2.1697854285330234,
+            "provisional": false
+          },
+          {
+            "team": "CHI",
+            "seconds": 1397,
+            "episodes": 20,
+            "index": 89.36593999075228,
+            "baseline": 92.91856338569292,
+            "delta": -3.552623394940642,
+            "provisional": false
+          },
+          {
+            "team": "CAR",
+            "seconds": 2809,
+            "episodes": 43,
+            "index": 87.01029326181012,
+            "baseline": 85.45286747296548,
+            "delta": 1.5574257888446352,
+            "provisional": false
+          },
+          {
+            "team": "VAN",
+            "seconds": 1203,
+            "episodes": 16,
+            "index": 86.56257466522659,
+            "baseline": 84.63138815129462,
+            "delta": 1.9311865139319817,
+            "provisional": true
+          },
+          {
+            "team": "ANA",
+            "seconds": 2403,
+            "episodes": 33,
+            "index": 85.00675930092108,
+            "baseline": 84.62611674881059,
+            "delta": 0.38064255211048004,
+            "provisional": false
+          },
+          {
+            "team": "DAL",
+            "seconds": 2198,
+            "episodes": 36,
+            "index": 78.74506890231021,
+            "baseline": 81.70806214985738,
+            "delta": -2.9629932475471743,
+            "provisional": false
+          },
+          {
+            "team": "WPG",
+            "seconds": 2265,
+            "episodes": 32,
+            "index": 78.00183666215004,
+            "baseline": 76.57802104012725,
+            "delta": 1.4238156220227753,
+            "provisional": false
+          },
+          {
+            "team": "MTL",
+            "seconds": 3104,
+            "episodes": 35,
+            "index": 73.64347456617418,
+            "baseline": 71.18036328058191,
+            "delta": 2.4631112855922623,
+            "provisional": false
+          },
+          {
+            "team": "LAK",
+            "seconds": 2469,
+            "episodes": 25,
+            "index": 72.74780006810867,
+            "baseline": 72.1593249416636,
+            "delta": 0.5884751264450816,
+            "provisional": false
+          },
+          {
+            "team": "SJS",
+            "seconds": 2349,
+            "episodes": 33,
+            "index": 69.84618612194872,
+            "baseline": 71.80070716872507,
+            "delta": -1.9545210467763419,
+            "provisional": false
+          },
+          {
+            "team": "NYI",
+            "seconds": 2867,
+            "episodes": 30,
+            "index": 59.01205993533156,
+            "baseline": 60.35565237770321,
+            "delta": -1.343592442371655,
+            "provisional": false
+          }
+        ]
+      },
+      "validation": {
+        "teams": 14,
+        "training": "2025\u201326",
+        "testing": "2026\u201327 through data cutoff",
+        "minimumSecondsEach": 300,
+        "baselineWeightedMSE": 0.2569446153663537,
+        "adjustedWeightedMSE": 0.2624514784777708,
+        "baselineSpearman": -0.04175824175824176,
+        "adjustedSpearman": -0.07252747252747253,
+        "status": "No improvement in observed error",
+        "note": "One season transition, small current-season sample; no statistical significance or betting advantage established. Target is next-season situation-adjusted net goals per 2 minutes; test outcomes never enter training indexes."
+      }
+    },
+    "own": {
+      "views": {
+        "2025": [
+          {
+            "team": "VGK",
+            "seconds": 2101,
+            "episodes": 27,
+            "index": 134.32983935532226,
+            "baseline": 127.57908535759819,
+            "delta": 6.750753997724068,
+            "provisional": false
+          },
+          {
+            "team": "OTT",
+            "seconds": 2250,
+            "episodes": 29,
+            "index": 126.59959880204475,
+            "baseline": 125.98425919479735,
+            "delta": 0.615339607247406,
+            "provisional": false
+          },
+          {
+            "team": "NYI",
+            "seconds": 4182,
+            "episodes": 35,
+            "index": 122.16856792789719,
+            "baseline": 124.06731815045148,
+            "delta": -1.8987502225542934,
+            "provisional": false
+          },
+          {
+            "team": "MTL",
+            "seconds": 2067,
+            "episodes": 33,
+            "index": 118.37984495816909,
+            "baseline": 116.7003603692799,
+            "delta": 1.6794845888891963,
+            "provisional": false
+          },
+          {
+            "team": "NJD",
+            "seconds": 2140,
+            "episodes": 28,
+            "index": 117.23462750941209,
+            "baseline": 119.31507892782872,
+            "delta": -2.0804514184166374,
+            "provisional": false
+          },
+          {
+            "team": "EDM",
+            "seconds": 2145,
+            "episodes": 25,
+            "index": 116.2780343515332,
+            "baseline": 119.48481415245584,
+            "delta": -3.206779800922649,
+            "provisional": false
+          },
+          {
+            "team": "ANA",
+            "seconds": 2504,
+            "episodes": 39,
+            "index": 114.69876169938796,
+            "baseline": 112.00886415059907,
+            "delta": 2.689897548788896,
+            "provisional": false
+          },
+          {
+            "team": "PIT",
+            "seconds": 2038,
+            "episodes": 29,
+            "index": 110.46472201563891,
+            "baseline": 110.99918013111989,
+            "delta": -0.5344581154809708,
+            "provisional": false
+          },
+          {
+            "team": "DAL",
+            "seconds": 2172,
+            "episodes": 28,
+            "index": 109.56604431006112,
+            "baseline": 110.54317823014996,
+            "delta": -0.9771339200888435,
+            "provisional": false
+          },
+          {
+            "team": "WPG",
+            "seconds": 2191,
+            "episodes": 30,
+            "index": 108.02745963334888,
+            "baseline": 105.09753637523731,
+            "delta": 2.9299232581115766,
+            "provisional": false
+          },
+          {
+            "team": "CAR",
+            "seconds": 1623,
+            "episodes": 23,
+            "index": 107.91254436348498,
+            "baseline": 112.17433810192273,
+            "delta": -4.261793738437748,
+            "provisional": false
+          },
+          {
+            "team": "VAN",
+            "seconds": 3170,
+            "episodes": 37,
+            "index": 104.11772794890146,
+            "baseline": 106.02659242807137,
+            "delta": -1.9088644791699096,
+            "provisional": false
+          },
+          {
+            "team": "BOS",
+            "seconds": 1234,
+            "episodes": 17,
+            "index": 102.59724270405506,
+            "baseline": 98.85123058274456,
+            "delta": 3.7460121213104975,
+            "provisional": true
+          },
+          {
+            "team": "LAK",
+            "seconds": 1471,
+            "episodes": 26,
+            "index": 101.45058151934757,
+            "baseline": 102.22473038015367,
+            "delta": -0.7741488608061096,
+            "provisional": false
+          },
+          {
+            "team": "CBJ",
+            "seconds": 1880,
+            "episodes": 26,
+            "index": 100.9350232093625,
+            "baseline": 101.73666123436048,
+            "delta": -0.8016380249979768,
+            "provisional": false
+          },
+          {
+            "team": "COL",
+            "seconds": 1163,
+            "episodes": 17,
+            "index": 99.9319369457176,
+            "baseline": 99.75854816279735,
+            "delta": 0.17338878292025348,
+            "provisional": true
+          },
+          {
+            "team": "UTA",
+            "seconds": 2111,
+            "episodes": 32,
+            "index": 99.59756194596854,
+            "baseline": 96.33653507714054,
+            "delta": 3.2610268688279938,
+            "provisional": false
+          },
+          {
+            "team": "STL",
+            "seconds": 1590,
+            "episodes": 19,
+            "index": 99.16355955459035,
+            "baseline": 98.28470129862875,
+            "delta": 0.8788582559616,
+            "provisional": true
+          },
+          {
+            "team": "PHI",
+            "seconds": 1302,
+            "episodes": 22,
+            "index": 98.26746046386387,
+            "baseline": 94.82386535442654,
+            "delta": 3.4435951094373287,
+            "provisional": false
+          },
+          {
+            "team": "WSH",
+            "seconds": 1950,
+            "episodes": 31,
+            "index": 97.74672298869847,
+            "baseline": 95.84495173555835,
+            "delta": 1.9017712531401172,
+            "provisional": false
+          },
+          {
+            "team": "NSH",
+            "seconds": 2183,
+            "episodes": 36,
+            "index": 96.91222916520134,
+            "baseline": 96.1495920179055,
+            "delta": 0.762637147295845,
+            "provisional": false
+          },
+          {
+            "team": "FLA",
+            "seconds": 2128,
+            "episodes": 33,
+            "index": 96.3498188537924,
+            "baseline": 89.40423667557933,
+            "delta": 6.945582178213069,
+            "provisional": false
+          },
+          {
+            "team": "CHI",
+            "seconds": 2112,
+            "episodes": 28,
+            "index": 95.48814665897474,
+            "baseline": 91.99591519104736,
+            "delta": 3.4922314679273807,
+            "provisional": false
+          },
+          {
+            "team": "TBL",
+            "seconds": 1824,
+            "episodes": 25,
+            "index": 94.7866930120615,
+            "baseline": 99.5609372023859,
+            "delta": -4.774244190324395,
+            "provisional": false
+          },
+          {
+            "team": "DET",
+            "seconds": 1926,
+            "episodes": 28,
+            "index": 93.4740011910777,
+            "baseline": 90.61166788689468,
+            "delta": 2.8623333041830317,
+            "provisional": false
+          },
+          {
+            "team": "SJS",
+            "seconds": 1674,
+            "episodes": 28,
+            "index": 85.01242053985196,
+            "baseline": 83.8308527375947,
+            "delta": 1.181567802257255,
+            "provisional": false
+          },
+          {
+            "team": "SEA",
+            "seconds": 2311,
+            "episodes": 37,
+            "index": 81.2096279181709,
+            "baseline": 79.49459390372176,
+            "delta": 1.7150340144491238,
+            "provisional": false
+          },
+          {
+            "team": "NYR",
+            "seconds": 2536,
+            "episodes": 42,
+            "index": 77.8918656225229,
+            "baseline": 80.93321170964487,
+            "delta": -3.04134608712196,
+            "provisional": false
+          },
+          {
+            "team": "TOR",
+            "seconds": 2696,
+            "episodes": 35,
+            "index": 71.63292950624515,
+            "baseline": 74.20219635943873,
+            "delta": -2.5692668531935805,
+            "provisional": false
+          },
+          {
+            "team": "CGY",
+            "seconds": 2003,
+            "episodes": 31,
+            "index": 70.70523484725172,
+            "baseline": 71.44186806413694,
+            "delta": -0.7366332168852241,
+            "provisional": false
+          },
+          {
+            "team": "MIN",
+            "seconds": 1201,
+            "episodes": 20,
+            "index": 70.09100187043643,
+            "baseline": 73.89558976159105,
+            "delta": -3.8045878911546316,
+            "provisional": false
+          },
+          {
+            "team": "BUF",
+            "seconds": 1081,
+            "episodes": 21,
+            "index": 54.5692884204168,
+            "baseline": 54.73782111966033,
+            "delta": -0.16853269924353986,
+            "provisional": false
+          }
+        ],
+        "2026": [
+          {
+            "team": "VAN",
+            "seconds": 669,
+            "episodes": 8,
+            "index": 126.4502848561475,
+            "baseline": 127.51249003444542,
+            "delta": -1.0622051782979092,
+            "provisional": true
+          },
+          {
+            "team": "COL",
+            "seconds": 338,
+            "episodes": 3,
+            "index": 114.55338895650735,
+            "baseline": 111.91270630328926,
+            "delta": 2.640682653218089,
+            "provisional": true
+          },
+          {
+            "team": "NSH",
+            "seconds": 194,
+            "episodes": 3,
+            "index": 112.80442005905826,
+            "baseline": 114.42519099817392,
+            "delta": -1.6207709391156622,
+            "provisional": true
+          },
+          {
+            "team": "DET",
+            "seconds": 330,
+            "episodes": 5,
+            "index": 110.91463070548883,
+            "baseline": 111.82807323734067,
+            "delta": -0.9134425318518324,
+            "provisional": true
+          },
+          {
+            "team": "FLA",
+            "seconds": 381,
+            "episodes": 5,
+            "index": 109.34682097354727,
+            "baseline": 112.1895603343028,
+            "delta": -2.8427393607555222,
+            "provisional": true
+          },
+          {
+            "team": "MTL",
+            "seconds": 325,
+            "episodes": 8,
+            "index": 108.88968563890612,
+            "baseline": 109.02412335194218,
+            "delta": -0.13443771303605773,
+            "provisional": true
+          },
+          {
+            "team": "STL",
+            "seconds": 542,
+            "episodes": 5,
+            "index": 107.58278707932152,
+            "baseline": 106.05101358052204,
+            "delta": 1.5317734987994789,
+            "provisional": true
+          },
+          {
+            "team": "BOS",
+            "seconds": 210,
+            "episodes": 3,
+            "index": 105.95089851792507,
+            "baseline": 108.62052406011993,
+            "delta": -2.6696255421948702,
+            "provisional": true
+          },
+          {
+            "team": "MIN",
+            "seconds": 180,
+            "episodes": 2,
+            "index": 105.17268310764531,
+            "baseline": 103.36187661283005,
+            "delta": 1.810806494815271,
+            "provisional": true
+          },
+          {
+            "team": "PIT",
+            "seconds": 431,
+            "episodes": 4,
+            "index": 104.37514506769914,
+            "baseline": 105.7492475022865,
+            "delta": -1.37410243458735,
+            "provisional": true
+          },
+          {
+            "team": "CAR",
+            "seconds": 109,
+            "episodes": 1,
+            "index": 103.67639923002876,
+            "baseline": 101.95242228703657,
+            "delta": 1.723976942992194,
+            "provisional": true
+          },
+          {
+            "team": "CHI",
+            "seconds": 431,
+            "episodes": 8,
+            "index": 103.3639798868666,
+            "baseline": 103.87605283672399,
+            "delta": -0.5120729498573867,
+            "provisional": true
+          },
+          {
+            "team": "PHI",
+            "seconds": 328,
+            "episodes": 4,
+            "index": 102.21600549860072,
+            "baseline": 101.4505067700591,
+            "delta": 0.7654987285416147,
+            "provisional": true
+          },
+          {
+            "team": "DAL",
+            "seconds": 395,
+            "episodes": 7,
+            "index": 101.0796932673689,
+            "baseline": 102.46455447633173,
+            "delta": -1.3848612089628338,
+            "provisional": true
+          },
+          {
+            "team": "WSH",
+            "seconds": 415,
+            "episodes": 5,
+            "index": 99.81563827989393,
+            "baseline": 100.45299694133362,
+            "delta": -0.6373586614396951,
+            "provisional": true
+          },
+          {
+            "team": "VGK",
+            "seconds": 140,
+            "episodes": 1,
+            "index": 99.28407491169676,
+            "baseline": 102.32689010448934,
+            "delta": -3.042815192792576,
+            "provisional": true
+          },
+          {
+            "team": "NJD",
+            "seconds": 95,
+            "episodes": 1,
+            "index": 98.50325646295764,
+            "baseline": 97.4628455517962,
+            "delta": 1.040410911161421,
+            "provisional": true
+          },
+          {
+            "team": "BUF",
+            "seconds": 155,
+            "episodes": 3,
+            "index": 98.29549879733025,
+            "baseline": 98.33559954032832,
+            "delta": -0.04010074299807022,
+            "provisional": true
+          },
+          {
+            "team": "WPG",
+            "seconds": 403,
+            "episodes": 3,
+            "index": 97.9294554398973,
+            "baseline": 101.8139629283981,
+            "delta": -3.8845074885008004,
+            "provisional": true
+          },
+          {
+            "team": "ANA",
+            "seconds": 242,
+            "episodes": 4,
+            "index": 97.69519566617004,
+            "baseline": 98.06474510044598,
+            "delta": -0.3695494342759332,
+            "provisional": true
+          },
+          {
+            "team": "CGY",
+            "seconds": 183,
+            "episodes": 2,
+            "index": 97.33148429720889,
+            "baseline": 100.22645530720321,
+            "delta": -2.8949710099943204,
+            "provisional": true
+          },
+          {
+            "team": "TOR",
+            "seconds": 244,
+            "episodes": 9,
+            "index": 95.71070557601455,
+            "baseline": 95.3800536698641,
+            "delta": 0.33065190615045936,
+            "provisional": true
+          },
+          {
+            "team": "UTA",
+            "seconds": 294,
+            "episodes": 5,
+            "index": 95.53241737592617,
+            "baseline": 96.49175747926634,
+            "delta": -0.9593401033401769,
+            "provisional": true
+          },
+          {
+            "team": "EDM",
+            "seconds": 176,
+            "episodes": 4,
+            "index": 93.42724805205141,
+            "baseline": 94.05251245167624,
+            "delta": -0.6252643996248266,
+            "provisional": true
+          },
+          {
+            "team": "TBL",
+            "seconds": 142,
+            "episodes": 2,
+            "index": 92.18640733797379,
+            "baseline": 88.236149563288,
+            "delta": 3.950257774685796,
+            "provisional": true
+          },
+          {
+            "team": "CBJ",
+            "seconds": 322,
+            "episodes": 3,
+            "index": 91.21599302981438,
+            "baseline": 92.0718749473084,
+            "delta": -0.8558819174940211,
+            "provisional": true
+          },
+          {
+            "team": "LAK",
+            "seconds": 294,
+            "episodes": 6,
+            "index": 90.57758311698471,
+            "baseline": 90.72795425495896,
+            "delta": -0.15037113797424922,
+            "provisional": true
+          },
+          {
+            "team": "SEA",
+            "seconds": 205,
+            "episodes": 2,
+            "index": 89.7306322415979,
+            "baseline": 90.87788337240193,
+            "delta": -1.1472511308040112,
+            "provisional": true
+          },
+          {
+            "team": "OTT",
+            "seconds": 481,
+            "episodes": 7,
+            "index": 88.18965257209726,
+            "baseline": 89.4401799193698,
+            "delta": -1.2505273472725384,
+            "provisional": true
+          },
+          {
+            "team": "SJS",
+            "seconds": 351,
+            "episodes": 5,
+            "index": 83.64515317431534,
+            "baseline": 80.25418509353607,
+            "delta": 3.390968080779272,
+            "provisional": true
+          },
+          {
+            "team": "NYI",
+            "seconds": 169,
+            "episodes": 4,
+            "index": 78.8786578960178,
+            "baseline": 76.89267468828157,
+            "delta": 1.9859832077362167,
+            "provisional": true
+          },
+          {
+            "team": "NYR",
+            "seconds": 332,
+            "episodes": 6,
+            "index": 76.98516277744292,
+            "baseline": 75.9606882070094,
+            "delta": 1.0244745704335285,
+            "provisional": true
+          }
+        ],
+        "combined": [
+          {
+            "team": "VGK",
+            "seconds": 2241,
+            "episodes": 28,
+            "index": 132.65430400859995,
+            "baseline": 127.36314835961852,
+            "delta": 5.291155648981433,
+            "provisional": false
+          },
+          {
+            "team": "MTL",
+            "seconds": 2392,
+            "episodes": 41,
+            "index": 120.49101449823782,
+            "baseline": 119.02056387476316,
+            "delta": 1.4704506234746617,
+            "provisional": false
+          },
+          {
+            "team": "OTT",
+            "seconds": 2731,
+            "episodes": 36,
+            "index": 118.29443445452809,
+            "baseline": 118.28914695154197,
+            "delta": 0.005287502986126014,
+            "provisional": false
+          },
+          {
+            "team": "NYI",
+            "seconds": 4351,
+            "episodes": 39,
+            "index": 116.28465416097839,
+            "baseline": 117.63580939181901,
+            "delta": -1.3511552308406198,
+            "provisional": false
+          },
+          {
+            "team": "NJD",
+            "seconds": 2235,
+            "episodes": 29,
+            "index": 116.19370393041237,
+            "baseline": 117.82438096318022,
+            "delta": -1.6306770327678466,
+            "provisional": false
+          },
+          {
+            "team": "VAN",
+            "seconds": 3839,
+            "episodes": 45,
+            "index": 113.38163396166682,
+            "baseline": 115.4310483796488,
+            "delta": -2.049414417981979,
+            "provisional": false
+          },
+          {
+            "team": "ANA",
+            "seconds": 2746,
+            "episodes": 43,
+            "index": 112.95506474534976,
+            "baseline": 110.56517872495235,
+            "delta": 2.3898860203974235,
+            "provisional": false
+          },
+          {
+            "team": "EDM",
+            "seconds": 2321,
+            "episodes": 29,
+            "index": 112.89574502286318,
+            "baseline": 116.18658349147154,
+            "delta": -3.2908384686083507,
+            "provisional": false
+          },
+          {
+            "team": "PIT",
+            "seconds": 2469,
+            "episodes": 33,
+            "index": 111.18033019679916,
+            "baseline": 112.26284217519635,
+            "delta": -1.082511978397195,
+            "provisional": false
+          },
+          {
+            "team": "CAR",
+            "seconds": 1732,
+            "episodes": 24,
+            "index": 109.25972692026801,
+            "baseline": 112.59340969831473,
+            "delta": -3.3336827780467204,
+            "provisional": false
+          },
+          {
+            "team": "DAL",
+            "seconds": 2567,
+            "episodes": 35,
+            "index": 109.02012534509676,
+            "baseline": 110.48116840504773,
+            "delta": -1.461043059950963,
+            "provisional": false
+          },
+          {
+            "team": "COL",
+            "seconds": 1501,
+            "episodes": 20,
+            "index": 108.22742658935172,
+            "baseline": 106.5720813043869,
+            "delta": 1.6553452849648223,
+            "provisional": false
+          },
+          {
+            "team": "WPG",
+            "seconds": 2594,
+            "episodes": 33,
+            "index": 106.29995590059079,
+            "baseline": 105.32249035915969,
+            "delta": 0.9774655414311093,
+            "provisional": false
+          },
+          {
+            "team": "BOS",
+            "seconds": 1444,
+            "episodes": 20,
+            "index": 105.56446885474446,
+            "baseline": 103.53964983478419,
+            "delta": 2.0248190199602756,
+            "provisional": false
+          },
+          {
+            "team": "STL",
+            "seconds": 2132,
+            "episodes": 24,
+            "index": 103.2639694626306,
+            "baseline": 101.72724558236604,
+            "delta": 1.5367238802645684,
+            "provisional": false
+          },
+          {
+            "team": "NSH",
+            "seconds": 2377,
+            "episodes": 39,
+            "index": 102.06973240933837,
+            "baseline": 101.9800911512521,
+            "delta": 0.08964125808627321,
+            "provisional": false
+          },
+          {
+            "team": "FLA",
+            "seconds": 2509,
+            "episodes": 38,
+            "index": 100.70895688988927,
+            "baseline": 95.68859383792415,
+            "delta": 5.020363051965125,
+            "provisional": false
+          },
+          {
+            "team": "PHI",
+            "seconds": 1630,
+            "episodes": 26,
+            "index": 99.66474999379834,
+            "baseline": 96.20695599343658,
+            "delta": 3.4577940003617567,
+            "provisional": false
+          },
+          {
+            "team": "DET",
+            "seconds": 2256,
+            "episodes": 33,
+            "index": 98.92914140703323,
+            "baseline": 96.74450979964234,
+            "delta": 2.1846316073908834,
+            "provisional": false
+          },
+          {
+            "team": "WSH",
+            "seconds": 2365,
+            "episodes": 36,
+            "index": 97.92550721919463,
+            "baseline": 96.53385358408488,
+            "delta": 1.3916536351097595,
+            "provisional": false
+          },
+          {
+            "team": "UTA",
+            "seconds": 2405,
+            "episodes": 37,
+            "index": 97.7789068412581,
+            "baseline": 95.18140175157733,
+            "delta": 2.597505089680784,
+            "provisional": false
+          },
+          {
+            "team": "CHI",
+            "seconds": 2543,
+            "episodes": 36,
+            "index": 97.47352202244289,
+            "baseline": 94.60654910217625,
+            "delta": 2.866972920266652,
+            "provisional": false
+          },
+          {
+            "team": "CBJ",
+            "seconds": 2202,
+            "episodes": 29,
+            "index": 96.91669984603585,
+            "baseline": 98.02537045021566,
+            "delta": -1.1086706041797998,
+            "provisional": false
+          },
+          {
+            "team": "LAK",
+            "seconds": 1765,
+            "episodes": 32,
+            "index": 96.5589923827833,
+            "baseline": 97.33214789284962,
+            "delta": -0.7731555100663235,
+            "provisional": false
+          },
+          {
+            "team": "TBL",
+            "seconds": 1966,
+            "episodes": 27,
+            "index": 91.70850231081326,
+            "baseline": 94.59418408526452,
+            "delta": -2.8856817744512444,
+            "provisional": false
+          },
+          {
+            "team": "SJS",
+            "seconds": 2025,
+            "episodes": 33,
+            "index": 78.77808657516204,
+            "baseline": 76.09429824741756,
+            "delta": 2.683788327744474,
+            "provisional": false
+          },
+          {
+            "team": "SEA",
+            "seconds": 2516,
+            "episodes": 39,
+            "index": 78.36343969863914,
+            "baseline": 77.1767883030656,
+            "delta": 1.186651395573532,
+            "provisional": false
+          },
+          {
+            "team": "MIN",
+            "seconds": 1381,
+            "episodes": 22,
+            "index": 74.94257968983663,
+            "baseline": 77.51363841274141,
+            "delta": -2.571058722904773,
+            "provisional": false
+          },
+          {
+            "team": "TOR",
+            "seconds": 2940,
+            "episodes": 44,
+            "index": 71.80873241741452,
+            "baseline": 74.11124505209109,
+            "delta": -2.3025126346765843,
+            "provisional": false
+          },
+          {
+            "team": "CGY",
+            "seconds": 2186,
+            "episodes": 33,
+            "index": 71.19855581771621,
+            "baseline": 73.07781780841485,
+            "delta": -1.879261990698633,
+            "provisional": false
+          },
+          {
+            "team": "NYR",
+            "seconds": 2868,
+            "episodes": 48,
+            "index": 71.02882972979062,
+            "baseline": 73.43614879065183,
+            "delta": -2.4073190608612127,
+            "provisional": false
+          },
+          {
+            "team": "BUF",
+            "seconds": 1236,
+            "episodes": 24,
+            "index": 56.51188331582644,
+            "baseline": 56.6919980915805,
+            "delta": -0.18011477575406443,
+            "provisional": false
+          }
+        ]
+      },
+      "validation": {
+        "teams": 16,
+        "training": "2025\u201326",
+        "testing": "2026\u201327 through data cutoff",
+        "minimumSecondsEach": 300,
+        "baselineWeightedMSE": 0.23030274165513276,
+        "adjustedWeightedMSE": 0.2227350850486048,
+        "baselineSpearman": 0.2088235294117647,
+        "adjustedSpearman": 0.19117647058823528,
+        "status": "Lower observed error; exploratory only",
+        "note": "One season transition, small current-season sample; no statistical significance or betting advantage established. Target is next-season situation-adjusted net goals per 2 minutes; test outcomes never enter training indexes."
+      }
+    }
+  }
+}
