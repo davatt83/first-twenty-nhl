@@ -147,3 +147,6 @@ setInterval(()=>{if(dateNow()!==openedDate)el('fixtureStatus').textContent='A ne
 })();
 // Load the independent descriptive ranking panel.
 {const rankingScript=document.createElement('script');rankingScript.src='rankings.js';document.body.append(rankingScript);}
+
+// Live evidence, clock scenarios and experimental opponent adjustment.
+{const s=document.createElement('script');s.src='refinements.js?v=1';document.body.append(s);}
