@@ -6,27 +6,27 @@ The public calculator uses only seasons beginning in 2025 or later, including co
 
 Nonempty samples below the old thresholds (60 raw / 40 effective games) now show explicitly provisional estimates. Pull medians with fewer than 20 observed pulls are provisional. No observations still means no estimate. These sparse empirical probabilities and prices can be unstable; the combined view supplies more evidence. No artificial games or inferred goal events are introduced.
 
-The verified data-through date is October 28, 2026 after the October 29 refresh. All validation scores below are frozen legacy results, not fresh validation of this restricted model or its provisional prices. Existing fitted settings were retained, not re-estimated using the current season. Historical research artifacts remain in the source archive solely as an audit record; they do not enter the active calculator.
+The verified data-through date is October 29, 2026 after the October 30 refresh. All validation scores below are frozen legacy results, not fresh validation of this restricted model or its provisional prices. Existing fitted settings were retained, not re-estimated using the current season. Historical research artifacts remain in the source archive solely as an audit record; they do not enter the active calculator.
 
 Public page: https://davatt83.github.io/first-twenty-nhl/goalie-pull/
 
 Run `test_recent.js` for this edition's engine checks. The older parity/browser tests describe the superseded multi-season edition. `test_recent_browser.js` exercises the new controls when a Chromium installation is available. GitHub deployment includes the goalie-pull page on every subsequent First Twenty publication; the First Twenty updater does not ingest goalie-pull data.
 
-## Current data update — through October 28, 2026
+## Current data update — through October 29, 2026
 
-Successful model refresh timestamp: **2026-10-29T08:05:36.309919+00:00**.
+Successful model refresh timestamp: **2026-10-30T07:54:45.551290+00:00**.
 
-All **202 completed 2026–27 regular-season games through October 28** are included: **18 additions**, retaining all 184 accepted games from October 25. Additions comprise three games October 26, eleven October 27 and four October 28. Official NHL preview/recap listings and October 27–28 complete On Tap schedules were independently reconciled with the game list. Official schedule API access returned HTTP 403; the independent coverage check used those official published pages instead.
+All **213 completed 2026–27 regular-season games through October 29** are included: **11 additions**, retaining all 202 previously accepted games and the original 184-game October 25 baseline. The eleven matchups match the complete official NHL On Tap schedule for October 29. All are final; no scheduled game was omitted.
 
-Every addition passed official final-status, date, goal-total (shootout decision treated separately), game-end and regulation-ending checks. Archived goal events reconcile with the official play-by-play. Rosters match official roster spots; shift-player IDs, both-team coverage, all regulation periods and nonnegative intervals were checked. All 202 games have PBP, roster and shift data. Four October 28 games used the official endpoint fallback because the parquet archive stopped at October 27.
+Every addition passed independent official final-status, date, goal-total, game-end and regulation-ending checks. Shootout decisions are separate from goals. Archived goal totals reconcile with official PBP. Rosters match official roster spots; archived shift interval sets match official shift charts. Shift players, both teams, all regulation periods and nonnegative intervals were checked. All eleven additions used official endpoint fallback because the parquet archive stopped at October 28. Raw season files and audit reports are included.
 
-All **404 team-game coach assignments** are populated. Five bounded tenure intervals were extended only to dated official evidence: LAK/VAN/VGK October 27; TOR/EDM October 28. These are tenure-continuity assignments, not independent physical bench-attendance verification at every game. Sources are in verified_coach_intervals.json.
+All **426 team-game coach assignments** are populated. LAK and VAN bounded tenure intervals now extend through October 29 using official dated coverage. Other intervals remain within their evidence dates. Assignments use tenure continuity, not independent physical bench-attendance verification at every game; see verified_coach_intervals.json.
 
-The isolated current season contains **2,484 qualifying states from 171 games and 145 screened tactical episodes**. Thirty-one completed games have no supported states. The combined 2025–26/2026–27 view contains **18,798 states**. Earlier seasons remain excluded, current small samples contribute provisionally, and median-pull recency weighting remains 0.35. No shift/PBP snapshot disagreements were found. Unsupported manpower and ambiguous absences remain excluded; see current_state_audit.json.
+The isolated current season contains **2,646 qualifying states from 181 games and 156 screened tactical episodes**. Thirty-two completed games have no supported states. The combined 2025–26/2026–27 view contains **18,960 states**. Earlier seasons remain excluded; current small samples contribute with provisional labels and median-pull recency weighting remains 0.35. Snapshot shift/PBP disagreements: zero. Unsupported manpower and ambiguous absences remain excluded; see current_state_audit.json.
 
-Recent-scope engine checks passed across **113 supported scenarios**, including 59 provisional cases. Frozen historical validation remains unchanged. Static JavaScript and integration checks passed. The updated live-only browser test could not run because the Chromium executable is unavailable; no browser pass is claimed for this refresh.
+Recent-scope engine checks passed across **113 supported scenarios**, including 58 provisional cases. Frozen historical validation remains unchanged. JavaScript syntax and static live-only, loader, panel and default-weight checks passed. Chromium is unavailable, so no full browser pass is claimed for this refresh.
 
-Both descriptive ranking datasets were rebuilt through October 28, with coefficient/goal/exposure reconciliation and all 32 teams in each of three views. Own-net GF/GA mirror defender GA/GF with identical exposure and unique team/game timing rows. They do not alter prediction odds. Small samples and observed-recovery limitations remain disclosed. This update does not establish predictive accuracy or betting profitability.
+Defender and own-net descriptive rankings were rebuilt through October 29 and passed exposure/goal reconciliation, 32-team season views and unique team/game timing checks. The opponent-adjusted indexes were rebuilt through the same date and passed their tests. Their chronological evaluation remains experimental and is recorded in opponent-adjusted.json; it is not validation of live odds. Existing scoring-frequency panels, true per-episode definitions, evidence shares and fixed-state scenarios remain unchanged. No prediction coefficients were retuned. This update does not establish betting profitability.
 
 ## Open and use it
 
