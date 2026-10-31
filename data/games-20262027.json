@@ -2811,18 +2811,60 @@
         "score",
         "gamecenter"
       ]
+    },
+    {
+      "id": "2026-10-30_NJD_VGK",
+      "gameId": "2026020214",
+      "date": "2026-10-30",
+      "away": "NJD",
+      "home": "VGK",
+      "hp1": 2,
+      "ap1": 2,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-10-30_SEA_CGY",
+      "gameId": "2026020216",
+      "date": "2026-10-30",
+      "away": "SEA",
+      "home": "CGY",
+      "hp1": 1,
+      "ap1": 1,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-10-30_WPG_FLA",
+      "gameId": "2026020215",
+      "date": "2026-10-30",
+      "away": "WPG",
+      "home": "FLA",
+      "hp1": 1,
+      "ap1": 0,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
     }
   ],
   "meta": {
-    "checkedAt": "2026-10-30T11:28:12.455Z",
-    "checkedThrough": "2026-10-29",
-    "lastGameDate": "2026-10-29",
-    "verifiedGames": 213,
-    "officialFinalCount": 213,
-    "datesChecked": 31,
-    "daysExpected": 31,
-    "daysComplete": 31,
-    "newOrVerifiedRecords": 0,
+    "checkedAt": "2026-10-31T08:29:30.874Z",
+    "checkedThrough": "2026-10-30",
+    "lastGameDate": "2026-10-30",
+    "verifiedGames": 216,
+    "officialFinalCount": 216,
+    "datesChecked": 32,
+    "daysExpected": 32,
+    "daysComplete": 32,
+    "newOrVerifiedRecords": 3,
     "complete": true,
     "errors": []
   }
