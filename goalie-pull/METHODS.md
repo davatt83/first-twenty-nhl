@@ -1,6 +1,6 @@
 # Empty-Net Performance Index — first descriptive edition
 
-This ranks the team defending 5-on-6 against a tactical empty net. It does not modify fair odds. Data cover 2025–26 and completed 2026–27 games through October 29, 2026, matching the verified model snapshot.
+This ranks the team defending 5-on-6 against a tactical empty net. It does not modify fair odds. Data cover 2025–26 and completed 2026–27 games through October 30, 2026, matching the verified model snapshot.
 
 ## Definitions
 
@@ -20,7 +20,7 @@ The 20-minute prior is an explicit untuned design choice. The benchmark is 100; 
 
 ## Audit and exploratory stability
 
-Current audit (October 29): {"screenedEpisodes": 1128, "eligibleEpisodes": 1066, "excludedSeconds": 5375, "excludedGoalEvents": 4, "acceptedGF": 498, "acceptedGA": 178, "unsupportedEpisodes": 58, "seconds": 75275, "gf": 498, "ga": 178, "uniqueEpisodes": 1066, "games": 824}. Every accepted second has a unique game/team/second key. Granular exposure cells are in the CSV.
+Current audit (October 30): {"screenedEpisodes": 1130, "eligibleEpisodes": 1068, "excludedSeconds": 5375, "excludedGoalEvents": 4, "acceptedGF": 500, "acceptedGA": 178, "unsupportedEpisodes": 58, "seconds": 75474, "gf": 500, "ga": 178, "uniqueEpisodes": 1068, "games": 826}. Every accepted second has a unique game/team/second key. Granular exposure cells are in the CSV.
 
 A chronological split of 2025–26 games containing exposure, with at least five minutes per team in each half, compares first-half shrunk index with second-half unshrunk adjusted net performance. All 32 teams qualified: Spearman rho=0.273, p=0.131. This is exploratory and does not establish predictive value. No ROI or probability calibration claim is made. League baselines are calculated separately within each half. No ranking uncertainty intervals are estimated; small differences should not be treated as reliable orderings.
 
