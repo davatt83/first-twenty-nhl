@@ -1,43 +1,10 @@
 {
   "source": "NHL official daily score endpoint",
   "timezone": "America/Toronto",
-  "fetchedAt": "2026-10-30T11:28:13.200Z",
-  "date": "2026-10-30",
-  "through": "2026-11-06",
+  "fetchedAt": "2026-10-31T07:35:54.742Z",
+  "date": "2026-10-31",
+  "through": "2026-11-07",
   "days": [
-    {
-      "date": "2026-10-30",
-      "games": [
-        {
-          "id": "2026020214",
-          "date": "2026-10-30",
-          "away": "NJD",
-          "home": "VGK",
-          "startUTC": "2026-10-30T22:00:00Z",
-          "status": "FUT",
-          "scheduleState": "OK"
-        },
-        {
-          "id": "2026020215",
-          "date": "2026-10-30",
-          "away": "WPG",
-          "home": "FLA",
-          "startUTC": "2026-10-30T23:00:00Z",
-          "status": "FUT",
-          "scheduleState": "OK"
-        },
-        {
-          "id": "2026020216",
-          "date": "2026-10-30",
-          "away": "SEA",
-          "home": "CGY",
-          "startUTC": "2026-10-31T00:00:00Z",
-          "status": "FUT",
-          "scheduleState": "OK"
-        }
-      ],
-      "excluded": []
-    },
     {
       "date": "2026-10-31",
       "games": [
@@ -506,6 +473,120 @@
           "away": "ANA",
           "home": "CGY",
           "startUTC": "2026-11-07T01:00:00Z",
+          "status": "FUT",
+          "scheduleState": "OK"
+        }
+      ],
+      "excluded": []
+    },
+    {
+      "date": "2026-11-07",
+      "games": [
+        {
+          "id": "2026020265",
+          "date": "2026-11-07",
+          "away": "FLA",
+          "home": "WSH",
+          "startUTC": "2026-11-07T17:30:00Z",
+          "status": "FUT",
+          "scheduleState": "OK"
+        },
+        {
+          "id": "2026020266",
+          "date": "2026-11-07",
+          "away": "STL",
+          "home": "NSH",
+          "startUTC": "2026-11-07T18:00:00Z",
+          "status": "FUT",
+          "scheduleState": "OK"
+        },
+        {
+          "id": "2026020267",
+          "date": "2026-11-07",
+          "away": "NYR",
+          "home": "SEA",
+          "startUTC": "2026-11-07T22:00:00Z",
+          "status": "FUT",
+          "scheduleState": "OK"
+        },
+        {
+          "id": "2026020268",
+          "date": "2026-11-07",
+          "away": "MTL",
+          "home": "TOR",
+          "startUTC": "2026-11-08T00:00:00Z",
+          "status": "FUT",
+          "scheduleState": "OK"
+        },
+        {
+          "id": "2026020269",
+          "date": "2026-11-07",
+          "away": "UTA",
+          "home": "OTT",
+          "startUTC": "2026-11-08T00:00:00Z",
+          "status": "FUT",
+          "scheduleState": "OK"
+        },
+        {
+          "id": "2026020270",
+          "date": "2026-11-07",
+          "away": "NJD",
+          "home": "NYI",
+          "startUTC": "2026-11-08T00:00:00Z",
+          "status": "FUT",
+          "scheduleState": "OK"
+        },
+        {
+          "id": "2026020271",
+          "date": "2026-11-07",
+          "away": "CHI",
+          "home": "CAR",
+          "startUTC": "2026-11-08T01:00:00Z",
+          "status": "FUT",
+          "scheduleState": "OK"
+        },
+        {
+          "id": "2026020272",
+          "date": "2026-11-07",
+          "away": "SJS",
+          "home": "DAL",
+          "startUTC": "2026-11-08T01:00:00Z",
+          "status": "FUT",
+          "scheduleState": "OK"
+        },
+        {
+          "id": "2026020273",
+          "date": "2026-11-07",
+          "away": "TBL",
+          "home": "MIN",
+          "startUTC": "2026-11-08T01:00:00Z",
+          "status": "FUT",
+          "scheduleState": "OK"
+        },
+        {
+          "id": "2026020274",
+          "date": "2026-11-07",
+          "away": "DET",
+          "home": "COL",
+          "startUTC": "2026-11-08T02:00:00Z",
+          "status": "FUT",
+          "scheduleState": "OK"
+        },
+        {
+          "id": "2026020275",
+          "date": "2026-11-07",
+          "away": "PIT",
+          "home": "LAK",
+          "startUTC": "2026-11-08T02:00:00Z",
+          "status": "FUT",
+          "scheduleState": "OK"
+        },
+        {
+          "id": "2026020276",
+          "date": "2026-11-07",
+          "away": "VAN",
+          "home": "EDM",
+          "startUTC": "2026-11-08T03:00:00Z",
           "status": "FUT",
           "scheduleState": "OK"
         }
