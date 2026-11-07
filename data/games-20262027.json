@@ -3479,18 +3479,60 @@
         "score",
         "gamecenter"
       ]
+    },
+    {
+      "id": "2026-11-06_ANA_CGY",
+      "gameId": "2026020264",
+      "date": "2026-11-06",
+      "away": "ANA",
+      "home": "CGY",
+      "hp1": 3,
+      "ap1": 1,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-11-06_CBJ_BUF",
+      "gameId": "2026020262",
+      "date": "2026-11-06",
+      "away": "CBJ",
+      "home": "BUF",
+      "hp1": 2,
+      "ap1": 1,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-11-06_SJS_MIN",
+      "gameId": "2026020263",
+      "date": "2026-11-06",
+      "away": "SJS",
+      "home": "MIN",
+      "hp1": 1,
+      "ap1": 0,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
     }
   ],
   "meta": {
-    "checkedAt": "2026-11-06T12:50:46.275Z",
-    "checkedThrough": "2026-11-05",
-    "lastGameDate": "2026-11-05",
-    "verifiedGames": 261,
-    "officialFinalCount": 261,
-    "datesChecked": 38,
-    "daysExpected": 38,
-    "daysComplete": 38,
-    "newOrVerifiedRecords": 0,
+    "checkedAt": "2026-11-07T09:37:38.894Z",
+    "checkedThrough": "2026-11-06",
+    "lastGameDate": "2026-11-06",
+    "verifiedGames": 264,
+    "officialFinalCount": 264,
+    "datesChecked": 39,
+    "daysExpected": 39,
+    "daysComplete": 39,
+    "newOrVerifiedRecords": 3,
     "complete": true,
     "errors": []
   }
