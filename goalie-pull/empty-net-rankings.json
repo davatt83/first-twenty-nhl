@@ -1,6 +1,6 @@
 {
-  "dataThrough": "2026-11-08",
-  "modelAsOf": "2026-11-09",
+  "dataThrough": "2026-11-09",
+  "modelAsOf": "2026-11-10",
   "scope": "Final 10 minutes; leading by 1\u20134; screened tactical pulls; exact 5-on-6 only",
   "priorSeconds": 1200,
   "indexDefinition": "100 + 100 \u00d7 120 \u00d7 (GF \u2212 GA \u2212 expected GF + expected GA) / (seconds + 1200)",
@@ -1742,13 +1742,13 @@
     ]
   },
   "audit": {
-    "screenedEpisodes": 1180,
+    "screenedEpisodes": 1181,
     "eligibleEpisodes": 1115,
-    "excludedSeconds": 5558,
+    "excludedSeconds": 5644,
     "excludedGoalEvents": 4,
     "acceptedGF": 519,
     "acceptedGA": 186,
-    "unsupportedEpisodes": 61,
+    "unsupportedEpisodes": 62,
     "seconds": 78858,
     "gf": 519,
     "ga": 186,
