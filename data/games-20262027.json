@@ -3773,18 +3773,59 @@
         "score",
         "gamecenter"
       ]
+    },
+    {
+      "id": "2026-11-09_NYI_SJS",
+      "gameId": "2026020285",
+      "date": "2026-11-09",
+      "away": "NYI",
+      "home": "SJS",
+      "hp1": 1,
+      "ap1": 1,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-11-09_NYR_EDM",
+      "gameId": "2026020283",
+      "date": "2026-11-09",
+      "away": "NYR",
+      "home": "EDM",
+      "hp1": 1,
+      "ap1": 0,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-11-09_PHI_VAN",
+      "gameId": "2026020284",
+      "date": "2026-11-09",
+      "away": "PHI",
+      "home": "VAN",
+      "hp1": 0,
+      "ap1": 1,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
     }
   ],
   "meta": {
-    "checkedAt": "2026-11-09T12:56:30.200Z",
-    "checkedThrough": "2026-11-08",
-    "lastGameDate": "2026-11-08",
-    "verifiedGames": 282,
-    "officialFinalCount": 282,
-    "datesChecked": 41,
-    "daysExpected": 41,
-    "daysComplete": 41,
-    "newOrVerifiedRecords": 0,
+    "checkedAt": "2026-11-10T09:48:14.026Z",
+    "checkedThrough": "2026-11-09",
+    "lastGameDate": "2026-11-09",
+    "verifiedGames": 285,
+    "officialFinalCount": 285,
+    "datesChecked": 42,
+    "daysExpected": 42,
+    "daysComplete": 42,
+    "newOrVerifiedRecords": 3,
     "complete": true,
     "errors": []
   }
