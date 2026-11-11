@@ -1,79 +1,10 @@
 {
   "source": "NHL official daily score endpoint",
   "timezone": "America/Toronto",
-  "fetchedAt": "2026-11-10T12:51:58.172Z",
-  "date": "2026-11-10",
-  "through": "2026-11-17",
+  "fetchedAt": "2026-11-11T09:50:08.894Z",
+  "date": "2026-11-11",
+  "through": "2026-11-18",
   "days": [
-    {
-      "date": "2026-11-10",
-      "games": [
-        {
-          "id": "2026020286",
-          "date": "2026-11-10",
-          "away": "COL",
-          "home": "TOR",
-          "startUTC": "2026-11-11T00:00:00Z",
-          "status": "FUT",
-          "scheduleState": "OK"
-        },
-        {
-          "id": "2026020287",
-          "date": "2026-11-10",
-          "away": "MIN",
-          "home": "MTL",
-          "startUTC": "2026-11-11T00:00:00Z",
-          "status": "FUT",
-          "scheduleState": "OK"
-        },
-        {
-          "id": "2026020288",
-          "date": "2026-11-10",
-          "away": "WSH",
-          "home": "OTT",
-          "startUTC": "2026-11-11T00:00:00Z",
-          "status": "FUT",
-          "scheduleState": "OK"
-        },
-        {
-          "id": "2026020291",
-          "date": "2026-11-10",
-          "away": "NJD",
-          "home": "WPG",
-          "startUTC": "2026-11-11T00:00:00Z",
-          "status": "FUT",
-          "scheduleState": "OK"
-        },
-        {
-          "id": "2026020289",
-          "date": "2026-11-10",
-          "away": "FLA",
-          "home": "CBJ",
-          "startUTC": "2026-11-11T00:30:00Z",
-          "status": "FUT",
-          "scheduleState": "OK"
-        },
-        {
-          "id": "2026020290",
-          "date": "2026-11-10",
-          "away": "DET",
-          "home": "STL",
-          "startUTC": "2026-11-11T01:00:00Z",
-          "status": "FUT",
-          "scheduleState": "OK"
-        },
-        {
-          "id": "2026020292",
-          "date": "2026-11-10",
-          "away": "NSH",
-          "home": "LAK",
-          "startUTC": "2026-11-11T03:00:00Z",
-          "status": "FUT",
-          "scheduleState": "OK"
-        }
-      ],
-      "excluded": []
-    },
     {
       "date": "2026-11-11",
       "games": [
@@ -569,6 +500,39 @@
           "away": "CGY",
           "home": "SJS",
           "startUTC": "2026-11-18T03:00:00Z",
+          "status": "FUT",
+          "scheduleState": "OK"
+        }
+      ],
+      "excluded": []
+    },
+    {
+      "date": "2026-11-18",
+      "games": [
+        {
+          "id": "2026020344",
+          "date": "2026-11-18",
+          "away": "BOS",
+          "home": "DET",
+          "startUTC": "2026-11-19T00:30:00Z",
+          "status": "FUT",
+          "scheduleState": "OK"
+        },
+        {
+          "id": "2026020345",
+          "date": "2026-11-18",
+          "away": "MTL",
+          "home": "NJD",
+          "startUTC": "2026-11-19T00:30:00Z",
+          "status": "FUT",
+          "scheduleState": "OK"
+        },
+        {
+          "id": "2026020346",
+          "date": "2026-11-18",
+          "away": "COL",
+          "home": "UTA",
+          "startUTC": "2026-11-19T03:00:00Z",
           "status": "FUT",
           "scheduleState": "OK"
         }
