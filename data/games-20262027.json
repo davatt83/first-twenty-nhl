@@ -3912,18 +3912,101 @@
         "score",
         "gamecenter"
       ]
+    },
+    {
+      "id": "2026-11-11_NSH_ANA",
+      "gameId": "2026020297",
+      "date": "2026-11-11",
+      "away": "NSH",
+      "home": "ANA",
+      "hp1": 1,
+      "ap1": 1,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-11-11_NYR_CGY",
+      "gameId": "2026020294",
+      "date": "2026-11-11",
+      "away": "NYR",
+      "home": "CGY",
+      "hp1": 0,
+      "ap1": 0,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-11-11_PHI_EDM",
+      "gameId": "2026020295",
+      "date": "2026-11-11",
+      "away": "PHI",
+      "home": "EDM",
+      "hp1": 0,
+      "ap1": 0,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-11-11_PIT_SJS",
+      "gameId": "2026020298",
+      "date": "2026-11-11",
+      "away": "PIT",
+      "home": "SJS",
+      "hp1": 0,
+      "ap1": 1,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-11-11_TBL_BUF",
+      "gameId": "2026020293",
+      "date": "2026-11-11",
+      "away": "TBL",
+      "home": "BUF",
+      "hp1": 0,
+      "ap1": 2,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-11-11_UTA_VGK",
+      "gameId": "2026020296",
+      "date": "2026-11-11",
+      "away": "UTA",
+      "home": "VGK",
+      "hp1": 1,
+      "ap1": 1,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
     }
   ],
   "meta": {
-    "checkedAt": "2026-11-11T12:53:56.796Z",
-    "checkedThrough": "2026-11-10",
-    "lastGameDate": "2026-11-10",
-    "verifiedGames": 292,
-    "officialFinalCount": 292,
-    "datesChecked": 43,
-    "daysExpected": 43,
-    "daysComplete": 43,
-    "newOrVerifiedRecords": 0,
+    "checkedAt": "2026-11-12T09:50:06.381Z",
+    "checkedThrough": "2026-11-11",
+    "lastGameDate": "2026-11-11",
+    "verifiedGames": 298,
+    "officialFinalCount": 298,
+    "datesChecked": 44,
+    "daysExpected": 44,
+    "daysComplete": 44,
+    "newOrVerifiedRecords": 6,
     "complete": true,
     "errors": []
   }
