@@ -4148,18 +4148,45 @@
         "score",
         "gamecenter"
       ]
+    },
+    {
+      "id": "2026-11-13_NSH_VGK",
+      "gameId": "2026020311",
+      "date": "2026-11-13",
+      "away": "NSH",
+      "home": "VGK",
+      "hp1": 1,
+      "ap1": 1,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-11-13_NYR_VAN",
+      "gameId": "2026020310",
+      "date": "2026-11-13",
+      "away": "NYR",
+      "home": "VAN",
+      "hp1": 1,
+      "ap1": 1,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
     }
   ],
   "meta": {
-    "checkedAt": "2026-11-13T12:53:19.826Z",
-    "checkedThrough": "2026-11-12",
-    "lastGameDate": "2026-11-12",
-    "verifiedGames": 309,
-    "officialFinalCount": 309,
-    "datesChecked": 45,
-    "daysExpected": 45,
-    "daysComplete": 45,
-    "newOrVerifiedRecords": 0,
+    "checkedAt": "2026-11-14T09:37:15.757Z",
+    "checkedThrough": "2026-11-13",
+    "lastGameDate": "2026-11-13",
+    "verifiedGames": 311,
+    "officialFinalCount": 311,
+    "datesChecked": 46,
+    "daysExpected": 46,
+    "daysComplete": 46,
+    "newOrVerifiedRecords": 2,
     "complete": true,
     "errors": []
   }
