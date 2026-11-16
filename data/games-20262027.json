@@ -4369,18 +4369,88 @@
       "sourceMethods": [
         "gamecenter"
       ]
+    },
+    {
+      "id": "2026-11-15_CGY_ANA",
+      "gameId": "2026020328",
+      "date": "2026-11-15",
+      "away": "CGY",
+      "home": "ANA",
+      "hp1": 2,
+      "ap1": 0,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-11-15_EDM_PHI",
+      "gameId": "2026020326",
+      "date": "2026-11-15",
+      "away": "EDM",
+      "home": "PHI",
+      "hp1": 0,
+      "ap1": 3,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-11-15_FLA_DAL",
+      "gameId": "2026020327",
+      "date": "2026-11-15",
+      "away": "FLA",
+      "home": "DAL",
+      "hp1": 0,
+      "ap1": 0,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-11-15_NSH_SJS",
+      "gameId": "2026020330",
+      "date": "2026-11-15",
+      "away": "NSH",
+      "home": "SJS",
+      "hp1": 2,
+      "ap1": 0,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-11-15_VAN_VGK",
+      "gameId": "2026020329",
+      "date": "2026-11-15",
+      "away": "VAN",
+      "home": "VGK",
+      "hp1": 1,
+      "ap1": 3,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
     }
   ],
   "meta": {
-    "checkedAt": "2026-11-15T12:38:43.675Z",
-    "checkedThrough": "2026-11-14",
-    "lastGameDate": "2026-11-14",
-    "verifiedGames": 325,
-    "officialFinalCount": 325,
-    "datesChecked": 47,
-    "daysExpected": 47,
-    "daysComplete": 47,
-    "newOrVerifiedRecords": 0,
+    "checkedAt": "2026-11-16T10:33:25.959Z",
+    "checkedThrough": "2026-11-15",
+    "lastGameDate": "2026-11-15",
+    "verifiedGames": 330,
+    "officialFinalCount": 330,
+    "datesChecked": 48,
+    "daysExpected": 48,
+    "daysComplete": 48,
+    "newOrVerifiedRecords": 5,
     "complete": true,
     "errors": []
   }
