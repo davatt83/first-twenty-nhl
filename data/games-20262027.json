@@ -4439,18 +4439,46 @@
         "score",
         "gamecenter"
       ]
+    },
+    {
+      "id": "2026-11-16_MTL_NYR",
+      "gameId": "2026020331",
+      "date": "2026-11-16",
+      "away": "MTL",
+      "home": "NYR",
+      "hp1": 0,
+      "ap1": 0,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-11-16_VAN_UTA",
+      "gameId": "2026020332",
+      "date": "2026-11-16",
+      "away": "VAN",
+      "home": "UTA",
+      "hp1": 0,
+      "ap1": 0,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
     }
   ],
   "meta": {
-    "checkedAt": "2026-11-16T14:51:25.971Z",
-    "checkedThrough": "2026-11-15",
-    "lastGameDate": "2026-11-15",
-    "verifiedGames": 330,
-    "officialFinalCount": 330,
-    "datesChecked": 48,
-    "daysExpected": 48,
-    "daysComplete": 48,
-    "newOrVerifiedRecords": 0,
+    "checkedAt": "2026-11-17T09:53:33.225Z",
+    "checkedThrough": "2026-11-16",
+    "lastGameDate": "2026-11-16",
+    "verifiedGames": 332,
+    "officialFinalCount": 332,
+    "datesChecked": 49,
+    "daysExpected": 49,
+    "daysComplete": 49,
+    "newOrVerifiedRecords": 2,
     "complete": true,
     "errors": []
   }
