@@ -1,14 +1,14 @@
 {
   "meta": {
-    "checkedAt": "2026-11-17T12:53:49.321Z",
-    "checkedThrough": "2026-11-16",
-    "lastGameDate": "2026-11-16",
-    "verifiedGames": 332,
-    "officialFinalCount": 332,
-    "datesChecked": 49,
-    "daysExpected": 49,
-    "daysComplete": 49,
-    "newOrVerifiedRecords": 0,
+    "checkedAt": "2026-11-18T09:52:17.942Z",
+    "checkedThrough": "2026-11-17",
+    "lastGameDate": "2026-11-17",
+    "verifiedGames": 343,
+    "officialFinalCount": 343,
+    "datesChecked": 50,
+    "daysExpected": 50,
+    "daysComplete": 50,
+    "newOrVerifiedRecords": 11,
     "complete": true,
     "errors": []
   },
@@ -354,6 +354,13 @@
       "scheduled": 2,
       "final": 2,
       "verified": 2,
+      "pending": 0
+    },
+    {
+      "date": "2026-11-17",
+      "scheduled": 11,
+      "final": 11,
+      "verified": 11,
       "pending": 0
     }
   ]
