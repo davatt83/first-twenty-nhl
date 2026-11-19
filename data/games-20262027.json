@@ -4621,18 +4621,60 @@
         "score",
         "gamecenter"
       ]
+    },
+    {
+      "id": "2026-11-18_BOS_DET",
+      "gameId": "2026020344",
+      "date": "2026-11-18",
+      "away": "BOS",
+      "home": "DET",
+      "hp1": 1,
+      "ap1": 0,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-11-18_COL_UTA",
+      "gameId": "2026020346",
+      "date": "2026-11-18",
+      "away": "COL",
+      "home": "UTA",
+      "hp1": 0,
+      "ap1": 0,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-11-18_MTL_NJD",
+      "gameId": "2026020345",
+      "date": "2026-11-18",
+      "away": "MTL",
+      "home": "NJD",
+      "hp1": 2,
+      "ap1": 2,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
     }
   ],
   "meta": {
-    "checkedAt": "2026-11-18T12:57:47.200Z",
-    "checkedThrough": "2026-11-17",
-    "lastGameDate": "2026-11-17",
-    "verifiedGames": 343,
-    "officialFinalCount": 343,
-    "datesChecked": 50,
-    "daysExpected": 50,
-    "daysComplete": 50,
-    "newOrVerifiedRecords": 0,
+    "checkedAt": "2026-11-19T09:54:29.861Z",
+    "checkedThrough": "2026-11-18",
+    "lastGameDate": "2026-11-18",
+    "verifiedGames": 346,
+    "officialFinalCount": 346,
+    "datesChecked": 51,
+    "daysExpected": 51,
+    "daysComplete": 51,
+    "newOrVerifiedRecords": 3,
     "complete": true,
     "errors": []
   }
