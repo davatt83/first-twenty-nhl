@@ -1,7 +1,7 @@
 {
   "source": "NHL official daily score endpoint",
   "timezone": "America/Toronto",
-  "fetchedAt": "2026-11-21T16:36:35.331Z",
+  "fetchedAt": "2026-11-21T18:46:27.667Z",
   "date": "2026-11-21",
   "through": "2026-11-28",
   "days": [
@@ -14,7 +14,7 @@
           "away": "EDM",
           "home": "CAR",
           "startUTC": "2026-11-21T18:00:00Z",
-          "status": "FUT",
+          "status": "LIVE",
           "scheduleState": "OK"
         },
         {
