@@ -5023,18 +5023,87 @@
         "score",
         "gamecenter"
       ]
+    },
+    {
+      "id": "2026-11-22_BUF_TBL",
+      "gameId": "2026020374",
+      "date": "2026-11-22",
+      "away": "BUF",
+      "home": "TBL",
+      "hp1": 1,
+      "ap1": 1,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-11-22_CAR_NYR",
+      "gameId": "2026020373",
+      "date": "2026-11-22",
+      "away": "CAR",
+      "home": "NYR",
+      "hp1": 1,
+      "ap1": 1,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-11-22_CHI_VAN",
+      "gameId": "2026020377",
+      "date": "2026-11-22",
+      "away": "CHI",
+      "home": "VAN",
+      "hp1": 1,
+      "ap1": 4,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-11-22_EDM_STL",
+      "gameId": "2026020375",
+      "date": "2026-11-22",
+      "away": "EDM",
+      "home": "STL",
+      "hp1": 0,
+      "ap1": 1,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-11-22_PIT_DAL",
+      "gameId": "2026020376",
+      "date": "2026-11-22",
+      "away": "PIT",
+      "home": "DAL",
+      "hp1": 0,
+      "ap1": 0,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
     }
   ],
   "meta": {
-    "checkedAt": "2026-11-22T19:07:56.223Z",
-    "checkedThrough": "2026-11-21",
-    "lastGameDate": "2026-11-21",
-    "verifiedGames": 372,
-    "officialFinalCount": 372,
-    "datesChecked": 54,
-    "daysExpected": 54,
-    "daysComplete": 54,
-    "newOrVerifiedRecords": 0,
+    "checkedAt": "2026-11-23T20:52:47.561Z",
+    "checkedThrough": "2026-11-22",
+    "lastGameDate": "2026-11-22",
+    "verifiedGames": 377,
+    "officialFinalCount": 377,
+    "datesChecked": 55,
+    "daysExpected": 55,
+    "daysComplete": 55,
+    "newOrVerifiedRecords": 5,
     "complete": true,
     "errors": []
   }
