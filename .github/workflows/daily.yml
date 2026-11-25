@@ -133,7 +133,31 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: _site
+      - name: Wait for new Pages artifact to become visible to GitHub API
+        if: steps.clock.outputs.run == 'true'
+        run: sleep 30
       - name: Deploy the verified calculator to the stable URL
         if: steps.clock.outputs.run == 'true'
         id: deployment
         uses: actions/deploy-pages@v4
+        continue-on-error: true
+      - name: Wait before retrying a transient GitHub Pages artifact lookup failure
+        if: steps.clock.outputs.run == 'true' && steps.deployment.outcome == 'failure'
+        run: |
+          echo "Initial Pages deployment failed; retrying after artifact propagation delay."
+          sleep 45
+      - name: Retry the verified Pages deployment once
+        if: steps.clock.outputs.run == 'true' && steps.deployment.outcome == 'failure'
+        id: deployment_retry
+        uses: actions/deploy-pages@v4
+      - name: Require successful Pages deployment
+        if: steps.clock.outputs.run == 'true'
+        env:
+          FIRST_RESULT: ${{ steps.deployment.outcome }}
+          RETRY_RESULT: ${{ steps.deployment_retry.outcome }}
+        run: |
+          if [ "$FIRST_RESULT" != "success" ] && [ "$RETRY_RESULT" != "success" ]; then
+            echo "::error::Neither GitHub Pages deployment attempt succeeded. Verified data is still committed in git."
+            exit 1
+          fi
+          echo "GitHub Pages deployment successful."
