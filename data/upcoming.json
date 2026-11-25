@@ -1,25 +1,10 @@
 {
   "source": "NHL official daily score endpoint",
   "timezone": "America/Toronto",
-  "fetchedAt": "2026-11-24T21:58:44.060Z",
-  "date": "2026-11-24",
-  "through": "2026-12-01",
+  "fetchedAt": "2026-11-25T09:31:51.622Z",
+  "date": "2026-11-25",
+  "through": "2026-12-02",
   "days": [
-    {
-      "date": "2026-11-24",
-      "games": [
-        {
-          "id": "2026020385",
-          "date": "2026-11-24",
-          "away": "VGK",
-          "home": "EDM",
-          "startUTC": "2026-11-25T01:00:00Z",
-          "status": "FUT",
-          "scheduleState": "OK"
-        }
-      ],
-      "excluded": []
-    },
     {
       "date": "2026-11-25",
       "games": [
@@ -586,6 +571,39 @@
           "away": "VGK",
           "home": "LAK",
           "startUTC": "2026-12-02T03:00:00Z",
+          "status": "FUT",
+          "scheduleState": "OK"
+        }
+      ],
+      "excluded": []
+    },
+    {
+      "date": "2026-12-02",
+      "games": [
+        {
+          "id": "2026020445",
+          "date": "2026-12-02",
+          "away": "TBL",
+          "home": "MTL",
+          "startUTC": "2026-12-03T00:30:00Z",
+          "status": "FUT",
+          "scheduleState": "OK"
+        },
+        {
+          "id": "2026020446",
+          "date": "2026-12-02",
+          "away": "PIT",
+          "home": "STL",
+          "startUTC": "2026-12-03T01:00:00Z",
+          "status": "FUT",
+          "scheduleState": "OK"
+        },
+        {
+          "id": "2026020447",
+          "date": "2026-12-02",
+          "away": "WPG",
+          "home": "UTA",
+          "startUTC": "2026-12-03T02:30:00Z",
           "status": "FUT",
           "scheduleState": "OK"
         }
