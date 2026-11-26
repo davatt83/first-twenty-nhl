@@ -10,6 +10,8 @@ on:
       - 'scripts/**'
       - 'data/**'
       - 'goalie-pull/**'
+      - 'football-80/**'
+      - '.github/workflows/publish-goalie.yml'
   schedule:
     # 04:00 Toronto, with a 07:00 retry in case NHL sources are late.
     # GitHub schedules can run later than their cron times.
@@ -92,6 +94,8 @@ jobs:
           node scripts/test-v2.mjs
           node scripts/test-backfill.mjs
           node scripts/test-board.mjs
+          node scripts/test-goalie.cjs
+          node scripts/test-football.cjs
           node -e "const fs=require('fs');const j=JSON.parse(fs.readFileSync('data/games-20262027.json'));const c=JSON.parse(fs.readFileSync('data/coverage.json'));if(!j.meta.complete||!c.meta.complete||j.games.length!==c.meta.verifiedGames)process.exit(1);if(new Set(j.games.map(x=>x.id)).size!==j.games.length)process.exit(1);console.log('Verified coverage:',j.meta.checkedThrough,j.games.length,'unique games');"
       - name: Browser smoke test the daily board when Chrome is available
         if: steps.clock.outputs.run == 'true'
