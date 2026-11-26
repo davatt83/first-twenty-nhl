@@ -5204,18 +5204,212 @@
         "score",
         "gamecenter"
       ]
+    },
+    {
+      "id": "2026-11-25_CAR_TBL",
+      "gameId": "2026020388",
+      "date": "2026-11-25",
+      "away": "CAR",
+      "home": "TBL",
+      "hp1": 0,
+      "ap1": 0,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-11-25_CGY_PIT",
+      "gameId": "2026020391",
+      "date": "2026-11-25",
+      "away": "CGY",
+      "home": "PIT",
+      "hp1": 1,
+      "ap1": 0,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-11-25_CHI_SEA",
+      "gameId": "2026020399",
+      "date": "2026-11-25",
+      "away": "CHI",
+      "home": "SEA",
+      "hp1": 0,
+      "ap1": 0,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-11-25_MTL_COL",
+      "gameId": "2026020397",
+      "date": "2026-11-25",
+      "away": "MTL",
+      "home": "COL",
+      "hp1": 1,
+      "ap1": 0,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-11-25_NJD_CBJ",
+      "gameId": "2026020393",
+      "date": "2026-11-25",
+      "away": "NJD",
+      "home": "CBJ",
+      "hp1": 0,
+      "ap1": 1,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-11-25_NSH_DAL",
+      "gameId": "2026020395",
+      "date": "2026-11-25",
+      "away": "NSH",
+      "home": "DAL",
+      "hp1": 0,
+      "ap1": 1,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-11-25_NYR_BUF",
+      "gameId": "2026020387",
+      "date": "2026-11-25",
+      "away": "NYR",
+      "home": "BUF",
+      "hp1": 1,
+      "ap1": 0,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-11-25_OTT_FLA",
+      "gameId": "2026020389",
+      "date": "2026-11-25",
+      "away": "OTT",
+      "home": "FLA",
+      "hp1": 1,
+      "ap1": 0,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-11-25_PHI_WSH",
+      "gameId": "2026020392",
+      "date": "2026-11-25",
+      "away": "PHI",
+      "home": "WSH",
+      "hp1": 1,
+      "ap1": 1,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-11-25_SJS_ANA",
+      "gameId": "2026020398",
+      "date": "2026-11-25",
+      "away": "SJS",
+      "home": "ANA",
+      "hp1": 3,
+      "ap1": 0,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-11-25_STL_NYI",
+      "gameId": "2026020390",
+      "date": "2026-11-25",
+      "away": "STL",
+      "home": "NYI",
+      "hp1": 0,
+      "ap1": 0,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-11-25_UTA_MIN",
+      "gameId": "2026020396",
+      "date": "2026-11-25",
+      "away": "UTA",
+      "home": "MIN",
+      "hp1": 0,
+      "ap1": 1,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-11-25_VAN_DET",
+      "gameId": "2026020394",
+      "date": "2026-11-25",
+      "away": "VAN",
+      "home": "DET",
+      "hp1": 3,
+      "ap1": 0,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
+    },
+    {
+      "id": "2026-11-25_WPG_BOS",
+      "gameId": "2026020386",
+      "date": "2026-11-25",
+      "away": "WPG",
+      "home": "BOS",
+      "hp1": 1,
+      "ap1": 2,
+      "source": "nhl-official",
+      "sourceMethods": [
+        "score",
+        "gamecenter"
+      ]
     }
   ],
   "meta": {
-    "checkedAt": "2026-11-25T21:10:38.057Z",
-    "checkedThrough": "2026-11-24",
-    "lastGameDate": "2026-11-24",
-    "verifiedGames": 385,
-    "officialFinalCount": 385,
-    "datesChecked": 57,
-    "daysExpected": 57,
-    "daysComplete": 57,
-    "newOrVerifiedRecords": 0,
+    "checkedAt": "2026-11-26T14:43:54.893Z",
+    "checkedThrough": "2026-11-25",
+    "lastGameDate": "2026-11-25",
+    "verifiedGames": 399,
+    "officialFinalCount": 399,
+    "datesChecked": 58,
+    "daysExpected": 58,
+    "daysComplete": 58,
+    "newOrVerifiedRecords": 14,
     "complete": true,
     "errors": []
   }
