@@ -72,7 +72,9 @@ jobs:
         if: steps.clock.outputs.run == 'true'
         run: node scripts/schedule-fixture-test.mjs
       - name: Retrieve official final games and verify first periods
-        if: steps.clock.outputs.run == 'true' && github.event_name != 'push' && !inputs.publish_only
+        # Even push-triggered builds must catch up missing days; otherwise GitHub can
+        # report successful deployment while publishing a stale game database.
+        if: steps.clock.outputs.run == 'true' && !inputs.publish_only
         timeout-minutes: 30
         env:
           FIRST_TWENTY_WORKERS: 3
