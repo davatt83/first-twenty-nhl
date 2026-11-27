@@ -1,7 +1,7 @@
 {
   "source": "NHL official daily score endpoint",
   "timezone": "America/Toronto",
-  "fetchedAt": "2026-11-27T18:40:58.335Z",
+  "fetchedAt": "2026-11-27T20:45:48.495Z",
   "date": "2026-11-27",
   "through": "2026-12-04",
   "days": [
@@ -14,7 +14,7 @@
           "away": "TOR",
           "home": "BOS",
           "startUTC": "2026-11-27T18:00:00Z",
-          "status": "LIVE",
+          "status": "FINAL",
           "scheduleState": "OK"
         },
         {
@@ -23,7 +23,7 @@
           "away": "CGY",
           "home": "NJD",
           "startUTC": "2026-11-27T18:00:00Z",
-          "status": "LIVE",
+          "status": "FINAL",
           "scheduleState": "OK"
         },
         {
@@ -32,7 +32,7 @@
           "away": "UTA",
           "home": "NSH",
           "startUTC": "2026-11-27T18:00:00Z",
-          "status": "LIVE",
+          "status": "CRIT",
           "scheduleState": "OK"
         },
         {
@@ -41,7 +41,7 @@
           "away": "DAL",
           "home": "STL",
           "startUTC": "2026-11-27T19:00:00Z",
-          "status": "PRE",
+          "status": "LIVE",
           "scheduleState": "OK"
         },
         {
@@ -50,7 +50,7 @@
           "away": "OTT",
           "home": "TBL",
           "startUTC": "2026-11-27T20:00:00Z",
-          "status": "FUT",
+          "status": "LIVE",
           "scheduleState": "OK"
         },
         {
@@ -59,7 +59,7 @@
           "away": "VAN",
           "home": "PHI",
           "startUTC": "2026-11-27T20:00:00Z",
-          "status": "FUT",
+          "status": "LIVE",
           "scheduleState": "OK"
         },
         {
@@ -68,7 +68,7 @@
           "away": "FLA",
           "home": "WSH",
           "startUTC": "2026-11-27T20:00:00Z",
-          "status": "FUT",
+          "status": "LIVE",
           "scheduleState": "OK"
         },
         {
@@ -77,7 +77,7 @@
           "away": "DET",
           "home": "CBJ",
           "startUTC": "2026-11-27T20:00:00Z",
-          "status": "FUT",
+          "status": "LIVE",
           "scheduleState": "OK"
         },
         {
@@ -86,7 +86,7 @@
           "away": "COL",
           "home": "MIN",
           "startUTC": "2026-11-27T21:00:00Z",
-          "status": "FUT",
+          "status": "PRE",
           "scheduleState": "OK"
         },
         {
@@ -95,7 +95,7 @@
           "away": "LAK",
           "home": "ANA",
           "startUTC": "2026-11-27T21:00:00Z",
-          "status": "FUT",
+          "status": "PRE",
           "scheduleState": "OK"
         },
         {
@@ -104,7 +104,7 @@
           "away": "VGK",
           "home": "SJS",
           "startUTC": "2026-11-27T21:00:00Z",
-          "status": "FUT",
+          "status": "PRE",
           "scheduleState": "OK"
         },
         {
