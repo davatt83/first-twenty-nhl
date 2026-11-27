@@ -5401,14 +5401,14 @@
     }
   ],
   "meta": {
-    "checkedAt": "2026-11-26T21:00:11.394Z",
-    "checkedThrough": "2026-11-25",
+    "checkedAt": "2026-11-27T18:40:58.100Z",
+    "checkedThrough": "2026-11-26",
     "lastGameDate": "2026-11-25",
     "verifiedGames": 399,
     "officialFinalCount": 399,
-    "datesChecked": 58,
-    "daysExpected": 58,
-    "daysComplete": 58,
+    "datesChecked": 59,
+    "daysExpected": 59,
+    "daysComplete": 59,
     "newOrVerifiedRecords": 0,
     "complete": true,
     "errors": []
